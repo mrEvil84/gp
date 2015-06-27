@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>issue name</source>
+                <target>Imię (pole obowiazkowe)</target>
+            </trans-unit>
+			<trans-unit id="2">
+                <source>issue surname</source>
+                <target>Nazwisko (pole obowiazkowe)</target>
+            </trans-unit>
+			<trans-unit id="3">
+                <source>issue email</source>
+                <target>Email *</target>
+            </trans-unit>
+			<trans-unit id="4">
+                <source>issue street</source>
+                <target>Ulica nr domu/mieszkanie (pole obowiazkowe)</target>
+            </trans-unit>
+			<trans-unit id="5">
+                <source>issue issueDescription</source>
+                <target>Wiadomość (pole obowiazkowe)</target>
+            </trans-unit>
+			<trans-unit id="6">
+                <source>issue telephone</source>
+                <target>Telefon kontaktowy</target>
+            </trans-unit>
+			<trans-unit id="7">
+                <source>issue fileName</source>
+                <target>Plik</target>
+            </trans-unit>
+			<trans-unit id="8">
+                <source>issue_submit_button</source>
+                <target>Wyślij</target>
+            </trans-unit>	
+			<trans-unit id="9">
+                <source>home</source>
+                <target>Strona główna</target>
+            </trans-unit>				
+			<trans-unit id="10">
+                <source>portfolio</source>
+                <target>Portfolio</target>
+            </trans-unit>
+			<trans-unit id="11">
+                <source>prices</source>
+                <target>Cennik</target>
+            </trans-unit>
+			<trans-unit id="12">
+                <source>contact</source>
+                <target>Kontakt</target>
+            </trans-unit>
+			<trans-unit id="13">
+                <source>terms of use</source>
+                <target>Warunki korzystania</target>
+            </trans-unit>	
+            <trans-unit id="14">
+                <source>issue cityZipCode</source>
+                <target>Miasto, kod pocztowy (pole obowiazkowe)</target>
+            </trans-unit>	
+            <trans-unit id="15">
+                <source>email.not_valid</source>
+                <target>Niepoprawna nazwa email</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>confirmation email tnaks for applying</source>
+                <target>Dziękujemy za wiadomość</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>confirmation email message</source>
+                <target>Postaramy odpowiedzieć w najbliższym możliwym terminie.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>confirmation email thanks</source>
+                <target>Pozdrawiam, Twój Tłumacz</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>issue apear</source>
+                <target>Zgłoszenie tłumaczenia</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>issue date</source>
+                <target>Data zgłoszenia</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>gosia page title</source>
+                <target>Tłumaczenia</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>gosia page exception message</source>
+                <target>Coś poszło nie tak , przepraszamy !</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>gosia page exception message not found</source>
+                <target>Zasób którego szukasz jest niedostępny albo nie istnieje.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>gosia page exception you can go to</source>
+                <target>Możesz przejść do strony </target>
+            </trans-unit>	
+            <trans-unit id="25">
+                <source>gosia page exception home page</source>
+                <target>Strony głównej</target>
+            </trans-unit>	
+            <trans-unit id="26">
+                <source>confirmation title{</source>
+                <target>Potwierdzenie zgłoszenia</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>logout</source>
+                <target>Wyloguj</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>Issue was added</source>
+                <target>Zgłoszenie zostało przyjęte !</target>
+            </trans-unit>	
+            <trans-unit id="29">
+                <source>issue status</source>
+                <target>Status</target>
+            </trans-unit>	
+        </body>
+    </file>
+</xliff>

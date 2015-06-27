@@ -1,0 +1,128 @@
+{% extends ':default:index.html.twig' %}
+
+{% block content %}
+
+	
+	
+	
+	{{ parent() }}
+	
+	<h2>Contract form</h2>
+	
+	 <div class="flash-message">
+        {% for flashMessage in app.session.flashbag.get('notice') %}
+            <div class="flash-notice">
+                {{ flashMessage }}
+            </div>
+        {% endfor %}
+    </div>
+	
+	{{ form_start(issueForm) }}
+	
+	    <div class="table-row">
+            <div class="table-cell">
+                <div class="alert-warning">{{ form_errors(issueForm) }}</div>
+            </div>
+        </div>
+        
+        <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.name,'issue name'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.name) }}
+                {{ form_widget(issueForm.name, {'required':true}) }}
+            </div>
+       </div>
+	
+        <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.name,'issue surname'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.surname) }}
+                {{ form_widget(issueForm.surname, {'required':true}) }}
+            </div>
+       </div>
+	
+	   <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.email,'issue email'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.email) }}
+                {{ form_widget(issueForm.email, {'required':true}) }}
+            </div>
+       </div>
+
+	   <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.street,'issue street'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.street) }}
+                {{ form_widget(issueForm.street, {'required':true}) }}
+            </div>
+       </div>
+       
+       <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.cityZipCode,'issue cityZipCode'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.cityZipCode) }}
+                {{ form_widget(issueForm.cityZipCode, {'required':true}) }}
+            </div>
+       </div>
+
+	   <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.issueDescription,'issue issueDescription'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.issueDescription) }}
+                {{ form_widget(issueForm.issueDescription, {'required':true}) }}
+            </div>
+       </div>
+       
+       <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.telephone,'issue telephone'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.telephone) }}
+                {{ form_widget(issueForm.telephone, {'required':false}) }}
+            </div>
+       </div>
+       
+       <div class="table-row">
+         	<div class="table-cell">
+         		{{ form_label(issueForm.file,'issue fileName'|trans({},'','')) }}
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.file) }}
+                {{ form_widget(issueForm.file, {'required':false}) }}
+            </div>
+       </div>
+       
+       <div class="table-row">
+         	<div class="table-cell">
+
+         	</div>
+            <div class="table-cell">
+                {{ form_errors(issueForm.captcha) }}
+                {{ form_widget(issueForm.captcha, {'required':true}) }}
+            </div>
+       </div>
+       
+        <div class="table-row">
+            <div class="table-cell">{{ form_widget(issueForm.issue_submit_button, {'label':'issue_submit_button'|trans({},'','')}) }}</div>
+        </div>
+
+{{ form_end(issueForm) }}
+	
+	
+	
+	
+
+{% endblock %}

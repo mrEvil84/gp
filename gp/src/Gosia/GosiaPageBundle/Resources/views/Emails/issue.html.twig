@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Zgłoszenie</title>
+
+</head>
+<body>
+	<h1>Zgłoszenie</h1>
+	<h2>Data zgłoszenia : {{ issueDate|date('Y-m-d H:i:s') }}</h2>
+	<h3>Zgłaszający: {{ name }} {{ surname }}, {{ email }} {% if telephone
+		!= "" %} , {{ telephone }} {% endif %}</h3>
+	<h3>Adres: {{ street }} , {{ cityZipCode }}</h3>
+	<h3>Opis zgłoszenia:</h3>
+	<h3>{{ issueDescription }}</h3>
+</body>
+</html>

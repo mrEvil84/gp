@@ -1,0 +1,18 @@
+parameters:
+    app.locale_listener.class: Gosia\GosiaPageBundle\EventListener\LocaleListener
+    kernel.listener.exception_listener.class: Gosia\GosiaPageBundle\EventListener\ExceptionListener
+
+
+services:
+  app.locale_listener:
+        class: %app.locale_listener.class%
+        arguments: ["%kernel.default_locale%"]
+        tags:
+            - { name: kernel.event_subscriber }
+  #kernel.listener.exception_listener:
+  #    class: %kernel.listener.exception_listener.class%
+  #    calls:
+  #        - [setTemplating, ["@templating"]]
+  #        - [setKernel, ["@kernel"]]
+  #    tags:
+  #        - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }

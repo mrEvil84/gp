@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>issue name</source>
+                <target>Vorname (Pflichtfeld)</target>
+            </trans-unit>
+			<trans-unit id="2">
+                <source>issue surname</source>
+                <target>Nachname (Pflichtfeld)</target>
+            </trans-unit>
+			<trans-unit id="3">
+                <source>issue email</source>
+                <target>Email (Pflichtfeld)</target>
+            </trans-unit>
+			<trans-unit id="4">
+                <source>issue street</source>
+                <target>Straße, Hausnummer (Pflichtfeld)</target>
+            </trans-unit>
+			<trans-unit id="5">
+                <source>issue issueDescription</source>
+                <target>Nachricht (Pflichtfeld)</target>
+            </trans-unit>
+			<trans-unit id="6">
+                <source>issue telephone</source>
+                <target>Telefon</target>
+            </trans-unit>
+			<trans-unit id="7">
+                <source>issue fileName</source>
+                <target>Datei</target>
+            </trans-unit>
+			<trans-unit id="8">
+                <source>issue_submit_button</source>
+                <target>Schicken</target>
+            </trans-unit>	
+			<trans-unit id="9">
+                <source>home</source>
+                <target>Startseite</target>
+            </trans-unit>				
+			<trans-unit id="10">
+                <source>portfolio</source>
+                <target>Portfolio</target>
+            </trans-unit>
+			<trans-unit id="11">
+                <source>prices</source>
+                <target>Preisliste</target>
+            </trans-unit>
+			<trans-unit id="12">
+                <source>contact</source>
+                <target>Kontakt</target>
+            </trans-unit>
+			<trans-unit id="13">
+                <source>terms of use</source>
+                <target>Nutzungsbedingungen</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>issue cityZipCode</source>
+                <target>PLZ, Ort (Pflichtfeld)</target>
+            </trans-unit>	
+            <trans-unit id="15">
+                <source>email.not_valid</source>
+                <target>E-Mail-Name ungültig</target>
+            </trans-unit>	 
+            <trans-unit id="16">
+                <source>confirmation email tnaks for applying</source>
+                <target>Danke sehr für Ire Meldung</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>confirmation email message</source>
+                <target>Wir werden versuchen, sie so bald wie möglich zu beantworten.</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>confirmation email thanks</source>
+                <target>Grüße, Ihre Übersetzer</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>issue apear</source>
+                <target>eedback Übersetzungen</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>issue date</source>
+                <target>Anmeldetag</target>
+            </trans-unit>	
+            <trans-unit id="21">
+                <source>gosia page title</source>
+                <target>Übersetzungen</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>gosia page exception message</source>
+                <target>Da lief was falsch, sorry!</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>gosia page exception message not found</source>
+                <target>Die Ressource, die Sie suchen nicht verfügbar ist oder nicht vorhanden ist.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>gosia page exception you can go to</source>
+                <target>Sie können auf dem Sprung</target>
+            </trans-unit>	
+            <trans-unit id="25">
+                <source>gosia page exception home page</source>
+                <target>Hauptseite</target>
+            </trans-unit>	
+            <trans-unit id="26">
+                <source>confirmation title{</source>
+                <target>Bestätigung der Anmeldung</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>logout</source>
+                <target>Ausloggen</target>
+            </trans-unit>	
+            <trans-unit id="28">
+                <source>Issue was added</source>
+                <target>Der Bericht angenommen wurde</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>issue status</source>
+                <target>Status</target>
+            </trans-unit>			
+        </body>
+    </file>
+</xliff>

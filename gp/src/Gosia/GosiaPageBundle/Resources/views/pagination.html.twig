@@ -1,0 +1,29 @@
+<div class="pagination">
+    <a href="{{ path(route) }}">&laquo;</a>
+
+    {% if currentPage != 1 %}
+
+        <a href="{{  url(route) ~ '?' ~ getParamName ~ '=' ~ (currentPage - 1) ~'&keyword=' ~ keyword}}">&lsaquo;</a>
+
+    {% endif %}
+
+    {% if totalPages == 0 %}
+        <a class="disabled" href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ 1 ~'&keyword=' ~ keyword}}">1</a>
+    {% else %}
+        {% for i in 1..totalPages %}
+
+            <a{% if  i == currentPage %} class="disabled"{% endif %} href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ i ~'&keyword=' ~ keyword}}">{{ i }}</a>
+
+        {% endfor %}
+    {% endif %}
+
+    {% if totalPages > 0 %}
+        {% if currentPage != totalPages %}
+            <a href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ (currentPage + 1) ~'&keyword=' ~ keyword}}">&rsaquo;</a>
+        {% endif %}
+    {% endif %}
+
+    {% if totalPages > 0 %}
+        <a href="{{  url(route) ~ '?' ~ getParamName ~ '=' ~ totalPages ~'&keyword=' ~ keyword}}">&raquo;</a>
+    {% endif %}
+</div>

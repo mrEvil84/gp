@@ -1,0 +1,59 @@
+# you can read more about security in the related section of the documentation
+# http://symfony.com/doc/current/book/security.html
+security:
+    # http://symfony.com/doc/current/book/security.html#encoding-the-user-s-password
+    encoders:
+        Symfony\Component\Security\Core\User\User: 
+          algorithm: bcrypt
+          cost: 12
+
+    # http://symfony.com/doc/current/book/security.html#hierarchical-roles
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: [ROLE_USER, ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
+
+    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+    providers:
+        in_memory:
+            memory:
+                users:
+                    user:  { password: $2a$12$FyWb8JUf.YSMb9r3lxDpfeV2rRBMnSeOkPygGlchSmS8BZiLUEzOu, roles: [ 'ROLE_USER' ] }
+                    admin: { password: $2a$12$fQfTy2mKfIDwv/GVKiFCSOMI0F8vl9KPsdoVj1CzL5O663jL3CoFe, roles: [ 'ROLE_ADMIN' ] }
+
+    # the main part of the security, where you can set up firewalls
+    # for specific sections of your app
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern:  ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        login_firewall:
+            pattern:   ^/backend/login$
+            security: false
+
+        default:
+            pattern: ^/
+            anonymous: ~
+            form_login:
+                  login_path: /backend/login
+                  check_path: /backend/login_check
+                  username_parameter: _username
+                  password_parameter: _password
+                  post_only: true
+            logout:
+                  path:   /logout
+                  target: /
+                  invalidate_session: false
+                  delete_cookies:
+                      a: { path: null, domain: null }
+                      b: { path: null, domain: null }
+
+    # with these settings you can restrict or allow access for different parts
+    # of your application based on roles, ip, host or methods
+    # http://symfony.com/doc/current/cookbook/security/access_control.html
+    access_control:
+        #- { path: ^/, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: http }
+        - { path: /backend/ , roles: ROLE_USER }
+        - { path: /backend , roles: ROLE_USER }
+        

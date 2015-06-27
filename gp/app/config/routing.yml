@@ -1,0 +1,4 @@
+gosia_page:
+    resource: "@GosiaPageBundle/Controller"
+    type:     annotation
+    prefix:   /

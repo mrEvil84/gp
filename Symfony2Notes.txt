@@ -1,0 +1,33 @@
+Czyszczenie CACHE na produkcji gdy uaktualniamy kod produkcyjny:
+	php app/console cache:clear --env=prod
+
+Użycie konsoli:
+	php app/console
+	php app/console debug:router --help
+
+Tworzenie nowej aplikacji w Symfony2 (najnowsze stabilne wydanie frameworka Symfony 2)
+	php symfony.phar new my_project_name
+	
+Tworzenie nowej aplikacji opartej na konkretnej wersji Symfony2
+	php symfony.phar new my_project_name 2.3.23
+	
+Tworzenie nowej aplikacji opartej o najnowszą wersję LTS Symfony 2 (Long Time Strategy)
+	php symfony.phar new my_project_name lts
+
+Tworzenie aplikacji za pomoca Composera
+	composer create-project symfony/framework-standard-edition my_project_name
+	composer create-project symfony/framework-standard-edition my_project_name "2.3.*"
+
+Uruchamianie aplikacji z wbudowanego serwera:
+	my_project_name/
+	php app/console server:run
+
+Zatrzymywanie aplikacji z wbudowanego serwera:
+	php app/console server:stop
+
+Uaktualnianie katalogu vendors/
+	cd my_project_name/
+	composer update
+	
+HERE>http://symfony.com/doc/current/book/installation.html
+	 

@@ -1,0 +1,4 @@
+	<a  href="{{ path('gosia_page_set_language',{'_locale' : 'pl'}) }}">{% if app.request.locale == 'pl' %}<b>PL</b>{% else %}PL{% endif %}</a> 
+	|
+	<a  href="{{ path('gosia_page_set_language', {'_locale' : 'de'}) }}">{% if app.request.locale == 'de' %}<b>DE</b>{% else %}DE{% endif %}</a>
+	
