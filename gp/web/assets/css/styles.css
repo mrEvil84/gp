@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 /* line 2, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_bootstrap-select.scss */
 .bootstrap-select {
   width: 220px \0;
@@ -8031,2136 +8032,6 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   color: #fff;
   border: 1px solid #B63440;
   padding-left: 35px;
-}
-
-/*!
- *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.0.3");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* line 14, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* makes the font 33% larger relative to the icon container */
-/* line 24, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-lg {
-  font-size: 1.3333333333333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
-}
-
-/* line 29, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-2x {
-  font-size: 2em;
-}
-
-/* line 32, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-3x {
-  font-size: 3em;
-}
-
-/* line 35, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-4x {
-  font-size: 4em;
-}
-
-/* line 38, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-5x {
-  font-size: 5em;
-}
-
-/* line 41, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-fw {
-  width: 1.2857142857142858em;
-  text-align: center;
-}
-
-/* line 45, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ul {
-  padding-left: 0;
-  margin-left: 2.142857142857143em;
-  list-style-type: none;
-}
-
-/* line 50, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ul > li {
-  position: relative;
-}
-
-/* line 53, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-li {
-  position: absolute;
-  left: -2.142857142857143em;
-  width: 2.142857142857143em;
-  top: 0.14285714285714285em;
-  text-align: center;
-}
-
-/* line 60, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-li.fa-lg {
-  left: -1.8571428571428572em;
-}
-
-/* line 63, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-border {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #eeeeee;
-  border-radius: .1em;
-}
-
-/* line 68, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.pull-right {
-  float: right;
-}
-
-/* line 71, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.pull-left {
-  float: left;
-}
-
-/* line 74, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa.pull-left {
-  margin-right: .3em;
-}
-
-/* line 77, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa.pull-right {
-  margin-left: .3em;
-}
-
-/* line 80, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-spin {
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
-
-@-moz-keyframes spin {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-@-o-keyframes spin {
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-@-ms-keyframes spin {
-  0% {
-    -ms-transform: rotate(0deg);
-  }
-  100% {
-    -ms-transform: rotate(359deg);
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
-/* line 126, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-/* line 134, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-/* line 142, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-/* line 150, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-  -webkit-transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
-
-/* line 158, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-  -webkit-transform: scale(1, -1);
-  -moz-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
-  -o-transform: scale(1, -1);
-  transform: scale(1, -1);
-}
-
-/* line 166, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: middle;
-}
-
-/* line 174, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stack-1x,
-.fa-stack-2x {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-/* line 181, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stack-1x {
-  line-height: inherit;
-}
-
-/* line 184, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stack-2x {
-  font-size: 2em;
-}
-
-/* line 187, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-inverse {
-  color: #ffffff;
-}
-
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
-/* line 192, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-glass:before {
-  content: "\f000";
-}
-
-/* line 195, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-music:before {
-  content: "\f001";
-}
-
-/* line 198, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-search:before {
-  content: "\f002";
-}
-
-/* line 201, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-envelope-o:before {
-  content: "\f003";
-}
-
-/* line 204, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-heart:before {
-  content: "\f004";
-}
-
-/* line 207, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-star:before {
-  content: "\f005";
-}
-
-/* line 210, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-star-o:before {
-  content: "\f006";
-}
-
-/* line 213, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-user:before {
-  content: "\f007";
-}
-
-/* line 216, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-film:before {
-  content: "\f008";
-}
-
-/* line 219, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-th-large:before {
-  content: "\f009";
-}
-
-/* line 222, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-th:before {
-  content: "\f00a";
-}
-
-/* line 225, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-th-list:before {
-  content: "\f00b";
-}
-
-/* line 228, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-check:before {
-  content: "\f00c";
-}
-
-/* line 231, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-times:before {
-  content: "\f00d";
-}
-
-/* line 234, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-search-plus:before {
-  content: "\f00e";
-}
-
-/* line 237, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-search-minus:before {
-  content: "\f010";
-}
-
-/* line 240, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-power-off:before {
-  content: "\f011";
-}
-
-/* line 243, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-signal:before {
-  content: "\f012";
-}
-
-/* line 246, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-gear:before,
-.fa-cog:before {
-  content: "\f013";
-}
-
-/* line 250, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-trash-o:before {
-  content: "\f014";
-}
-
-/* line 253, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-home:before {
-  content: "\f015";
-}
-
-/* line 256, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-file-o:before {
-  content: "\f016";
-}
-
-/* line 259, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-clock-o:before {
-  content: "\f017";
-}
-
-/* line 262, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-road:before {
-  content: "\f018";
-}
-
-/* line 265, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-download:before {
-  content: "\f019";
-}
-
-/* line 268, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-o-down:before {
-  content: "\f01a";
-}
-
-/* line 271, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-o-up:before {
-  content: "\f01b";
-}
-
-/* line 274, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-inbox:before {
-  content: "\f01c";
-}
-
-/* line 277, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-play-circle-o:before {
-  content: "\f01d";
-}
-
-/* line 280, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rotate-right:before,
-.fa-repeat:before {
-  content: "\f01e";
-}
-
-/* line 284, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-refresh:before {
-  content: "\f021";
-}
-
-/* line 287, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-list-alt:before {
-  content: "\f022";
-}
-
-/* line 290, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-lock:before {
-  content: "\f023";
-}
-
-/* line 293, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flag:before {
-  content: "\f024";
-}
-
-/* line 296, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-headphones:before {
-  content: "\f025";
-}
-
-/* line 299, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-volume-off:before {
-  content: "\f026";
-}
-
-/* line 302, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-volume-down:before {
-  content: "\f027";
-}
-
-/* line 305, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-volume-up:before {
-  content: "\f028";
-}
-
-/* line 308, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-qrcode:before {
-  content: "\f029";
-}
-
-/* line 311, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-barcode:before {
-  content: "\f02a";
-}
-
-/* line 314, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tag:before {
-  content: "\f02b";
-}
-
-/* line 317, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tags:before {
-  content: "\f02c";
-}
-
-/* line 320, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-book:before {
-  content: "\f02d";
-}
-
-/* line 323, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bookmark:before {
-  content: "\f02e";
-}
-
-/* line 326, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-print:before {
-  content: "\f02f";
-}
-
-/* line 329, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-camera:before {
-  content: "\f030";
-}
-
-/* line 332, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-font:before {
-  content: "\f031";
-}
-
-/* line 335, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bold:before {
-  content: "\f032";
-}
-
-/* line 338, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-italic:before {
-  content: "\f033";
-}
-
-/* line 341, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-text-height:before {
-  content: "\f034";
-}
-
-/* line 344, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-text-width:before {
-  content: "\f035";
-}
-
-/* line 347, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-align-left:before {
-  content: "\f036";
-}
-
-/* line 350, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-align-center:before {
-  content: "\f037";
-}
-
-/* line 353, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-align-right:before {
-  content: "\f038";
-}
-
-/* line 356, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-align-justify:before {
-  content: "\f039";
-}
-
-/* line 359, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-list:before {
-  content: "\f03a";
-}
-
-/* line 362, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-dedent:before,
-.fa-outdent:before {
-  content: "\f03b";
-}
-
-/* line 366, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-indent:before {
-  content: "\f03c";
-}
-
-/* line 369, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-video-camera:before {
-  content: "\f03d";
-}
-
-/* line 372, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-picture-o:before {
-  content: "\f03e";
-}
-
-/* line 375, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-pencil:before {
-  content: "\f040";
-}
-
-/* line 378, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-map-marker:before {
-  content: "\f041";
-}
-
-/* line 381, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-adjust:before {
-  content: "\f042";
-}
-
-/* line 384, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tint:before {
-  content: "\f043";
-}
-
-/* line 387, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-edit:before,
-.fa-pencil-square-o:before {
-  content: "\f044";
-}
-
-/* line 391, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-share-square-o:before {
-  content: "\f045";
-}
-
-/* line 394, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-check-square-o:before {
-  content: "\f046";
-}
-
-/* line 397, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrows:before {
-  content: "\f047";
-}
-
-/* line 400, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-step-backward:before {
-  content: "\f048";
-}
-
-/* line 403, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-fast-backward:before {
-  content: "\f049";
-}
-
-/* line 406, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-backward:before {
-  content: "\f04a";
-}
-
-/* line 409, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-play:before {
-  content: "\f04b";
-}
-
-/* line 412, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-pause:before {
-  content: "\f04c";
-}
-
-/* line 415, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stop:before {
-  content: "\f04d";
-}
-
-/* line 418, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-forward:before {
-  content: "\f04e";
-}
-
-/* line 421, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-fast-forward:before {
-  content: "\f050";
-}
-
-/* line 424, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-step-forward:before {
-  content: "\f051";
-}
-
-/* line 427, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-eject:before {
-  content: "\f052";
-}
-
-/* line 430, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-left:before {
-  content: "\f053";
-}
-
-/* line 433, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-right:before {
-  content: "\f054";
-}
-
-/* line 436, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-plus-circle:before {
-  content: "\f055";
-}
-
-/* line 439, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-minus-circle:before {
-  content: "\f056";
-}
-
-/* line 442, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-times-circle:before {
-  content: "\f057";
-}
-
-/* line 445, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-check-circle:before {
-  content: "\f058";
-}
-
-/* line 448, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-question-circle:before {
-  content: "\f059";
-}
-
-/* line 451, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-info-circle:before {
-  content: "\f05a";
-}
-
-/* line 454, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-crosshairs:before {
-  content: "\f05b";
-}
-
-/* line 457, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-times-circle-o:before {
-  content: "\f05c";
-}
-
-/* line 460, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-check-circle-o:before {
-  content: "\f05d";
-}
-
-/* line 463, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ban:before {
-  content: "\f05e";
-}
-
-/* line 466, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-left:before {
-  content: "\f060";
-}
-
-/* line 469, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-right:before {
-  content: "\f061";
-}
-
-/* line 472, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-up:before {
-  content: "\f062";
-}
-
-/* line 475, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-down:before {
-  content: "\f063";
-}
-
-/* line 478, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-mail-forward:before,
-.fa-share:before {
-  content: "\f064";
-}
-
-/* line 482, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-expand:before {
-  content: "\f065";
-}
-
-/* line 485, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-compress:before {
-  content: "\f066";
-}
-
-/* line 488, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-plus:before {
-  content: "\f067";
-}
-
-/* line 491, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-minus:before {
-  content: "\f068";
-}
-
-/* line 494, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-asterisk:before {
-  content: "\f069";
-}
-
-/* line 497, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-exclamation-circle:before {
-  content: "\f06a";
-}
-
-/* line 500, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-gift:before {
-  content: "\f06b";
-}
-
-/* line 503, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-leaf:before {
-  content: "\f06c";
-}
-
-/* line 506, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-fire:before {
-  content: "\f06d";
-}
-
-/* line 509, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-eye:before {
-  content: "\f06e";
-}
-
-/* line 512, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-eye-slash:before {
-  content: "\f070";
-}
-
-/* line 515, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-warning:before,
-.fa-exclamation-triangle:before {
-  content: "\f071";
-}
-
-/* line 519, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-plane:before {
-  content: "\f072";
-}
-
-/* line 522, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-calendar:before {
-  content: "\f073";
-}
-
-/* line 525, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-random:before {
-  content: "\f074";
-}
-
-/* line 528, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-comment:before {
-  content: "\f075";
-}
-
-/* line 531, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-magnet:before {
-  content: "\f076";
-}
-
-/* line 534, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-up:before {
-  content: "\f077";
-}
-
-/* line 537, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-down:before {
-  content: "\f078";
-}
-
-/* line 540, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-retweet:before {
-  content: "\f079";
-}
-
-/* line 543, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-shopping-cart:before {
-  content: "\f07a";
-}
-
-/* line 546, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-folder:before {
-  content: "\f07b";
-}
-
-/* line 549, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-folder-open:before {
-  content: "\f07c";
-}
-
-/* line 552, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrows-v:before {
-  content: "\f07d";
-}
-
-/* line 555, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrows-h:before {
-  content: "\f07e";
-}
-
-/* line 558, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bar-chart-o:before {
-  content: "\f080";
-}
-
-/* line 561, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-twitter-square:before {
-  content: "\f081";
-}
-
-/* line 564, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-facebook-square:before {
-  content: "\f082";
-}
-
-/* line 567, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-camera-retro:before {
-  content: "\f083";
-}
-
-/* line 570, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-key:before {
-  content: "\f084";
-}
-
-/* line 573, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-gears:before,
-.fa-cogs:before {
-  content: "\f085";
-}
-
-/* line 577, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-comments:before {
-  content: "\f086";
-}
-
-/* line 580, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-thumbs-o-up:before {
-  content: "\f087";
-}
-
-/* line 583, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-thumbs-o-down:before {
-  content: "\f088";
-}
-
-/* line 586, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-star-half:before {
-  content: "\f089";
-}
-
-/* line 589, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-heart-o:before {
-  content: "\f08a";
-}
-
-/* line 592, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sign-out:before {
-  content: "\f08b";
-}
-
-/* line 595, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-linkedin-square:before {
-  content: "\f08c";
-}
-
-/* line 598, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-thumb-tack:before {
-  content: "\f08d";
-}
-
-/* line 601, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-external-link:before {
-  content: "\f08e";
-}
-
-/* line 604, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sign-in:before {
-  content: "\f090";
-}
-
-/* line 607, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-trophy:before {
-  content: "\f091";
-}
-
-/* line 610, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-github-square:before {
-  content: "\f092";
-}
-
-/* line 613, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-upload:before {
-  content: "\f093";
-}
-
-/* line 616, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-lemon-o:before {
-  content: "\f094";
-}
-
-/* line 619, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-phone:before {
-  content: "\f095";
-}
-
-/* line 622, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-square-o:before {
-  content: "\f096";
-}
-
-/* line 625, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bookmark-o:before {
-  content: "\f097";
-}
-
-/* line 628, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-phone-square:before {
-  content: "\f098";
-}
-
-/* line 631, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-twitter:before {
-  content: "\f099";
-}
-
-/* line 634, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-facebook:before {
-  content: "\f09a";
-}
-
-/* line 637, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-github:before {
-  content: "\f09b";
-}
-
-/* line 640, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-unlock:before {
-  content: "\f09c";
-}
-
-/* line 643, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-credit-card:before {
-  content: "\f09d";
-}
-
-/* line 646, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rss:before {
-  content: "\f09e";
-}
-
-/* line 649, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-hdd-o:before {
-  content: "\f0a0";
-}
-
-/* line 652, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bullhorn:before {
-  content: "\f0a1";
-}
-
-/* line 655, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bell:before {
-  content: "\f0f3";
-}
-
-/* line 658, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-certificate:before {
-  content: "\f0a3";
-}
-
-/* line 661, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-hand-o-right:before {
-  content: "\f0a4";
-}
-
-/* line 664, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-hand-o-left:before {
-  content: "\f0a5";
-}
-
-/* line 667, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-hand-o-up:before {
-  content: "\f0a6";
-}
-
-/* line 670, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-hand-o-down:before {
-  content: "\f0a7";
-}
-
-/* line 673, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-left:before {
-  content: "\f0a8";
-}
-
-/* line 676, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-right:before {
-  content: "\f0a9";
-}
-
-/* line 679, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-up:before {
-  content: "\f0aa";
-}
-
-/* line 682, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-down:before {
-  content: "\f0ab";
-}
-
-/* line 685, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-globe:before {
-  content: "\f0ac";
-}
-
-/* line 688, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-wrench:before {
-  content: "\f0ad";
-}
-
-/* line 691, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tasks:before {
-  content: "\f0ae";
-}
-
-/* line 694, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-filter:before {
-  content: "\f0b0";
-}
-
-/* line 697, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-briefcase:before {
-  content: "\f0b1";
-}
-
-/* line 700, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrows-alt:before {
-  content: "\f0b2";
-}
-
-/* line 703, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-group:before,
-.fa-users:before {
-  content: "\f0c0";
-}
-
-/* line 707, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chain:before,
-.fa-link:before {
-  content: "\f0c1";
-}
-
-/* line 711, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-cloud:before {
-  content: "\f0c2";
-}
-
-/* line 714, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flask:before {
-  content: "\f0c3";
-}
-
-/* line 717, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-cut:before,
-.fa-scissors:before {
-  content: "\f0c4";
-}
-
-/* line 721, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-copy:before,
-.fa-files-o:before {
-  content: "\f0c5";
-}
-
-/* line 725, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-paperclip:before {
-  content: "\f0c6";
-}
-
-/* line 728, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-save:before,
-.fa-floppy-o:before {
-  content: "\f0c7";
-}
-
-/* line 732, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-square:before {
-  content: "\f0c8";
-}
-
-/* line 735, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bars:before {
-  content: "\f0c9";
-}
-
-/* line 738, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-list-ul:before {
-  content: "\f0ca";
-}
-
-/* line 741, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-list-ol:before {
-  content: "\f0cb";
-}
-
-/* line 744, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-strikethrough:before {
-  content: "\f0cc";
-}
-
-/* line 747, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-underline:before {
-  content: "\f0cd";
-}
-
-/* line 750, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-table:before {
-  content: "\f0ce";
-}
-
-/* line 753, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-magic:before {
-  content: "\f0d0";
-}
-
-/* line 756, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-truck:before {
-  content: "\f0d1";
-}
-
-/* line 759, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-pinterest:before {
-  content: "\f0d2";
-}
-
-/* line 762, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-pinterest-square:before {
-  content: "\f0d3";
-}
-
-/* line 765, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-google-plus-square:before {
-  content: "\f0d4";
-}
-
-/* line 768, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-google-plus:before {
-  content: "\f0d5";
-}
-
-/* line 771, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-money:before {
-  content: "\f0d6";
-}
-
-/* line 774, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-caret-down:before {
-  content: "\f0d7";
-}
-
-/* line 777, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-caret-up:before {
-  content: "\f0d8";
-}
-
-/* line 780, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-caret-left:before {
-  content: "\f0d9";
-}
-
-/* line 783, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-caret-right:before {
-  content: "\f0da";
-}
-
-/* line 786, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-columns:before {
-  content: "\f0db";
-}
-
-/* line 789, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-unsorted:before,
-.fa-sort:before {
-  content: "\f0dc";
-}
-
-/* line 793, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-down:before,
-.fa-sort-asc:before {
-  content: "\f0dd";
-}
-
-/* line 797, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-up:before,
-.fa-sort-desc:before {
-  content: "\f0de";
-}
-
-/* line 801, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-envelope:before {
-  content: "\f0e0";
-}
-
-/* line 804, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-linkedin:before {
-  content: "\f0e1";
-}
-
-/* line 807, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rotate-left:before,
-.fa-undo:before {
-  content: "\f0e2";
-}
-
-/* line 811, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-legal:before,
-.fa-gavel:before {
-  content: "\f0e3";
-}
-
-/* line 815, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-dashboard:before,
-.fa-tachometer:before {
-  content: "\f0e4";
-}
-
-/* line 819, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-comment-o:before {
-  content: "\f0e5";
-}
-
-/* line 822, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-comments-o:before {
-  content: "\f0e6";
-}
-
-/* line 825, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flash:before,
-.fa-bolt:before {
-  content: "\f0e7";
-}
-
-/* line 829, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sitemap:before {
-  content: "\f0e8";
-}
-
-/* line 832, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-umbrella:before {
-  content: "\f0e9";
-}
-
-/* line 835, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-paste:before,
-.fa-clipboard:before {
-  content: "\f0ea";
-}
-
-/* line 839, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-lightbulb-o:before {
-  content: "\f0eb";
-}
-
-/* line 842, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-exchange:before {
-  content: "\f0ec";
-}
-
-/* line 845, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-cloud-download:before {
-  content: "\f0ed";
-}
-
-/* line 848, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-cloud-upload:before {
-  content: "\f0ee";
-}
-
-/* line 851, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-user-md:before {
-  content: "\f0f0";
-}
-
-/* line 854, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stethoscope:before {
-  content: "\f0f1";
-}
-
-/* line 857, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-suitcase:before {
-  content: "\f0f2";
-}
-
-/* line 860, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bell-o:before {
-  content: "\f0a2";
-}
-
-/* line 863, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-coffee:before {
-  content: "\f0f4";
-}
-
-/* line 866, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-cutlery:before {
-  content: "\f0f5";
-}
-
-/* line 869, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-file-text-o:before {
-  content: "\f0f6";
-}
-
-/* line 872, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-building-o:before {
-  content: "\f0f7";
-}
-
-/* line 875, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-hospital-o:before {
-  content: "\f0f8";
-}
-
-/* line 878, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ambulance:before {
-  content: "\f0f9";
-}
-
-/* line 881, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-medkit:before {
-  content: "\f0fa";
-}
-
-/* line 884, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-fighter-jet:before {
-  content: "\f0fb";
-}
-
-/* line 887, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-beer:before {
-  content: "\f0fc";
-}
-
-/* line 890, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-h-square:before {
-  content: "\f0fd";
-}
-
-/* line 893, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-plus-square:before {
-  content: "\f0fe";
-}
-
-/* line 896, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-double-left:before {
-  content: "\f100";
-}
-
-/* line 899, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-double-right:before {
-  content: "\f101";
-}
-
-/* line 902, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-double-up:before {
-  content: "\f102";
-}
-
-/* line 905, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-double-down:before {
-  content: "\f103";
-}
-
-/* line 908, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-left:before {
-  content: "\f104";
-}
-
-/* line 911, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-right:before {
-  content: "\f105";
-}
-
-/* line 914, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-up:before {
-  content: "\f106";
-}
-
-/* line 917, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-angle-down:before {
-  content: "\f107";
-}
-
-/* line 920, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-desktop:before {
-  content: "\f108";
-}
-
-/* line 923, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-laptop:before {
-  content: "\f109";
-}
-
-/* line 926, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tablet:before {
-  content: "\f10a";
-}
-
-/* line 929, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-mobile-phone:before,
-.fa-mobile:before {
-  content: "\f10b";
-}
-
-/* line 933, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-circle-o:before {
-  content: "\f10c";
-}
-
-/* line 936, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-quote-left:before {
-  content: "\f10d";
-}
-
-/* line 939, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-quote-right:before {
-  content: "\f10e";
-}
-
-/* line 942, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-spinner:before {
-  content: "\f110";
-}
-
-/* line 945, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-circle:before {
-  content: "\f111";
-}
-
-/* line 948, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-mail-reply:before,
-.fa-reply:before {
-  content: "\f112";
-}
-
-/* line 952, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-github-alt:before {
-  content: "\f113";
-}
-
-/* line 955, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-folder-o:before {
-  content: "\f114";
-}
-
-/* line 958, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-folder-open-o:before {
-  content: "\f115";
-}
-
-/* line 961, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-smile-o:before {
-  content: "\f118";
-}
-
-/* line 964, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-frown-o:before {
-  content: "\f119";
-}
-
-/* line 967, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-meh-o:before {
-  content: "\f11a";
-}
-
-/* line 970, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-gamepad:before {
-  content: "\f11b";
-}
-
-/* line 973, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-keyboard-o:before {
-  content: "\f11c";
-}
-
-/* line 976, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flag-o:before {
-  content: "\f11d";
-}
-
-/* line 979, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flag-checkered:before {
-  content: "\f11e";
-}
-
-/* line 982, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-terminal:before {
-  content: "\f120";
-}
-
-/* line 985, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-code:before {
-  content: "\f121";
-}
-
-/* line 988, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-reply-all:before {
-  content: "\f122";
-}
-
-/* line 991, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-mail-reply-all:before {
-  content: "\f122";
-}
-
-/* line 994, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-star-half-empty:before,
-.fa-star-half-full:before,
-.fa-star-half-o:before {
-  content: "\f123";
-}
-
-/* line 999, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-location-arrow:before {
-  content: "\f124";
-}
-
-/* line 1002, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-crop:before {
-  content: "\f125";
-}
-
-/* line 1005, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-code-fork:before {
-  content: "\f126";
-}
-
-/* line 1008, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-unlink:before,
-.fa-chain-broken:before {
-  content: "\f127";
-}
-
-/* line 1012, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-question:before {
-  content: "\f128";
-}
-
-/* line 1015, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-info:before {
-  content: "\f129";
-}
-
-/* line 1018, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-exclamation:before {
-  content: "\f12a";
-}
-
-/* line 1021, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-superscript:before {
-  content: "\f12b";
-}
-
-/* line 1024, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-subscript:before {
-  content: "\f12c";
-}
-
-/* line 1027, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-eraser:before {
-  content: "\f12d";
-}
-
-/* line 1030, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-puzzle-piece:before {
-  content: "\f12e";
-}
-
-/* line 1033, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-microphone:before {
-  content: "\f130";
-}
-
-/* line 1036, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-microphone-slash:before {
-  content: "\f131";
-}
-
-/* line 1039, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-shield:before {
-  content: "\f132";
-}
-
-/* line 1042, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-calendar-o:before {
-  content: "\f133";
-}
-
-/* line 1045, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-fire-extinguisher:before {
-  content: "\f134";
-}
-
-/* line 1048, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rocket:before {
-  content: "\f135";
-}
-
-/* line 1051, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-maxcdn:before {
-  content: "\f136";
-}
-
-/* line 1054, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-circle-left:before {
-  content: "\f137";
-}
-
-/* line 1057, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-circle-right:before {
-  content: "\f138";
-}
-
-/* line 1060, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-circle-up:before {
-  content: "\f139";
-}
-
-/* line 1063, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-chevron-circle-down:before {
-  content: "\f13a";
-}
-
-/* line 1066, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-html5:before {
-  content: "\f13b";
-}
-
-/* line 1069, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-css3:before {
-  content: "\f13c";
-}
-
-/* line 1072, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-anchor:before {
-  content: "\f13d";
-}
-
-/* line 1075, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-unlock-alt:before {
-  content: "\f13e";
-}
-
-/* line 1078, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bullseye:before {
-  content: "\f140";
-}
-
-/* line 1081, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ellipsis-h:before {
-  content: "\f141";
-}
-
-/* line 1084, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ellipsis-v:before {
-  content: "\f142";
-}
-
-/* line 1087, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rss-square:before {
-  content: "\f143";
-}
-
-/* line 1090, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-play-circle:before {
-  content: "\f144";
-}
-
-/* line 1093, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ticket:before {
-  content: "\f145";
-}
-
-/* line 1096, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-minus-square:before {
-  content: "\f146";
-}
-
-/* line 1099, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-minus-square-o:before {
-  content: "\f147";
-}
-
-/* line 1102, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-level-up:before {
-  content: "\f148";
-}
-
-/* line 1105, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-level-down:before {
-  content: "\f149";
-}
-
-/* line 1108, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-check-square:before {
-  content: "\f14a";
-}
-
-/* line 1111, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-pencil-square:before {
-  content: "\f14b";
-}
-
-/* line 1114, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-external-link-square:before {
-  content: "\f14c";
-}
-
-/* line 1117, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-share-square:before {
-  content: "\f14d";
-}
-
-/* line 1120, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-compass:before {
-  content: "\f14e";
-}
-
-/* line 1123, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-toggle-down:before,
-.fa-caret-square-o-down:before {
-  content: "\f150";
-}
-
-/* line 1127, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-toggle-up:before,
-.fa-caret-square-o-up:before {
-  content: "\f151";
-}
-
-/* line 1131, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-toggle-right:before,
-.fa-caret-square-o-right:before {
-  content: "\f152";
-}
-
-/* line 1135, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-euro:before,
-.fa-eur:before {
-  content: "\f153";
-}
-
-/* line 1139, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-gbp:before {
-  content: "\f154";
-}
-
-/* line 1142, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-dollar:before,
-.fa-usd:before {
-  content: "\f155";
-}
-
-/* line 1146, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-rupee:before,
-.fa-inr:before {
-  content: "\f156";
-}
-
-/* line 1150, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-cny:before,
-.fa-rmb:before,
-.fa-yen:before,
-.fa-jpy:before {
-  content: "\f157";
-}
-
-/* line 1156, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-ruble:before,
-.fa-rouble:before,
-.fa-rub:before {
-  content: "\f158";
-}
-
-/* line 1161, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-won:before,
-.fa-krw:before {
-  content: "\f159";
-}
-
-/* line 1165, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bitcoin:before,
-.fa-btc:before {
-  content: "\f15a";
-}
-
-/* line 1169, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-file:before {
-  content: "\f15b";
-}
-
-/* line 1172, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-file-text:before {
-  content: "\f15c";
-}
-
-/* line 1175, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-alpha-asc:before {
-  content: "\f15d";
-}
-
-/* line 1178, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-alpha-desc:before {
-  content: "\f15e";
-}
-
-/* line 1181, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-amount-asc:before {
-  content: "\f160";
-}
-
-/* line 1184, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-amount-desc:before {
-  content: "\f161";
-}
-
-/* line 1187, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-numeric-asc:before {
-  content: "\f162";
-}
-
-/* line 1190, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sort-numeric-desc:before {
-  content: "\f163";
-}
-
-/* line 1193, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-thumbs-up:before {
-  content: "\f164";
-}
-
-/* line 1196, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-thumbs-down:before {
-  content: "\f165";
-}
-
-/* line 1199, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-youtube-square:before {
-  content: "\f166";
-}
-
-/* line 1202, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-youtube:before {
-  content: "\f167";
-}
-
-/* line 1205, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-xing:before {
-  content: "\f168";
-}
-
-/* line 1208, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-xing-square:before {
-  content: "\f169";
-}
-
-/* line 1211, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-youtube-play:before {
-  content: "\f16a";
-}
-
-/* line 1214, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-dropbox:before {
-  content: "\f16b";
-}
-
-/* line 1217, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stack-overflow:before {
-  content: "\f16c";
-}
-
-/* line 1220, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-instagram:before {
-  content: "\f16d";
-}
-
-/* line 1223, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-flickr:before {
-  content: "\f16e";
-}
-
-/* line 1226, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-adn:before {
-  content: "\f170";
-}
-
-/* line 1229, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bitbucket:before {
-  content: "\f171";
-}
-
-/* line 1232, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bitbucket-square:before {
-  content: "\f172";
-}
-
-/* line 1235, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tumblr:before {
-  content: "\f173";
-}
-
-/* line 1238, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-tumblr-square:before {
-  content: "\f174";
-}
-
-/* line 1241, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-long-arrow-down:before {
-  content: "\f175";
-}
-
-/* line 1244, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-long-arrow-up:before {
-  content: "\f176";
-}
-
-/* line 1247, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-long-arrow-left:before {
-  content: "\f177";
-}
-
-/* line 1250, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-long-arrow-right:before {
-  content: "\f178";
-}
-
-/* line 1253, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-apple:before {
-  content: "\f179";
-}
-
-/* line 1256, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-windows:before {
-  content: "\f17a";
-}
-
-/* line 1259, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-android:before {
-  content: "\f17b";
-}
-
-/* line 1262, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-linux:before {
-  content: "\f17c";
-}
-
-/* line 1265, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-dribbble:before {
-  content: "\f17d";
-}
-
-/* line 1268, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-skype:before {
-  content: "\f17e";
-}
-
-/* line 1271, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-foursquare:before {
-  content: "\f180";
-}
-
-/* line 1274, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-trello:before {
-  content: "\f181";
-}
-
-/* line 1277, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-female:before {
-  content: "\f182";
-}
-
-/* line 1280, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-male:before {
-  content: "\f183";
-}
-
-/* line 1283, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-gittip:before {
-  content: "\f184";
-}
-
-/* line 1286, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-sun-o:before {
-  content: "\f185";
-}
-
-/* line 1289, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-moon-o:before {
-  content: "\f186";
-}
-
-/* line 1292, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-archive:before {
-  content: "\f187";
-}
-
-/* line 1295, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-bug:before {
-  content: "\f188";
-}
-
-/* line 1298, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-vk:before {
-  content: "\f189";
-}
-
-/* line 1301, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-weibo:before {
-  content: "\f18a";
-}
-
-/* line 1304, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-renren:before {
-  content: "\f18b";
-}
-
-/* line 1307, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-pagelines:before {
-  content: "\f18c";
-}
-
-/* line 1310, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-stack-exchange:before {
-  content: "\f18d";
-}
-
-/* line 1313, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-o-right:before {
-  content: "\f18e";
-}
-
-/* line 1316, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-arrow-circle-o-left:before {
-  content: "\f190";
-}
-
-/* line 1319, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-toggle-left:before,
-.fa-caret-square-o-left:before {
-  content: "\f191";
-}
-
-/* line 1323, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-dot-circle-o:before {
-  content: "\f192";
-}
-
-/* line 1326, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-wheelchair:before {
-  content: "\f193";
-}
-
-/* line 1329, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-vimeo-square:before {
-  content: "\f194";
-}
-
-/* line 1332, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-turkish-lira:before,
-.fa-try:before {
-  content: "\f195";
-}
-
-/* line 1336, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss */
-.fa-plus-square-o:before {
-  content: "\f196";
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -32926,6 +30797,2897 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   content: "\f196";
 }
 
+/*************************
+*******Typography******
+**************************/
+/* line 8, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+  line-height: 22px;
+}
+
+/* line 15, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+}
+
+/* line 26, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+/* line 31, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+h2 {
+  font-size: 20px;
+}
+
+/* line 35, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+h3 {
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 42, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+h4 {
+  font-size: 16px;
+}
+
+/* line 46, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+a {
+  color: #c52d2f;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition: color 300ms, background-color 300ms;
+  transition: color 300ms, background-color 300ms;
+}
+
+/* line 54, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+a:hover, a:focus {
+  color: #d43133;
+}
+
+/* line 58, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+/* line 64, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.btn-primary {
+  padding: 8px 20px;
+  background: #c52d2f;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* line 74, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #c52d2f;
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 81, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.btn-transparent {
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+/* line 87, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.btn-transparent:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 91, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+a:hover,
+a:focus {
+  color: #111;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 98, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.dropdown-menu {
+  margin-top: -1px;
+  min-width: 180px;
+}
+
+/* line 103, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.center h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* line 109, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.media > .pull-left {
+  margin-right: 20px;
+}
+
+/* line 113, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.media > .pull-right {
+  margin-left: 20px;
+}
+
+/* line 117, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+body > section {
+  padding: 70px 0;
+}
+
+/* line 121, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.center {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+/* line 126, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.scaleIn {
+  -webkit-animation-name: scaleIn;
+  animation-name: scaleIn;
+}
+
+/* line 131, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.lead {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* line 137, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.transparent-bg {
+  background-color: transparent !important;
+  margin-bottom: 0;
+}
+
+@-webkit-keyframes scaleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/*************************
+*******Header******
+**************************/
+/* line 177, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#header .search {
+  display: inline-block;
+}
+
+/* line 181, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar > .container .navbar-brand {
+  margin-left: 0;
+}
+
+/* line 185, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.top-bar {
+  padding: 10px 0;
+  background: #191919;
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+}
+
+/* line 192, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.top-number {
+  color: #fff;
+}
+
+/* line 196, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.top-number p {
+  margin: 0;
+}
+
+/* line 200, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.social {
+  text-align: right;
+}
+
+/* line 204, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.social-share {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 211, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.social-share li {
+  display: inline-block;
+}
+
+/* line 215, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  background: #404040;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+/* line 226, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.social-share li a:hover {
+  background: #c52d2f;
+  color: #fff;
+}
+
+/* line 231, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.search i {
+  color: #fff;
+}
+
+/* line 235, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+input.search-form {
+  background: transparent;
+  border: 0 none;
+  width: 60px;
+  padding: 0 10px;
+  color: #FFF;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+}
+
+/* line 248, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+input.search-form::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 252, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+input.search-form:hover::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* line 256, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+input.search-form:hover {
+  width: 180px;
+}
+
+/* line 260, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 265, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #151515;
+  padding: 15px 0;
+  padding-bottom: 0;
+}
+
+/* line 273, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-nav {
+  margin-top: 12px;
+}
+
+/* line 277, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-nav > li {
+  margin-left: 35px;
+  padding-bottom: 28px;
+}
+
+/* line 282, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+
+/* line 291, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #c52d2f;
+  color: #fff;
+}
+
+/* line 296, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse {
+  border: none;
+}
+
+/* line 300, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-brand {
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+}
+
+/* line 306, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #c52d2f;
+  color: #fff;
+}
+
+/* line 316, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+  border-top: 0;
+  border-radius: 0;
+  left: 0;
+}
+
+/* line 329, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav .dropdown-menu:before {
+  position: absolute;
+  top: 0;
+}
+
+/* line 334, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+  padding: 8px 15px;
+  color: #fff;
+}
+
+/* line 339, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+  background-color: #c52d2f;
+  color: #fff;
+}
+
+/* line 346, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 350, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-nav .dropdown-menu > li.divider {
+  background-color: transparent;
+}
+
+/* line 354, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+/*************************
+*******Home Page******
+**************************/
+/* line 366, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider {
+  position: relative;
+}
+
+/* line 370, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 375, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .carousel-content {
+  margin-top: 150px;
+}
+
+/* line 379, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .slide-margin {
+  margin-top: 140px;
+}
+
+/* line 383, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel h2 {
+  color: #fff;
+}
+
+/* line 387, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .btn-slide {
+  padding: 8px 20px;
+  background: #c52d2f;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+/* line 396, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .slider-img {
+  text-align: right;
+  position: absolute;
+}
+
+/* line 402, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .item {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 730px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+}
+
+/* line 419, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .item:first-child {
+  top: auto;
+  position: relative;
+}
+
+/* line 424, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel .item.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
+}
+
+/* line 433, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .prev,
+#main-slider .next {
+  position: absolute;
+  top: 50%;
+  background-color: #c52d2f;
+  color: #fff;
+  display: inline-block;
+  margin-top: -25px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  z-index: 5;
+}
+
+/* line 450, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .prev:hover,
+#main-slider .next:hover {
+  background-color: #000;
+}
+
+/* line 455, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .prev {
+  left: 10px;
+}
+
+/* line 459, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .next {
+  right: 10px;
+}
+
+/* line 463, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin: 0 15px 0 0;
+  position: relative;
+}
+
+/* line 471, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel-indicators li:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #FFF;
+  left: -3px;
+  top: -3px;
+}
+
+/* line 483, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel-indicators .active {
+  width: 20px;
+  height: 20px;
+  background-color: #c52d2f;
+  margin: 0 15px 0 0;
+  border: 1px solid #c52d2f;
+  position: relative;
+}
+
+/* line 492, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .carousel-indicators .active:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: #c52d2f;
+  border: 1px solid #c52d2f;
+  left: -3px;
+  top: -3px;
+}
+
+/* line 504, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .active .animation.animated-item-1 {
+  -webkit-animation: fadeInUp 300ms linear 300ms both;
+  -moz-animation: fadeInUp 300ms linear 300ms both;
+  -o-animation: fadeInUp 300ms linear 300ms both;
+  -ms-animation: fadeInUp 300ms linear 300ms both;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+
+/* line 512, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .active .animation.animated-item-2 {
+  -webkit-animation: fadeInUp 300ms linear 600ms both;
+  -moz-animation: fadeInUp 300ms linear 600ms both;
+  -o-animation: fadeInUp 300ms linear 600ms both;
+  -ms-animation: fadeInUp 300ms linear 600ms both;
+  animation: fadeInUp 300ms linear 600ms both;
+}
+
+/* line 520, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .active .animation.animated-item-3 {
+  -webkit-animation: fadeInUp 300ms linear 900ms both;
+  -moz-animation: fadeInUp 300ms linear 900ms both;
+  -o-animation: fadeInUp 300ms linear 900ms both;
+  -ms-animation: fadeInUp 300ms linear 900ms both;
+  animation: fadeInUp 300ms linear 900ms both;
+}
+
+/* line 528, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#main-slider .active .animation.animated-item-4 {
+  -webkit-animation: fadeInUp 300ms linear 1200ms both;
+  -moz-animation: fadeInUp 300ms linear 1200ms both;
+  -o-animation: fadeInUp 300ms linear 1200ms both;
+  -ms-animation: fadeInUp 300ms linear 1200ms both;
+  animation: fadeInUp 300ms linear 1200ms both;
+}
+
+/* line 536, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#feature {
+  background: #f2f2f2;
+  padding-bottom: 40px;
+}
+
+/* line 541, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.features {
+  padding: 0;
+}
+
+/* line 545, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.feature-wrap {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+/* line 550, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.feature-wrap h2 {
+  margin-top: 10px;
+}
+
+/* line 554, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.feature-wrap .pull-left {
+  margin-right: 25px;
+}
+
+/* line 558, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.feature-wrap i {
+  font-size: 48px;
+  height: 110px;
+  width: 110px;
+  margin: 3px;
+  border-radius: 100%;
+  line-height: 110px;
+  text-align: center;
+  background: #ffffff;
+  color: #c52d2f;
+  border: 3px solid #ffffff;
+  box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  float: left;
+  margin-right: 25px;
+}
+
+/* line 579, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.feature-wrap i:hover {
+  background: #c52d2f;
+  color: #fff;
+  box-shadow: inset 0 0 0 5px #c52d2f;
+  -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
+  border: 3px solid #c52d2f;
+}
+
+/* line 587, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#recent-works .col-xs-12.col-sm-4.col-md-3 {
+  padding: 0;
+}
+
+/* line 591, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#recent-works {
+  padding-bottom: 70px;
+}
+
+/* line 595, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap {
+  position: relative;
+}
+
+/* line 599, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap img {
+  width: 100%;
+}
+
+/* line 603, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap .recent-work-inner {
+  top: 0;
+  background: transparent;
+  opacity: .8;
+  width: 100%;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+/* line 612, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap .recent-work-inner h3 {
+  margin: 10px 0;
+}
+
+/* line 616, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap .recent-work-inner h3 a {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* line 621, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 0;
+  background: #c52d2f;
+  color: #fff;
+  vertical-align: middle;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+  padding: 30px;
+}
+
+/* line 639, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap .overlay .preview {
+  bottom: 0;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 650, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.recent-work-wrap:hover .overlay {
+  opacity: 1;
+}
+
+/* line 654, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#services {
+  background: #000 url(../images/services/bg_services.png);
+  background-size: cover;
+}
+
+/* line 659, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#services .lead,
+#services h2 {
+  color: #fff;
+}
+
+/* line 664, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.services-wrap {
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 0 40px;
+}
+
+/* line 671, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.services-wrap h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* line 676, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.services-wrap .pull-left {
+  margin-right: 20px;
+}
+
+/* line 680, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#middle {
+  background: #f2f2f2;
+}
+
+/* line 684, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.skill h2 {
+  margin-bottom: 25px;
+}
+
+/* line 688, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress-wrap {
+  position: relative;
+}
+
+/* line 692, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color1,
+.progress .color1 .bar-width {
+  background: #2d7da4;
+}
+
+/* line 697, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color2,
+.progress .color2 .bar-width {
+  background: #6aa42f;
+}
+
+/* line 702, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color3,
+.progress .color3 .bar-width {
+  background: #ffcc33;
+}
+
+/* line 707, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color4,
+.progress .color4 .bar-width {
+  background: #db3615;
+}
+
+/* line 712, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress,
+.progress-bar {
+  height: 15px;
+  line-height: 15px;
+  background: #e6e6e6;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: visible;
+  text-align: right;
+}
+
+/* line 725, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress {
+  position: relative;
+}
+
+/* line 729, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .bar-width {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  top: -30px;
+  border-radius: 2px;
+  margin-left: -30px;
+}
+
+/* line 742, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress span {
+  position: relative;
+}
+
+/* line 746, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress span:before {
+  content: " ";
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-width: 8px 5px;
+  border-style: solid;
+  bottom: -15px;
+  right: 8px;
+}
+
+/* line 757, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color1 span:before {
+  border-color: #2d7da4 transparent transparent transparent;
+}
+
+/* line 761, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color2 span:before {
+  border-color: #6aa42f transparent transparent transparent;
+}
+
+/* line 765, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color3 span:before {
+  border-color: #ffcc33 transparent transparent transparent;
+}
+
+/* line 769, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.progress .color4 span:before {
+  border-color: #db3615 transparent transparent transparent;
+}
+
+/* line 773, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.accordion h2 {
+  margin-bottom: 25px;
+}
+
+/* line 777, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-default {
+  border-color: transparent;
+}
+
+/* line 781, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-default > .panel-heading,
+.panel {
+  background-color: #e6e6e6;
+  border: 0 none;
+  box-shadow: none;
+}
+
+/* line 788, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  background: #fff;
+  color: #858586;
+}
+
+/* line 793, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-body {
+  padding: 20px 20px 10px;
+}
+
+/* line 797, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-group .panel + .panel {
+  margin-top: 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+/* line 802, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-group .panel {
+  border-radius: 0;
+}
+
+/* line 806, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-heading {
+  border-radius: 0;
+}
+
+/* line 810, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-title > a {
+  color: #4e4e4e;
+}
+
+/* line 814, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.accordion-inner img {
+  border-radius: 4px;
+}
+
+/* line 818, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.accordion-inner h4 {
+  margin-top: 0;
+}
+
+/* line 822, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-heading.active {
+  background: #1f1f20;
+}
+
+/* line 826, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-heading.active .panel-title > a {
+  color: #fff;
+}
+
+/* line 830, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+a.accordion-toggle i {
+  width: 45px;
+  line-height: 44px;
+  font-size: 20px;
+  margin-top: -10px;
+  text-align: center;
+  margin-right: -15px;
+  background: #c9c9c9;
+}
+
+/* line 840, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-heading.active a.accordion-toggle i {
+  background: #c52d2f;
+  color: #fff;
+}
+
+/* line 845, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.panel-heading.active a.accordion-toggle.collapsed i {
+  background: #c52d2f;
+  color: #fff;
+}
+
+/* line 850, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs > li {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* line 855, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs {
+  border-bottom: transparent;
+  border-right: 1px solid #e6e6e6;
+}
+
+/* line 860, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs > li > a {
+  background: #f5f5f5;
+  color: #666;
+  border-radius: 0;
+  border: 0 none;
+  line-height: 24px;
+  margin-right: 0;
+  padding: 13px 15px;
+}
+
+/* line 870, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs li:last-child {
+  border-bottom: 0 none;
+}
+
+/* line 874, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-stacked > li + li {
+  margin-top: 0;
+}
+
+/* line 878, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs > li > a:hover {
+  background: #1f1f20;
+  color: #fff;
+}
+
+/* line 883, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: 0;
+  color: #fff;
+  background: #1f1f20;
+  position: relative;
+}
+
+/* line 892, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.nav-tabs > li.active > a:after {
+  position: absolute;
+  content: "";
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-color: transparent transparent transparent #1f1f20;
+  border-width: 25px 22px;
+  right: -44px;
+  top: 0;
+}
+
+/* line 904, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tab-wrap {
+  border: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+/* line 909, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tab-content {
+  padding: 20px;
+}
+
+/* line 913, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tab-content h2 {
+  margin-top: 0;
+}
+
+/* line 917, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tab-content img {
+  border-radius: 4px;
+}
+
+/* line 921, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.testimonial h2 {
+  margin-top: 0;
+}
+
+/* line 925, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.testimonial-inner {
+  color: #858586;
+  font-size: 14px;
+}
+
+/* line 930, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.testimonial-inner .pull-left {
+  border-right: 1px solid #e7e7e7;
+  padding-right: 15px;
+  position: relative;
+}
+
+/* line 936, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.testimonial-inner .pull-left:after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 50%;
+  margin-top: -5px;
+  background: #FFF;
+  -webkit-transform: rotate(45deg);
+  border: 1px solid #e7e7e7;
+  right: -5px;
+  border-left: 0 none;
+  border-bottom: 0 none;
+}
+
+/* line 951, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#partner {
+  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+/* line 956, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#partner {
+  color: #fff;
+  text-align: center;
+}
+
+/* line 961, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#partner h2,
+#partner h3 {
+  color: #fff;
+}
+
+/* line 966, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.partners ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 972, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.partners ul li {
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+/* line 978, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#conatcat-info {
+  background: #fff url(../images/contact.png) no-repeat 90% 0;
+  padding: 30px 0;
+}
+
+/* line 983, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.contact-info i {
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* line 994, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.contact-info h2 {
+  margin-top: 0;
+  color: #000;
+}
+
+/* line 999, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.contact-info {
+  color: #000;
+}
+
+/*************************
+********* About Us Page CSS ******
+**************************/
+/* line 1007, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.about-us {
+  margin-top: 110px;
+  margin-bottom: -110px;
+}
+
+/* line 1012, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.about-us h2,
+.skill_text h2 {
+  color: #4e4e4e;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* line 1019, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.about-us p {
+  color: #4e4e4e;
+}
+
+/* line 1023, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider {
+  position: relative;
+}
+
+/* line 1027, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider .carousel-indicators {
+  bottom: -25px;
+}
+
+/* line 1031, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider .carousel-indicators li {
+  border: 1px solid #ffbd20;
+}
+
+/* line 1035, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider a i {
+  border: 1px solid #777;
+  border-radius: 50%;
+  font-size: 28px;
+  height: 50px;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  color: #777;
+}
+
+/* line 1047, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider a i:hover {
+  background: #bfbfbf;
+  color: #fff;
+  border: 1px solid #bfbfbf;
+}
+
+/* line 1053, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider
+.carousel-control {
+  width: inherit;
+}
+
+/* line 1058, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider .carousel-control.left i {
+  left: -25px;
+}
+
+/* line 1062, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider .carousel-control.right i {
+  right: -25px;
+}
+
+/* line 1066, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#carousel-slider
+.carousel-control.left,
+#carousel-slider
+.carousel-control.right {
+  background: none;
+}
+
+/* line 1073, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.skill_text {
+  display: block;
+  margin-bottom: 60px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+/* line 1080, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.sinlge-skill {
+  background: #f2f2f2;
+  border-radius: 100%;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: bold;
+  height: 200px;
+  position: relative;
+  width: 200px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 30px 0;
+}
+
+/* line 1095, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.sinlge-skill p em {
+  color: #FFFFFF;
+  font-size: 38px;
+}
+
+/* line 1100, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.sinlge-skill p {
+  line-height: 1;
+}
+
+/* line 1104, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.joomla-skill,
+.html-skill,
+.css-skill,
+.wp-skill {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  width: 100%;
+  border-radius: 100%;
+  padding: 70px 0;
+  text-align: center;
+}
+
+/* line 1118, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.joomla-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(28%, #f2f2f2), color-stop(28%, #2d7da4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 28%, #2d7da4 28%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#2d7da4',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 1129, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.html-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(9%, #f2f2f2), color-stop(9%, #6aa42f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 9%, #6aa42f 9%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#6aa42f',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 1140, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.css-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(32%, #f2f2f2), color-stop(32%, #ffbd20));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 32%, #ffbd20 32%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffbd20',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 1151, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.wp-skill {
+  background: #f2f2f2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(19%, #f2f2f2), color-stop(19%, #db3615));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 19%, #db3615 19%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#db3615',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 1162, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.skill-wrap {
+  display: block;
+  overflow: hidden;
+  margin: 60px 0;
+}
+
+/* line 1168, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/* line 1173, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team h5 {
+  font-weight: 300;
+}
+
+/* line 1177, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.single-profile-top,
+.single-profile-bottom {
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 1183, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.single-profile-top,
+.single-profile-bottom {
+  border: 1px solid #ddd;
+  padding: 15px;
+  position: relative;
+}
+
+/* line 1190, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.media_image {
+  margin-bottom: 10px;
+}
+
+/* line 1194, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .btn {
+  background: transparent;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 3px;
+  padding: 1px 5px;
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  margin-right: 3px;
+}
+
+/* line 1206, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.social_icons,
+ul.tag {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: block;
+}
+
+/* line 1214, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.social_icons li,
+ul.tag li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 1220, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.social_icons li a i {
+  border-radius: 50%;
+  color: #FFFFFF;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  padding: 0;
+  text-align: center;
+  width: 25px;
+  opacity: .8;
+}
+
+/* line 1233, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .social_icons .fa-facebook:hover,
+.team .social_icons .fa-twitter:hover,
+.team .social_icons .fa-google-plus:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition-duration: 2s;
+  transition-property: all;
+  transition-timing-function: ease;
+  opacity: 1;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+/* line 1249, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .social_icons .fa-facebook {
+  background: #0182c4;
+}
+
+/* line 1253, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .social_icons .fa-twitter {
+  background: #20B8FF;
+}
+
+/* line 1257, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .social_icons .fa-google-plus {
+  background: #D34836;
+}
+
+/* line 1262, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .first-one-arrow {
+  float: left;
+  margin-right: 30px;
+  width: 2%;
+}
+
+/* line 1268, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .first-arrow {
+  float: left;
+  margin-left: 5px;
+  margin-right: 35px;
+  width: 22%;
+}
+
+/* line 1275, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .second-arrow {
+  float: left;
+  margin-left: 5px;
+  width: 21%;
+}
+
+/* line 1281, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .third-arrow {
+  float: left;
+  margin-left: 40px;
+  margin-right: 12px;
+  width: 22%;
+}
+
+/* line 1288, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .fourth-arrow {
+  float: left;
+  margin-left: 25px;
+  width: 20%;
+}
+
+/* line 1294, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .first-one-arrow hr {
+  border-bottom: 1px solid #2D7DA4;
+  border-top: 1px solid #2D7DA4;
+}
+
+/* line 1299, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .first-arrow hr {
+  border-bottom: 1px solid #2D7DA4;
+  border-top: 1px solid #2D7DA4;
+}
+
+/* line 1304, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .second-arrow hr {
+  border-bottom: 1px solid #6aa42f;
+  border-top: 1px solid #6aa42f;
+}
+
+/* line 1309, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .third-arrow hr {
+  border-bottom: 1px solid #FFBD20;
+  border-top: 1px solid #FFBD20;
+}
+
+/* line 1315, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .fourth-arrow hr {
+  border-bottom: 1px solid #db3615;
+  border-top: 1px solid #db3615;
+}
+
+/* line 1320, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  position: relative;
+}
+
+/* line 1326, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar i {
+  border-radius: 50%;
+  color: #FFFFFF;
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  margin-top: -32px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  width: 24px;
+  position: absolute;
+}
+
+/* line 1340, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .first-arrow .fa-angle-up {
+  background: #2D7DA4;
+  margin-left: -33px;
+}
+
+/* line 1345, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .second-arrow .fa-angle-down {
+  background: #6AA42F;
+  margin-left: -33px;
+}
+
+/* line 1350, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .third-arrow .fa-angle-up {
+  background: #FFBD20;
+  margin-left: -32px;
+}
+
+/* line 1355, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team-bar .fourth-arrow .fa-angle-down {
+  background: #db3615;
+  margin-left: -32px;
+}
+
+/* line 1360, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .single-profile-top:before,
+.team .single-profile-top:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* line 1369, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .single-profile-top:before {
+  left: 26px;
+  bottom: -20px;
+  border-width: 10px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 1;
+}
+
+/* line 1378, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .single-profile-top:after {
+  left: 25px;
+  bottom: -22px;
+  border-style: solid;
+  border-width: 11px;
+  border-color: #ddd transparent transparent transparent;
+  z-index: 0;
+}
+
+/* line 1387, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .single-profile-bottom:before,
+.team .single-profile-bottom:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* line 1396, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .single-profile-bottom:before {
+  left: 30px;
+  top: -20px;
+  border-width: 10px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 1;
+}
+
+/* line 1404, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.team .single-profile-bottom:after {
+  left: 29px;
+  top: -22px;
+  border-style: solid;
+  border-width: 11px;
+  border-color: transparent transparent #DDD transparent;
+  z-index: 0;
+}
+
+/***********************
+****Service page css****
+***********************/
+/* line 1417, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.services {
+  padding: 0;
+}
+
+/* line 1421, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.get-started {
+  background: none repeat scroll 0 0 #F3F3F3;
+  border-radius: 3px;
+  padding-bottom: 30px;
+  position: relative;
+  margin-bottom: 18px;
+  margin-top: 60px;
+}
+
+/* line 1430, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.get-started h2 {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 1435, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.request {
+  bottom: -15px;
+  left: 50%;
+  position: absolute;
+  margin-left: -110px;
+}
+
+/* line 1442, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.request h4 {
+  position: absolute;
+  width: 220px;
+  position: relative;
+}
+
+/* line 1448, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.request h4 a {
+  background: #c52d2f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+/* line 1457, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.request h4:after {
+  border-color: #c52d2f transparent transparent;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -18px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 13px;
+  z-index: -99999;
+}
+
+/* line 1469, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.request h4:before {
+  border-color: #c52d2f transparent transparent;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -18px;
+  content: "";
+  height: 0;
+  left: 13px;
+  position: absolute;
+  z-index: -99999;
+}
+
+/* line 1481, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.clients-area {
+  padding: 60px;
+}
+
+/* line 1485, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.clients-comments {
+  background-image: url("../images/image_bg.png");
+  background-position: center 118px;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+/* line 1492, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.clients-comments img {
+  background: #DDDDDD;
+  border: 1px solid #DDDDDD;
+  height: 182px;
+  padding: 3px;
+  width: 182px;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+/* line 1504, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.clients-comments h3 {
+  margin-top: 55px;
+  font-weight: 300;
+  padding: 0 40px;
+}
+
+/* line 1510, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.clients-comments h4 {
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+/* line 1516, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.clients-comments h4 span {
+  font-weight: 700;
+  font-style: oblique;
+}
+
+/* line 1521, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.footer {
+  background: none repeat scroll 0 0 #2E2E2E;
+  border-top: 5px solid #C52D2F;
+  height: 84px;
+  margin-top: 110px;
+}
+
+/* line 1528, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.footer_left {
+  padding: 10px;
+}
+
+/* line 1532, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.text-left {
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+/*************************
+********* Portfolio CSS ******
+**************************/
+/* line 1542, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#portfolio_page {
+  margin-top: 115px;
+  padding-bottom: 0;
+}
+
+/* line 1547, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.portfolio-items,
+.portfolio-filter {
+  list-style: none outside none;
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+
+/* line 1554, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.portfolio-filter > li {
+  display: inline-block;
+}
+
+/* line 1558, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.portfolio-filter > li a {
+  background: none repeat scroll 0 0 #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 20px;
+  text-transform: uppercase;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  border-radius: 3px;
+}
+
+/* line 1573, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.portfolio-filter > li a:hover,
+.portfolio-filter > li a.active {
+  color: #fff;
+  background: #c52d2f;
+  border: 1px solid #c52d2f;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* line 1582, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.portfolio-items > li {
+  float: left;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1590, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.portfolio-item {
+  margin: 0;
+  padding: 0;
+}
+
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+/* line 1597, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope-item {
+  z-index: 2;
+}
+
+/* line 1601, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+/* line 1607, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 1616, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+/* line 1624, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+/* line 1633, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+/* line 1645, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/**************************
+********* Pricing Table CSS *
+**************************/
+/* line 1658, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing_heading {
+  margin-top: 120px;
+}
+
+/* line 1662, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing_heading h2,
+.pricing_heading p {
+  color: #4e4e4e;
+}
+
+/* line 1667, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area h1 {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* line 1673, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* line 1678, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area h3,
+.pricing-area span {
+  color: #fff;
+}
+
+/* line 1683, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.plan {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+/* line 1688, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area ul {
+  background: #FAFAFA;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1694, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area ul li {
+  list-style: none;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 1701, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area ul li:nth-child(even) {
+  background: #f5f5f5;
+}
+
+/* line 1705, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .price-three img,
+.pricing-area .price-six img {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+/* line 1712, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-one,
+.pricing-area .heading-two,
+.pricing-area .heading-three {
+  padding: 17px 0;
+  border-radius: 2px 2px 0 0;
+}
+
+/* line 1719, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-one,
+.pricing-area .heading-two,
+.pricing-area .heading-three,
+.pricing-area .heading-four,
+.pricing-area .heading-five,
+.pricing-area .heading-six,
+.pricing-area .heading-seven {
+  margin-left: -10px;
+}
+
+/* line 1730, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-one,
+.pricing-area .price-one .plan-action .btn-primary {
+  background: #e24f43;
+}
+
+/* line 1735, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-two,
+.pricing-area .price-two .plan-action .btn-primary {
+  background: #27AE60;
+}
+
+/* line 1740, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-three,
+.pricing-area .price-three .plan-action .btn-primary {
+  background: #f39c12;
+}
+
+/* line 1745, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-four,
+.pricing-area .price-four .plan-action .btn-primary {
+  background: #5c5c5c;
+}
+
+/* line 1750, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-five,
+.pricing-area .price-five .plan-action .btn-primary {
+  background: #5c5c5c;
+}
+
+/* line 1755, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-six,
+.pricing-area .price-six .plan-action .btn-primary {
+  background: #e24f43;
+}
+
+/* line 1761, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-seven,
+.pricing-area .price-seven .plan-action .btn-primary {
+  background: #5c5c5c;
+}
+
+/* line 1766, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .bg {
+  background: #fafafa;
+}
+
+/* line 1770, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-one h3:before {
+  border-color: #bf4539 transparent transparent;
+}
+
+/* line 1774, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-two h3:before {
+  border-color: #1f8c4d transparent transparent;
+}
+
+/* line 1778, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-three h3:before {
+  border-color: #d4880f transparent transparent;
+}
+
+/* line 1782, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-four h3:before {
+  border-color: #424242 transparent transparent;
+}
+
+/* line 1786, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-five h3:before {
+  border-color: #424242 transparent transparent;
+}
+
+/* line 1790, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-six h3:before {
+  border-color: #bf4539 transparent transparent;
+}
+
+/* line 1794, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .heading-seven h3:before {
+  border-color: #424242 transparent transparent;
+}
+
+/* line 1798, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area h3:before {
+  border-color: #D4880F transparent transparent;
+  border-radius: 5px 0 0 0px;
+  border-style: solid;
+  border-width: 12px;
+  content: "";
+  height: 0;
+  left: 4px;
+  position: absolute;
+  top: 78px;
+  width: 0;
+  z-index: -999;
+}
+
+/* line 1812, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.small-pricing h3:after {
+  height: 94px;
+}
+
+/* line 1816, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.small-pricing h3:before {
+  top: 74px;
+}
+
+/* line 1820, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.plan-action {
+  height: 40px;
+}
+
+/* line 1824, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .plan-action .btn-primary {
+  position: relative;
+  padding: 5px 20px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+/* line 1832, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .plan-action .btn-primary:before {
+  border-color: #E24F43 transparent transparent;
+  border-radius: 5px 0 0 0;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -12px;
+  content: "";
+  height: 0;
+  left: -9px;
+  position: absolute;
+  width: 0;
+  z-index: -1;
+}
+
+/* line 1846, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .plan-action .btn-primary:after {
+  border-color: #E24F43 transparent transparent;
+  border-radius: 5px 0 0 0;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -12px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -9px;
+  width: 0;
+  z-index: -1;
+}
+
+/* line 1860, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .price-two .plan-action .btn-primary:before,
+.pricing-area .price-two .plan-action .btn-primary:after {
+  border-color: #1f8c4d transparent transparent;
+}
+
+/* line 1865, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .price-three .plan-action .btn-primary:before,
+.pricing-area .price-three .plan-action .btn-primary:after {
+  border-color: #d4880f transparent transparent;
+}
+
+/* line 1870, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .price-four .plan-action .btn-primary:before,
+.pricing-area .price-four .plan-action .btn-primary:after,
+.pricing-area .price-five .plan-action .btn-primary:before,
+.pricing-area .price-five .plan-action .btn-primary:after,
+.pricing-area .price-seven .plan-action .btn-primary:before,
+.pricing-area .price-seven .plan-action .btn-primary:after {
+  border-color: #424242 transparent transparent;
+  right: -9px;
+}
+
+/* line 1880, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.pricing-area .price-six .plan-action .btn-primary:before,
+.pricing-area .price-six .plan-action .btn-primary:after {
+  border-color: #bf4539 transparent transparent;
+  right: -9px;
+}
+
+/*************************
+********* Contact Us CSS ******
+**************************/
+/* line 1891, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.gmap-area {
+  background-image: url("../images/map.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+}
+
+/* line 1899, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.gmap-area .gmap iframe {
+  border-radius: 50%;
+  height: 280px;
+  width: 300px;
+}
+
+/* line 1905, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.gmap {
+  border: 10px solid #f6f5f0;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 0px 3px 3px #e7e4dc;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 1916, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.gmap-area .map-content ul {
+  list-style: none;
+}
+
+/* line 1920, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.gmap-area .map-content address h5 {
+  font-weight: 700;
+  /* font-size: 16px; */
+}
+
+/* line 1925, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#contact-page {
+  padding-top: 0;
+}
+
+/* line 1929, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#contact-page .contact-form
+.form-group label {
+  color: #4E4E4E;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 1936, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.form-group .form-control {
+  padding: 7px 12px;
+  border-color: #f2f2f2;
+  box-shadow: none;
+}
+
+/* line 1942, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+textarea#message {
+  resize: none;
+  padding: 10px;
+}
+
+/* line 1947, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#contact-page .contact-wrap {
+  margin-top: 20px;
+}
+
+/*********************
+****blog page css*****
+**********************/
+/* line 1955, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.widget {
+  margin-bottom: 60px;
+  padding-left: 0;
+}
+
+/* line 1960, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.single_comments {
+  margin-bottom: 20px;
+}
+
+/* line 1964, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.single_comments img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* line 1970, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.single_comments p {
+  margin-bottom: 0;
+}
+
+/* line 1974, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.widget .entry-meta span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 1979, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.widget h3 {
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* line 1985, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_category {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1991, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_category li {
+  float: none;
+  margin-bottom: 20px;
+}
+
+/* line 1996, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_category li a {
+  background: #f5f5f5;
+  border-radius: 4px;
+  color: #888;
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+/* line 2004, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_category li a:hover {
+  background: #c52d2f;
+  color: #fff;
+}
+
+/* line 2009, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.badge:before {
+  border-color: transparent transparent transparent #c52d2f;
+  border-style: solid;
+  border-width: 10px;
+  bottom: -8px;
+  content: "";
+  height: 0;
+  left: 5px;
+  position: absolute;
+  z-index: -99999;
+}
+
+/* line 2021, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.badge {
+  background-color: #c52d2f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  position: relative;
+  left: 60px;
+  top: -18px;
+  font-weight: normal;
+}
+
+/* line 2032, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_archieve {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2038, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_archieve li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+/* line 2043, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog_archieve li:first-child {
+  padding-top: 0;
+}
+
+/* line 2047, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 2053, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.gallery li {
+  display: block;
+  width: 60px;
+  padding: 0;
+  margin: 0 4px 4px 0;
+  float: left;
+}
+
+/* line 2061, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.faq {
+  list-style: none;
+  margin: 0;
+}
+
+/* line 2066, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.faq li {
+  margin-top: 30px;
+}
+
+/* line 2070, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.faq li:first-child {
+  margin-top: 0;
+}
+
+/* line 2074, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.faq li span.number {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #34495e;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* line 2086, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.faq li > div {
+  margin-left: 70px;
+}
+
+/* line 2090, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.faq li > div h3 {
+  margin-top: 0;
+}
+
+/* line 2095, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 2103, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 2113, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog-item {
+  border-radius: 0;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+/* line 2119, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .img-blog {
+  border-radius: 5px;
+  margin-bottom: 45px;
+}
+
+/* line 2124, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .blog-content {
+  padding-bottom: 25px;
+}
+
+/* line 2128, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .blog-content h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+/* line 2133, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.readmore {
+  margin-top: 0;
+}
+
+/* line 2137, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .blog-content h3 {
+  color: #858586;
+  margin-bottom: 40px;
+  /* font-weight: 300 */
+}
+
+/* line 2142, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .blog-content h4 {
+  font-size: 14px;
+}
+
+/* line 2150, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .entry-meta {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* line 2155, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .entry-meta > span {
+  background: #f5f5f5;
+  border-top: 1px solid #fff;
+  display: block;
+  font-size: 12px;
+  overflow: hidden;
+  padding: 5px;
+  text-align: left;
+}
+
+/* line 2165, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#publish_date {
+  background: #c52d2f;
+  border-bottom: 5px solid #4e4e4e;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* line 2173, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .entry-meta > span {
+  color: #ccc;
+}
+
+/* line 2177, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.blog .blog-item .entry-meta > span a {
+  font-size: 12px;
+  margin-left: 3px;
+  font-weight: 300;
+  color: #888;
+}
+
+/* line 2184, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.pagination > li > a {
+  border: 1px solid #F1F1F1;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 14px;
+}
+
+/* line 2192, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.pagination > li > a i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 2197, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.pagination > li.active > a,
+ul.pagination > li:hover > a {
+  background-color: #c52d2f !important;
+  border-color: #c52d2f !important;
+  color: #fff;
+}
+
+/* line 2204, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.search_box {
+  background-image: url("../images/search_icon.png");
+  background-position: 314px 15px;
+  background-repeat: no-repeat;
+  border-color: #DEDEDE;
+  height: 48px;
+  outline: medium none;
+  box-shadow: none;
+}
+
+/* line 2214, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.form-control:focus {
+  box-shadow: none;
+  outline: 0 none;
+}
+
+/* line 2220, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+ul.tag-cloud,
+ul.sidebar-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 2227, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tag-cloud li {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+/* line 2232, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tag-cloud li a {
+  background: #f5f5f5;
+  color: #888;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 15px;
+}
+
+/* line 2240, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.tag-cloud li a:hover {
+  background: #c52d2f;
+  color: #fff;
+}
+
+/* line 2245, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.sidebar-gallery li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+
+/* line 2250, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.sidebar-gallery li a {
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/**********************
+**blog single page css*
+**********************/
+/* line 2260, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.reply_section {
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+/* line 2265, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply {
+  margin-left: 10px;
+  margin-top: 45px;
+}
+
+/* line 2270, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply img {
+  width: 85px;
+  height: 85px;
+  border: 5px solid #D5D8DD;
+}
+
+/* line 2276, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+/* line 2283, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li {
+  float: left;
+}
+
+/* line 2287, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li a {
+  display: block;
+}
+
+/* line 2291, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li a i {
+  border: 1px solid #DDDDDD;
+  border-radius: 39px;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 30px;
+  margin-right: 3px;
+  padding-top: 7px;
+  text-align: center;
+  width: 30px;
+}
+
+/* line 2303, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li a i.fa-facebook {
+  background: #0182C4;
+}
+
+/* line 2307, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li a i.fa-twitter {
+  background: none repeat scroll 0 0 #3FC1FE;
+}
+
+/* line 2311, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li a i.fa-google-plus {
+  background: none repeat scroll 0 0 #D34836;
+}
+
+/* line 2315, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply ul li a i:hover {
+  opacity: .5;
+}
+
+/* line 2319, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_content {
+  margin: 30px;
+}
+
+/* line 2323, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_content h1 a:hover {
+  color: #FFC800;
+}
+
+/* line 2327, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_content h4 {
+  margin-bottom: 50px;
+}
+
+/* line 2331, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.reply_section .media-body {
+  display: inherit;
+}
+
+/* line 2335, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.comment_section .media-body {
+  display: inherit;
+}
+
+/* line 2339, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#comments_title {
+  color: #4e4e4e;
+  font-weight: 700px;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+/* line 2346, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.comment_section {
+  margin-top: 30px;
+  position: relative;
+}
+
+/* line 2351, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_comments img {
+  width: 85px;
+  height: 85px;
+  margin-top: 35px;
+}
+
+/* line 2357, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+/* line 2363, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments:before {
+  border-color: transparent #F0F0F0 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  content: " ";
+  height: 0;
+  left: 75px;
+  position: absolute;
+  top: 20px;
+}
+
+/* line 2374, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments h3,
+.post_reply_content h3 {
+  margin-top: 0;
+}
+
+/* line 2379, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments h1 a:hover {
+  color: #c52d2f;
+}
+
+/* line 2383, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments h4 {
+  color: #c4c4c5;
+  font-weight: 400;
+}
+
+/* line 2388, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments p {
+  padding-bottom: 30px;
+}
+
+/* line 2392, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments a {
+  bottom: 15px;
+  position: absolute;
+  right: 30px;
+  background: #c52d2f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+/* line 2402, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.post_reply_comments a:before {
+  border-color: #c52d2f transparent transparent;
+  border-style: solid;
+  border-width: 16px;
+  bottom: -11px;
+  content: "";
+  height: 0;
+  left: -12px;
+  position: absolute;
+  z-index: 99999;
+}
+
+/* line 2418, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.message_heading {
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+/******************
+ 404 page css
+ ******************/
+/* line 2428, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#error .btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success:hover {
+  background-color: #EBEBEB;
+  border-color: #EBEBEB;
+  color: #4E4E4E;
+}
+
+/* line 2438, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#error h1 {
+  color: #4e4e4e;
+  text-transform: uppercase;
+}
+
+/******************
+shortcodes page css
+******************/
+/* line 2448, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.shortcode-item {
+  padding-bottom: 0;
+}
+
+/* line 2452, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.shortcode-item h2 {
+  color: #4E4E4E;
+  font-size: 24px;
+  margin-bottom: 22px;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+/***********************
+********* Footer ******
+************************/
+/* line 2465, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom {
+  background: #f5f5f5;
+  border-bottom: 5px solid #c52d2f;
+  font-size: 14px;
+}
+
+/* line 2471, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #000;
+}
+
+/* line 2479, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 2485, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom ul li {
+  display: block;
+  padding: 5px 0;
+}
+
+/* line 2490, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom ul li a {
+  color: #808080;
+}
+
+/* line 2494, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom ul li a:hover {
+  color: #c52d2f;
+}
+
+/* line 2498, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#bottom .widget {
+  margin-bottom: 0;
+}
+
+/* line 2502, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background: #2e2e2e;
+}
+
+/* line 2509, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#footer a {
+  color: #fff;
+}
+
+/* line 2513, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#footer a:hover {
+  color: #c52d2f;
+}
+
+/* line 2517, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 2523, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+#footer ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
 /* line 1, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_prettyPhoto.scss */
 div.pp_default .pp_top, div.pp_default .pp_top .pp_middle, div.pp_default .pp_top .pp_left, div.pp_default .pp_top .pp_right, div.pp_default .pp_bottom, div.pp_default .pp_bottom .pp_left, div.pp_default .pp_bottom .pp_middle, div.pp_default .pp_bottom .pp_right {
   height: 13px;
@@ -33991,3 +34753,351 @@ div.dark_rounded #pp_full_res .pp_inline, div.dark_square #pp_full_res .pp_inlin
 .pp_fade, .pp_gallery li.default a img {
   display: none;
 }
+
+/* lg */
+@media (min-width: 1200px) {
+  /* Make Navigation Toggle on Desktop Hover */
+  /* line 4, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+
+  /* line 10, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Make Navigation Toggle on Desktop Hover */
+  /* line 23, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+
+  /* line 29, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .navbar-nav > li {
+    margin-left: 10px;
+  }
+
+  /* line 33, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 38, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
+  }
+
+  /* line 42, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .recent-work-wrap .overlay {
+    padding: 15px;
+  }
+
+  /* line 46, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .services-wrap {
+    padding: 40px 10px 40px 30px;
+  }
+
+  /* line 50, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .feature-wrap h2,
+  .single-services h2 {
+    font-size: 18px;
+  }
+
+  /* line 55, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .feature-wrap h3,
+  .single-services h3 {
+    font-size: 14px;
+  }
+
+  /* line 60, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .tab-wrap .media .parrent.pull-left {
+    clear: both;
+    width: 100%;
+  }
+
+  /* line 65, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .tab-wrap .media .parrent.media-body {
+    clear: both;
+  }
+
+  /* line 69, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  /* line 74, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .recent-work-wrap .overlay .preview {
+    line-height: inherit;
+  }
+
+  /* line 78, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .first-arrow {
+    width: 21%;
+  }
+
+  /* line 82, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .second-arrow {
+    width: 20%;
+  }
+
+  /* line 86, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .third-arrow {
+    width: 21%;
+  }
+
+  /* line 90, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .fourth-arrow {
+    width: 20%;
+  }
+
+  /* line 94, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  ul.social_icons li {
+    margin-right: 0;
+  }
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Make Navigation Toggle on Desktop Hover */
+  /* line 104, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+
+  /* line 110, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 115, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .navbar-nav > li {
+    margin-left: 0;
+  }
+
+  /* line 119, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  /* line 123, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #main-slider .carousel h2 {
+    font-size: 20px;
+  }
+
+  /* line 127, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .tab-wrap .media .parrent.pull-left,
+  .media.accordion-inner .pull-left {
+    clear: both;
+    width: 100%;
+  }
+
+  /* line 133, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .tab-wrap .media .parrent.media-body,
+  .media.accordion-inner .media-body {
+    clear: both;
+  }
+
+  /* line 138, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .services-wrap {
+    padding: 40px 0 40px 30px;
+  }
+
+  /* line 142, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .recent-work-wrap .overlay {
+    padding: 15px;
+  }
+
+  /* line 146, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
+  }
+
+  /* line 150, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .sinlge-skill {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* line 155, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .sinlge-skill p em {
+    font-size: 25px;
+  }
+
+  /* line 159, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .sinlge-skill p {
+    font-size: 16px;
+  }
+
+  /* line 163, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .first-one-arrow {
+    width: 2%;
+  }
+
+  /* line 167, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .first-arrow {
+    width: 18%;
+  }
+
+  /* line 171, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .second-arrow {
+    width: 24%;
+  }
+
+  /* line 175, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .third-arrow {
+    width: 15%;
+  }
+
+  /* line 179, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team-bar .fourth-arrow {
+    width: 20%;
+  }
+
+  /* line 183, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .blog .blog-item .entry-meta > span a {
+    font-size: 10px;
+  }
+}
+/* xs */
+@media (max-width: 767px) {
+  /* line 190, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .container > .navbar-header, .container > .navbar-collapse {
+    margin-left: 0;
+  }
+
+  /* line 194, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .top-number {
+    font-size: 14px;
+  }
+
+  /* line 198, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  input.search-form:hover {
+    width: 120px;
+  }
+
+  /* line 202, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .navbar-nav > li {
+    padding-bottom: 0;
+  }
+
+  /* line 206, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  /* line 210, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #main-slider .carousel h2 {
+    font-size: 16px;
+  }
+
+  /* line 214, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .feature-wrap h2,
+  .single-services h2 {
+    font-size: 18px;
+  }
+
+  /* line 219, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .feature-wrap h3,
+  .single-services h3 {
+    font-size: 14px;
+  }
+
+  /* line 225, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .media.accordion-inner .pull-left,
+  .media.accordion-inner .media-body {
+    clear: both;
+  }
+
+  /* line 230, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .accordion-inner h4 {
+    margin-top: 10px;
+  }
+
+  /* line 234, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .tab-wrap .media .pull-left {
+    clear: both;
+    width: 100%;
+  }
+
+  /* line 239, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .tab-wrap .media .media-body {
+    clear: both;
+  }
+
+  /* line 243, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .nav-tabs > li.active > a:after {
+    display: none;
+  }
+
+  /* line 247, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #footer .col-sm-6 {
+    text-align: center;
+  }
+
+  /* line 251, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  #footer .pull-right {
+    float: none !important;
+  }
+
+  /* line 255, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .sinlge-skill {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* line 261, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .team .single-profile-top,
+  .team .single-profile-bottom {
+    margin-bottom: 30px;
+  }
+
+  /* line 266, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .clients-area {
+    padding: 60px 0;
+  }
+
+  /* line 270, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .clients-area h1 {
+    font-size: 25px;
+  }
+
+  /* line 274, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .portfolio-item,
+  #recent-works .col-xs-12.col-sm-4.col-md-3 {
+    padding: 0 15px;
+  }
+
+  /* line 279, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  ul.social_icons li {
+    margin-right: 0;
+  }
+
+  /* line 283, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .blog .blog-item .entry-meta {
+    margin-bottom: 20px;
+  }
+
+  /* line 287, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .blog .blog-item .blog-content h3 {
+    margin-bottom: 20px;
+  }
+
+  /* line 291, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss */
+  .post_reply_comments {
+    padding-left: 20px;
+  }
+}
+/* XS Portrait */
