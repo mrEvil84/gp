@@ -2,10 +2,353 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98289b1-e2d6-4ba2-aaab-990f4f4792e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/404.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/404.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/accordion1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/accordion1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ads/ad1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ads/ad1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ads/ad2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ads/ad2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ads/ad3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ads/ad3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ads/ad4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ads/ad4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ico/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ico/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ico/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ico/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ico/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ico/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/avatar1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/avatar1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider/bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider/bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/bg_services.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/bg_services.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/bg_services.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/bg_services.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/blog1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/blog1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/blog2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/blog2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/boy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/boy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/boy2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/boy2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/boy3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/boy3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/client1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/service/client1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/client1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/service/client1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/client2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/service/client2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/client2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/service/client2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/client3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/service/client3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/client3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/service/client3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/comments_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/comments_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_square/contentPattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_square/contentPattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/default_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/default_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_rounded/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_square/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_rounded/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_square/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_rounded/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_square/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_rounded/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_square/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/gallery/gallery1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/gallery/gallery1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/gallery1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/gallery1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/gallery/gallery2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/gallery/gallery2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/gallery2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/gallery2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/gallery/gallery3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/gallery/gallery3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/gallery3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/gallery3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/gallery/gallery4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/gallery/gallery4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/gallery4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/gallery4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/gallery/gallery5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/gallery/gallery5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/gallery5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/gallery5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/gallery/gallery6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/gallery/gallery6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/gallery6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/gallery6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/image_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/service/image_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/image_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/service/image_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider/img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider/img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider/img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider/img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider/img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider/img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/full/item9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/portfolio/recent/item9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/full/item9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/portfolio/recent/item9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/service/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/service/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/man1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/man1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/man2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/man2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/man3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/man3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/man4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/man4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/map.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/map.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/partners/partner1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/partners/partner1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/partners/partner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/partners/partner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/partners/partner3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/partners/partner3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/partners/partner4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/partners/partner4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/partners/partner5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/partners/partner5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/partners/partner_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/partners/partner_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ribon_one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ribon_one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/ribon_two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/ribon_two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/search_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/search_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/services1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/services1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/services2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/services2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/services3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/services3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/services4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/services4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/services5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/services5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/services6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/services6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/services/slider-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/services/slider-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/slider_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/slider_one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/dark_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/facebook/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/light_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/dark_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/facebook/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/light_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/sprite_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/sprite_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/sprite_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/sprite_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/sprite_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/sprite_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/prettyPhoto/default/sprite_y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/prettyPhoto/default/sprite_y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/tab1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/tab1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/tab2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/tab2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/team-member.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/team-member.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/testimonials1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/testimonials1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/thumb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/thumb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/thumb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/thumb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/images/blog/thumb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/blog/thumb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_animate.min.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_font-awesome.min.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_prettyPhoto.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/bck_index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/jquery.isotope.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/jquery.prettyPhoto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/wow.min.js" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_content.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_location-view.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_login.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_navbar_effect.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_notification_center.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_popupDialog.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_preloading.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_tree.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app\_well.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\vendor\_handsontable.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\css\body.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\css\configurator.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\css\demo.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\css\exception.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\css\install.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\css\structure.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\blue-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\blue_picto_less.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\blue_picto_more.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\field-background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\grey_magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\logo_symfony.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\search.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\welcome-configure.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\welcome-demo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\welcome-quick-tour.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/check.php" afterPath="$PROJECT_DIR$/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/styles.css" afterPath="$PROJECT_DIR$/web/assets/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,38 +370,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.230769">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state vertical-scroll-proportion="-27.26923">
+              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <file leaf-file-name="respond.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/respond.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -67,62 +390,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <file leaf-file-name="bck_index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/bck_index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_prod.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24473976">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="0.38680318">
+              <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,8 +429,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/styles.scss" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_font-awesome.min.scss" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_animate.min.scss" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_prettyPhoto.scss" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -227,77 +525,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,6 +588,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gosia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GosiaPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gosia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GosiaPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,10 +747,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\DevWorkspace\projects\gp\gp" />
+      <recent name="C:\DevWorkspace\projects\gp\gp\web\public\images" />
       <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts" />
-      <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\scripts" />
-      <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles" />
+      <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\scripts\vendor" />
+      <recent name="C:\DevWorkspace\projects\gp\gp\app\Resources\views\default" />
+      <recent name="C:\DevWorkspace\projects\gp\gp\web\assets\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -512,9 +808,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3849" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,6 +838,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/bck_index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -598,11 +976,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/bck_index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -611,27 +991,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/utility/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -704,22 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.230769">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -730,9 +1073,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24473976">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/_confirmation_dialog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/utility/_placeholder.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/utility/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/utility/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/base/_corporate_color_scheme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9613197">
+          <caret line="2532" column="0" selection-start-line="2532" selection-start-column="0" selection-end-line="2532" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9613197">
+          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_font-awesome.min.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9897611">
+          <caret line="1338" column="0" selection-start-line="1338" selection-start-column="0" selection-end-line="1338" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_animate.min.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22652583">
+          <caret line="11" column="54696" selection-start-line="11" selection-start-column="54696" selection-end-line="11" selection-end-column="54696" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_prettyPhoto.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03868032">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/respond.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.26923">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/bck_index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/scripts/vendor/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38680318">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
