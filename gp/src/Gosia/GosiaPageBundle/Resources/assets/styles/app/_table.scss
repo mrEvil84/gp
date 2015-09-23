@@ -1,0 +1,108 @@
+.table_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+tr {
+  &:nth-child(odd) {
+    background: lighten($aud_grey, 40);
+  }
+  &:hover {
+    background: lighten($aud_grey, 20);
+  }
+
+}
+
+thead {
+  td {
+    background: $aud_blue;
+    font-weight: bold;
+  }
+}
+
+.default-table {
+  color: black;
+  border: 1px solid $aud_grey;
+  word-break: normal;
+  margin-bottom: 0;
+  width: 100%;
+  td {
+    position: relative;
+    vertical-align: top;
+    padding: 4px 12px;
+    border-right: 1px solid $aud_grey;
+    border-bottom: 1px solid $aud_grey;
+    &:last-child {
+      border-right: none;
+    }
+    &.table-cell-slim {
+      width: 1%;
+    }
+    a {
+      text-decoration: underline;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+    &.word-break {
+      word-break: break-all;
+    }
+    &.no-break {
+      white-space: nowrap;
+    }
+    &.truncate {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  tr {
+    i.minus-sign {
+      display: none;
+      position: absolute;
+      color: $c_error;
+      right: 5px;
+      top: 6px;
+
+    }
+    &:hover {
+      i.minus-sign {
+        display: block;
+      }
+    }
+  }
+
+  .table-cell-slim {
+    width: 12%;
+  }
+}
+
+.handsontable {
+  .active_col,
+  .active_row {
+    background: #eee;
+  }
+}
+
+.existing_usages_container,
+.unassigned_campaigns_container {
+  td {
+    input {
+      margin: 0;
+    }
+  }
+}
+
+.ht-delete-button {
+  background: #ddd;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  line-height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  cursor: pointer;
+  &:hover {
+    background: #c00;
+  }
+}

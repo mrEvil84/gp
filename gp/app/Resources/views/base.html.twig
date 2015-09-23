@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-       
-        
-        <!-- 
-        <link rel="icon" type="image/x-icon" href="{#{ asset('favicon.ico') }#}" />
-        <link href="{#{ asset('public/css/structure.css', absolute=true) }#}" rel="stylesheet" />
-        <link href="{#{ asset('public/css/body.css', absolute=true) }#}" rel="stylesheet" />        
-         -->
 
+    {#<head>#}
+        {#<meta charset="UTF-8" />#}
+        {#<title>{% block title %}Welcome!{% endblock %}</title>#}
+        {#{% block stylesheets %}{% endblock %}#}
+
+
+        {#<!--#}
+        {#<link rel="icon" type="image/x-icon" href="&#123;&#35;{ asset('favicon.ico') }&#35;&#125;" />#}
+        {#<link href="&#123;&#35;{ asset('public/css/structure.css', absolute=true) }&#35;&#125;" rel="stylesheet" />#}
+        {#<link href="&#123;&#35;{ asset('public/css/body.css', absolute=true) }&#35;&#125;" rel="stylesheet" />#}
+         {#-->#}
+
+    {#</head>#}
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            {% block title %}
+                GP
+            {% endblock %}
+        </title>
+
+        <meta name="robots" content="noindex,nofollow">
+        <link href="{{ asset('/assets/css/styles.css') }}" rel="stylesheet" type="text/css"/>
+        {% block stylesheets %}
+
+        {% endblock %}
+        {% block favicon %}
+            <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+        {% endblock %}
+        {% block javascripts_links %}
+            <script src="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.15.1/handsontable.full.min.js"></script>
+            <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script src="{{ asset('/assets/js/scripts.js') }}"></script>
+        {% endblock %}
     </head>
+
+
+
     <body>
         {% block body %}
         {% endblock %}

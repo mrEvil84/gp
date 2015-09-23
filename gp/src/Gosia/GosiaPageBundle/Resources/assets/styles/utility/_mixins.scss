@@ -1,0 +1,27 @@
+@mixin respond-to($media) {
+  @if $media == xs-devices {
+    @media screen and (max-width: $screen-xs) {
+      @content;
+    }
+  } @else if $media == sm-devices {
+    @media screen and (min-width: $screen-sm) {
+      @content;
+    }
+  } @else if $media == md-devices {
+    @media screen and (min-width: $screen-md) {
+      @content;
+    }
+  } @else if $media == lg-devices {
+    @media screen and (min-width: $screen-lg) {
+      @content;
+    }
+  }
+}
+
+@mixin btn-main {
+  padding: 6px 12px;
+  display: inline-block;
+  min-width: 100px;
+  text-decoration: none;
+  border-radius: $aud-border-radius;
+}

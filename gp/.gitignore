@@ -9,3 +9,6 @@
 /composer.phar
 /vendor/
 /web/bundles/
+/.sass-cache/*
+node_modules/*
+../logs/*
