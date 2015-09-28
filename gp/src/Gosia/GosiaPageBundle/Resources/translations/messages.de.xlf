@@ -117,7 +117,11 @@
             <trans-unit id="29">
                 <source>issue status</source>
                 <target>Status</target>
-            </trans-unit>			
+            </trans-unit>
+            <trans-unit id="30">
+                <source>leave your message</source>
+                <target>Lassen Sie Ihre Nachricht</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

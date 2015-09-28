@@ -33688,6 +33688,11 @@ shortcodes page css
   margin-left: 15px;
 }
 
+/* line 2528, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
+.front-flag {
+  background-size: 1px 60px;
+}
+
 /* line 1, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_prettyPhoto.scss */
 div.pp_default .pp_top, div.pp_default .pp_top .pp_middle, div.pp_default .pp_top .pp_left, div.pp_default .pp_top .pp_right, div.pp_default .pp_bottom, div.pp_default .pp_bottom .pp_left, div.pp_default .pp_bottom .pp_middle, div.pp_default .pp_bottom .pp_right {
   height: 13px;
