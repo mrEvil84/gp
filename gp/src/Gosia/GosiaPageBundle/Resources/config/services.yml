@@ -9,10 +9,10 @@ services:
         arguments: ["%kernel.default_locale%"]
         tags:
             - { name: kernel.event_subscriber }
-  #kernel.listener.exception_listener:
-  #    class: %kernel.listener.exception_listener.class%
-  #    calls:
-  #        - [setTemplating, ["@templating"]]
-  #        - [setKernel, ["@kernel"]]
-  #    tags:
-  #        - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
+  kernel.listener.exception_listener:
+      class: %kernel.listener.exception_listener.class%
+      calls:
+          - [setTemplating, ["@templating"]]
+          - [setKernel, ["@kernel"]]
+      tags:
+          - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }

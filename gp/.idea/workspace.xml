@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98289b1-e2d6-4ba2-aaab-990f4f4792e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/flags/DE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/images/flags/PL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/old_contact.html.twig" />
-      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\assets\js\html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DevWorkspace\projects\gp\gp\web\assets\js\respond.min.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\.empty" afterPath="$PROJECT_DIR$/web/assets/fonts/.empty" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/web/assets/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/contact.html.twig" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/contact.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/old_exception.html.twig" />
+      <change type="MOVED" beforePath="C:\DevWorkspace\projects\gp\gp\web\public\images\logo.png" afterPath="$PROJECT_DIR$/web/public/images/old_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/images/logo.png" afterPath="$PROJECT_DIR$/web/public/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/exception.html.twig" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/exception.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/languageSelector.html.twig" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/languageSelector.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.pl.xlf" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.pl.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/scripts.js" afterPath="$PROJECT_DIR$/web/assets/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/css/styles.css" afterPath="$PROJECT_DIR$/web/assets/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/portfolio.html.twig" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/portfolio.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../logs/project_access.log" afterPath="$PROJECT_DIR$/../logs/project_access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gp.iws" />
@@ -50,8 +37,8 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="32" column="82" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="82" />
+            <state vertical-scroll-proportion="25.5">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +47,8 @@
       <file leaf-file-name="contact.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/contact.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.538462">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="-22.884615">
+              <caret line="35" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="e#12#36#0#Twig" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
@@ -80,38 +67,79 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="exception.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/exception.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="e#12#36#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.pl.xlf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.pl.xlf">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.344828">
+              <caret line="141" column="50" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="messages.de.xlf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf">
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+            <state vertical-scroll-proportion="-19.344828">
+              <caret line="126" column="41" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.pl.xlf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.pl.xlf">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="old_exception.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/old_exception.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/public/images/logo.png">
+          <provider selected="true" editor-type-id="images">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33254716">
-              <caret line="121" column="51" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss">
+      <file leaf-file-name="portfolio.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/portfolio.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.692308">
-              <caret line="2534" column="0" selection-start-line="2534" selection-start-column="0" selection-end-line="2534" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.69783354">
+              <caret line="117" column="96" selection-start-line="117" selection-start-column="96" selection-end-line="117" selection-end-column="96" />
+              <folding>
+                <element signature="e#12#36#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,11 +164,14 @@
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_font-awesome.min.scss" />
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss" />
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/languageSelector.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf" />
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/old_contact.html.twig" />
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/contact.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.pl.xlf" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/exception.html.twig" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf" />
+        <option value="$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/portfolio.html.twig" />
       </list>
     </option>
   </component>
@@ -465,6 +496,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gosia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GosiaPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -563,11 +624,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\views\Exception" />
+      <recent name="C:\DevWorkspace\projects\gp\gp\web\public\images" />
       <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\views\Default" />
       <recent name="C:\DevWorkspace\projects\gp\gp\web\public\images\flags" />
       <recent name="C:\DevWorkspace\projects\gp\gp\web\assets" />
-      <recent name="C:\DevWorkspace\projects\gp\gp\web\public\images" />
-      <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\DevWorkspace\projects\gp\gp\src\Gosia\GosiaPageBundle\Resources\assets\styles\app" />
@@ -665,48 +726,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/bck_index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="30" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_font-awesome.min.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="563" column="1" selection-start-line="563" selection-start-column="1" selection-end-line="563" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1063,17 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36830103">
@@ -1090,14 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="32" column="82" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/old_contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.923077">
@@ -1106,14 +1106,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/contact.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/public/images/man1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/old_exception.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.538462">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#36#0#Twig" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,9 +1145,51 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33254716">
-          <caret line="121" column="51" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
+        <state vertical-scroll-proportion="-19.344828">
+          <caret line="141" column="50" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Exception/exception.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#12#36#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/translations/messages.de.xlf">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.344828">
+          <caret line="126" column="41" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.884615">
+          <caret line="35" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#12#36#0#Twig" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gosia/GosiaPageBundle/Resources/views/Default/portfolio.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69783354">
+          <caret line="117" column="96" selection-start-line="117" selection-start-column="96" selection-end-line="117" selection-end-column="96" />
+          <folding>
+            <element signature="e#12#36#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

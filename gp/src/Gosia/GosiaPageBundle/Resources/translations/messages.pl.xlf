@@ -122,6 +122,26 @@
                 <source>leave your message</source>
                 <target>Zostaw wiadomosc</target>
             </trans-unit>
+            <trans-unit id="31">
+                <source>about us</source>
+                <target>O nas</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>company info</source>
+                <target>Firma</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>go back to the homepage</source>
+                <target>Powrot do strony glownej</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>404, Page not found</source>
+                <target>404, nie znaleziono strony</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>page not found description</source>
+                <target>Strona nie zostala znaleziona lub wystapil inny blad.</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
