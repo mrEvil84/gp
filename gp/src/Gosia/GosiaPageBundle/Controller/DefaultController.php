@@ -13,6 +13,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Gosia\GosiaPageBundle\Form\IssueType;
 use Gosia\GosiaPageBundle\Entity\Issue;
 use Gosia\GosiaPageBundle\Entity\IssueStatus;
+use Gosia\GosiaPageBundle\Services\IssueService;
+
 
 
 class DefaultController extends Controller
@@ -60,6 +62,12 @@ class DefaultController extends Controller
      */
     public function contactAction(Request $request)
     {
+
+
+		$issueService = $this->container->get('gosiapage.issue_service');
+
+
+
     	
     	$issueEntity = new Issue();
     	$issueForm = $this->createForm(
@@ -161,28 +169,5 @@ class DefaultController extends Controller
     
     	
     }
-    
-    
-    
-    // 1. strona glowna - ok
-    // 2. czym sie zajmuje- portfolio , o-mnie, 
-    // 3. cennik
-    // 4. formularz kontaktowy , (impressum) , mozliwosc przeslania dokumentu, formularz przychodzi na maila z zalacznikiem 
-    /*
-          - imie
-          - nazwisko
-          - telefon
-          - emain
-          - notatka
-          - plik do przeslania
-     */
-    
-    // 5. warunki korzystania
-    // strona niemiecko i polsko jezyczna z przelacznikiem jezykow , flaga
-    // Dalsze funkcjonalnosci 
-    // - logowanie do zaplecza 
-    // - sprawdzanie dokumentow
-    // - pobieranie dokumentow i oznaczanie ktory zostal wyslany i kiedy
-    //  
-    
+
 }

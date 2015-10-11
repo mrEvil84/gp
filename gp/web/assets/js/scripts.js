@@ -1,4 +1,4 @@
-/*! piotr.kowerzanow | http://piotr.kowerzanow.com/ 28-09-2015 */
+/*! piotr.kowerzanow | http://piotr.kowerzanow.com/ 11-10-2015 */
 if (function(a) {
     "use strict";
     function b(b) {
