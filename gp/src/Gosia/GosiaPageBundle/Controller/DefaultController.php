@@ -6,8 +6,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\Config\Definition\Exception\Exception;
+
 use Symfony\Component\Form\FormBuilder;
 use Symfony\Component\Form\FormError;
+
 use Symfony\Component\HttpFoundation\Request;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Gosia\GosiaPageBundle\Form\IssueType;
@@ -55,30 +57,43 @@ class DefaultController extends Controller
     	];
     }
     
-    
     /**
      * @Route("/contact", name="gosia_page_contact")
      * @Template()
      */
     public function contactAction(Request $request)
     {
-
-
 		$issueService = $this->container->get('gosiapage.issue_service');
 
+		$issueEntity = new Issue();
+		$issueForm = $this->createForm(
+			new IssueType(),
+			$issueEntity,
+			array(
+				'action' => $this->generateUrl('gosia_page_contact'),
+				'method' => 'POST',
+			)
+		);
 
 
-    	
-    	$issueEntity = new Issue();
-    	$issueForm = $this->createForm(
-    			new IssueType(),
-    			$issueEntity,
-    			array(
-    					'action' => $this->generateUrl('gosia_page_contact'),
-    					'method' => 'POST',
-    			)
-    	);
-    	
+
+		$issueService->setIssueForm($issueForm);
+		$issueService->setIssueEntity($issueEntity);
+		$processIssueFormResult = $issueService->processIssueForm();
+
+		if($processIssueFormResult === true) {
+			$this->addFlash('notice', $this->get('translator')->trans('Issue was added'));
+			return $this->redirect($this->generateUrl('gosia_page_index'));
+		}
+
+
+        return [
+            'issueForm' => $processIssueFormResult->createView(),
+        ];
+
+		// old approach
+
+
     	$issueForm->handleRequest($request);
     	if($issueForm->isValid()) {
 

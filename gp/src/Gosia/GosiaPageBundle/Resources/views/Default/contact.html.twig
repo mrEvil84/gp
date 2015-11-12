@@ -19,10 +19,12 @@
             <p class="lead">*****</p>
         </div>
 
-        {{ form_start(issueForm) }}
+
+        {{ form_start(issueForm, {'attr':{'class':'contact-form'}}) }}
         <div class="row contact-wrap">
             <div class="status alert alert-success" style="display: none"></div>
-            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+            {{ form_errors(issueForm) }}
+
                 <div class="col-sm-5 col-sm-offset-1">
 
                     <div class="form-group">
@@ -91,17 +93,11 @@
                     <div class="form-group">
                         {#<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>#}
                         {{ form_widget(issueForm.issue_submit_button, {'label':'issue_submit_button'|trans({},'',''), 'attr':{'class':'btn btn-primary btn-lg'}}) }}
-
                     </div>
                 </div>
 
-
-
-
-            </form>
         </div><!--/.row-->
         {{ form_end(issueForm) }}
-
     </div><!--/.container-->
 
 {% endblock %}

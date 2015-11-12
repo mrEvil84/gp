@@ -10,17 +10,18 @@ services:
         arguments: ["%kernel.default_locale%"]
         tags:
             - { name: kernel.event_subscriber }
-  kernel.listener.exception_listener:
-      class: %kernel.listener.exception_listener.class%
-      calls:
-          - [setTemplating, ["@templating"]]
-          - [setKernel, ["@kernel"]]
-      tags:
-          - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
-
   gosiapage.issue_service:
           class: %gosiapage.issue_service_class%
           arguments:
                   entityManager: "@doctrine.orm.entity_manager"
                   container: "@service_container"
                   request: "@request_stack"
+          calls:
+            - [setServiceContainer, ["@service_container"]]
+  #kernel.listener.exception_listener:
+  #    class: %kernel.listener.exception_listener.class%
+  #    calls:
+  #        - [setTemplating, ["@templating"]]
+  #        - [setKernel, ["@kernel"]]
+  #    tags:
+  #        - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
