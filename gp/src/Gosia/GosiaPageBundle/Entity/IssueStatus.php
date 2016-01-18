@@ -10,8 +10,8 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * Issue
  *
- * @ORM\Table()
- * @ORM\Entity
+ * ORM\Table()
+ * ORM\Entity
  */
 class IssueStatus
 {

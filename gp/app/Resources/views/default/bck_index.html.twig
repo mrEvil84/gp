@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+
+    {% block javascripts_links %}
+        {{ parent() }}
+        <!-- <script src="{#{ asset('bundles/campaigntool/js-dev/countrySelector.js') }#}"></script> -->
+    {% endblock %}
+    
+    {% block stylesheets %}
+    
+    {% endblock %}
+
+    {% block body %}
+    <div class="flash-message">
+        {% for flashMessage in app.session.flashbag.get('notice') %}
+            <div class="flash-notice">
+                {{ flashMessage }}
+            </div>
+        {% endfor %}
+    </div>
+	
+        <div class="content_wrapper">
+            <div class="menu_wrapper">
+                {% block menu %}
+                    <ul class="navbar">
+                        <!-- 
+                        <li class="logo-xs navtoogle">
+                        -->
+                            <!-- <img width="30" src="{#{ asset('bundles/gosiapage/images/logo.png') }#}" class="logo" alt="Logo Gosia Page"> -->
+                        <!--     
+                        </li>
+                         -->
+                        <li {% if app.request.attributes.get('_route') starts with 'gosia_page_index' %}class="active"{% endif %}>
+                            <a  href="{{ path('gosia_page_index') }}">
+                                {% trans %}home{% endtrans %}
+                            </a>
+                        </li>
+                        <li {% if app.request.attributes.get('_route') starts with 'gosia_page_portfolio' %}class="active"{% endif %}>
+                            <a  href="{{ path('gosia_page_portfolio') }}">
+                                {% trans %}portfolio{% endtrans %}
+                            </a>
+                        </li>
+                        <li {% if app.request.attributes.get('_route') starts with 'gosia_page_prices' %}class="active"{% endif %}>
+                            <a  href="{{ path('gosia_page_prices') }}">
+                                {% trans %}prices{% endtrans %}
+                            </a>
+                        </li>
+                        <li {% if app.request.attributes.get('_route') starts with 'gosia_page_contact' %}class="active"{% endif %}>
+                            <a  href="{{ path('gosia_page_contact') }}">
+                                {% trans %}contact{% endtrans %}
+                            </a>
+                        </li>
+                        <li {% if app.request.attributes.get('_route') starts with 'gosia_page_terms_of_use' %}class="active"{% endif %}>
+                            <a  href="{{ path('gosia_page_terms_of_use') }}">
+                                {% trans %}terms of use{% endtrans %}
+                            </a>
+                        </li>
+                    </ul>
+                {% endblock %}
+                <ul class="additional_navbar">
+                		<div class="languageSelector">
+                			{{ include('GosiaPageBundle:Default:languageSelector.html.twig') }}
+                		</div>
+                		 
+                        {#% if app.request.attributes.get('_route') != 'campaign_tool_campaign_tool_user_countries_switcher' %}
+                            {{ render(controller('CampaignToolBundle:User:userCountriesSwitcher',{})) }}
+                        {% endif %#}
+                        
+                    <!-- <li> -->
+                    	<!-- 
+                    		<img width="30" src="{#{ asset('bundles/campaigntool/images/audibene_logo_blue.png') }#}" class="user-icon" alt="user icon">
+                        	<a class="" href="{#{ path('campaign_tool_logout') }#}">
+                            	{# trans #}logout{# endtrans #}
+                        	</a>                    		
+                    	 -->
+
+                        
+                    <!-- </li> -->
+                </ul>
+            </div>
+            <div id="content">
+                {% block content %}
+                {% endblock %}
+            </div>
+            <div id="bottom"></div>
+        </div>
+    {% endblock %}

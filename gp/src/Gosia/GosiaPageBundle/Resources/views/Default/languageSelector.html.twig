@@ -1,4 +1,15 @@
-	<a  href="{{ path('gosia_page_set_language',{'_locale' : 'pl'}) }}">{% if app.request.locale == 'pl' %}<b>PL</b>{% else %}PL{% endif %}</a> 
-	|
-	<a  href="{{ path('gosia_page_set_language', {'_locale' : 'de'}) }}">{% if app.request.locale == 'de' %}<b>DE</b>{% else %}DE{% endif %}</a>
+	<a  href="{{ path('gosia_page_set_language',{'requestedLocale' : 'pl'}) }}">
+		{% if app.request.locale == 'pl' %}
+			<img src="{{ asset('/public/images/flags/PL.png') }}"/>
+		{% else %}
+			<img src="{{ asset('/public/images/flags/PL.png') }}"/>
+		{% endif %}
+	</a>
+	<a  href="{{ path('gosia_page_set_language', {'requestedLocale' : 'de'}) }}">
+		{% if app.request.locale == 'de' %}
+			<img src="{{ asset('/public/images/flags/DE.png') }}"/>
+		{% else %}
+			<img src="{{ asset('/public/images/flags/DE.png') }}"/>
+		{% endif %}
+	</a>
 	

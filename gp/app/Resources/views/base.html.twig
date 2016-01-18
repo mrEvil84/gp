@@ -17,10 +17,6 @@
 
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
         <title>
             {% block title %}
                 GP
@@ -28,12 +24,16 @@
         </title>
 
         <meta name="robots" content="noindex,nofollow">
-
         <link href="{{ asset('/assets/css/styles.css') }}" rel="stylesheet" type="text/css"/>
 
         {% block stylesheets %}
-
         {% endblock %}
+
+        <!--[if lt IE 9]>
+        <script src="{{ asset('/assets/js/html5shiv.js') }}"></script>
+        <script src="{{ asset('/assets/js/respond.js') }}"></script>
+        <![endif]-->
+
         {% block favicon %}
             <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
         {% endblock %}
@@ -43,18 +43,22 @@
             <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
             <script src="{{ asset('/assets/js/scripts.js') }}"></script>
         {% endblock %}
+
+        <link rel="shortcut icon" href="{{ asset('/public/images/ico/favicon.ico') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('/public/images/ico/apple-touch-icon-144-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('/public/images/ico/apple-touch-icon-114-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('/public/images/ico/apple-touch-icon-72-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('/public/images/ico/apple-touch-icon-57-precomposed.png') }}">
+
     </head>
-
-    {#http://www.bootstrapzero.com/bootstrap-template/the-firm#}
-    {#http://www.bootstrapzero.com/bootstrap-template/happy-scroll#}
-    {#(favourite)https://shapebootstrap.net/item/1524962-corlate-free-responsive-business-html-template#}
-
 
 
 
     <body>
+    <body class="homepage">
         {% block body %}
         {% endblock %}
+    </body>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
