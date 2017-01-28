@@ -1,5 +1,4 @@
 <?php
-
 namespace Gosia\GosiaPageBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -25,11 +24,11 @@ class LoginController extends Controller
 		// last username entered by the user
 		$lastUsername = $authenticationUtils->getLastUsername();
 	
-		return array(
-				// last username entered by the user
-				'last_username' => $lastUsername,
-				'error'         => $error
-		);
+		return [
+                    	// last username entered by the user
+			'last_username' => $lastUsername,
+			'error'         => $error
+                ];
 	}
 	
 	/**

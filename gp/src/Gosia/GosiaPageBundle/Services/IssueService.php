@@ -9,18 +9,18 @@
 namespace Gosia\GosiaPageBundle\Services;
 
 use Gosia\GosiaPageBundle\Services\Base\ServiceBase;
-
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\HttpFoundation\RequestStack;
-
 use Gosia\GosiaPageBundle\Entity\IssueStatus;
-
 use Symfony\Component\Form\Form as Form;
 
 
 class IssueService extends ServiceBase
 {
+    const SET_FROM = 'antoni.pestka@gmail.com';
+    const SET_TO = 'piotr.kowerzanow@gmail.com';
+
     private $issueForm;
 
     private $issueEntity;
@@ -67,7 +67,7 @@ class IssueService extends ServiceBase
     {
         $this->issueForm->handleRequest($this->request);
 
-        if($this->issueForm->isValid()) {
+        if ($this->issueForm->isValid()) {
 
             $this->issueEntity->upload();
             $this->issueEntity->setStatus(IssueStatus::STATUS_NEW);
@@ -80,9 +80,7 @@ class IssueService extends ServiceBase
             $mailerService = $this->serviceContainer->get('mailer');
             $mailerService->send($applicationMessage);
             $mailerService->send($confirmationMessage);
-            //$type = 'success';
-            //$message = $this->serviceContainer->get("translator")->trans('Issue was added');
-            //$session =  $this->serviceContainer->get('request')->getSession()->setFlash($type, $message);
+
             return true;
         }
 
@@ -97,7 +95,7 @@ class IssueService extends ServiceBase
     {
         $confirmationMessage = \Swift_Message::newInstance()
             ->setSubject($this->serviceContainer->get('translator')->trans('issue appear'))
-            ->setFrom('antoni.pestka@gmail.com')
+            ->setFrom(self::SET_FROM)
             ->setTo($this->issueEntity->getEmail())
             ->setBody(
                 $this->serviceContainer->get('templating')->renderResponse(
@@ -121,8 +119,8 @@ class IssueService extends ServiceBase
     {
         $message = \Swift_Message::newInstance()
             ->setSubject('Zgłoszenie tłumaczenia')
-            ->setFrom('antoni.pestka@gmail.com')
-            ->setTo('piotr.kowerzanow@gmail.com')
+            ->setFrom(self::SET_FROM)
+            ->setTo(self::SET_TO)
             ->setBody(
                 $this->serviceContainer->get('templating')->renderResponse(
                     'GosiaPageBundle:Emails:issue.html.twig',
@@ -141,7 +139,7 @@ class IssueService extends ServiceBase
                 'utf-8'
             );
 
-        if($this->issueEntity->getFileName() !== null){
+        if (null !== $this->issueEntity->getFileName()){
             $message->attach(\Swift_Attachment::fromPath($this->issueEntity->getFilePath().'/'.$this->issueEntity->getFileName()));
         }
 

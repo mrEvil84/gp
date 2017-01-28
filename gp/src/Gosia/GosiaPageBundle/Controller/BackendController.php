@@ -95,8 +95,7 @@ class BackendController extends Controller
     		];
     	}
     	
-
-    	if($keyword=='') {
+    	if('' === $keyword) {
     		$issuePaginator = $this
     		->getDoctrine()
     		->getManager()
@@ -111,8 +110,6 @@ class BackendController extends Controller
     	}
     	
     	$issueTotalPages = ceil($issuePaginator->count() / $issueLimit);
-
-
     	$issueRepo = $this->getDoctrine()->getRepository('GosiaPageBundle:Issue');
   	
         return [
