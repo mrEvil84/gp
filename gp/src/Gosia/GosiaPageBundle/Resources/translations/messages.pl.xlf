@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="en" datatype="plaintext" original="file.ext">
+    <file source-language="pl" datatype="plaintext" original="file.ext">
         <body>
             <trans-unit id="1">
                 <source>issue name</source>
-                <target>Imię (pole obowiazkowe)</target>
+                <target>Imię (*)</target>
             </trans-unit>
 			<trans-unit id="2">
                 <source>issue surname</source>
-                <target>Nazwisko (pole obowiazkowe)</target>
+                <target>Nazwisko (*)</target>
             </trans-unit>
 			<trans-unit id="3">
                 <source>issue email</source>
-                <target>Email (pole obowiazkowe)</target>
+                <target>Email (*)</target>
             </trans-unit>
 			<trans-unit id="4">
                 <source>issue street</source>
-                <target>Ulica nr domu/mieszkanie (pole obowiazkowe)</target>
+                <target>Ulica nr domu/mieszkanie (*)</target>
             </trans-unit>
 			<trans-unit id="5">
                 <source>issue issueDescription</source>
-                <target>Wiadomość (pole obowiazkowe)</target>
+                <target>Wiadomość (*)</target>
             </trans-unit>
 			<trans-unit id="6">
                 <source>issue telephone</source>
@@ -56,7 +56,7 @@
             </trans-unit>	
             <trans-unit id="14">
                 <source>issue cityZipCode</source>
-                <target>Miasto, kod pocztowy (pole obowiazkowe)</target>
+                <target>Miasto, kod pocztowy (*)</target>
             </trans-unit>	
             <trans-unit id="15">
                 <source>email.not_valid</source>
@@ -120,7 +120,7 @@
             </trans-unit>
             <trans-unit id="30">
                 <source>leave your message</source>
-                <target>Zostaw wiadomosc</target>
+                <target>Zostaw wiadomość</target>
             </trans-unit>
             <trans-unit id="31">
                 <source>about us</source>
@@ -141,6 +141,14 @@
             <trans-unit id="35">
                 <source>page not found description</source>
                 <target>Strona nie zostala znaleziona lub wystapil inny blad.</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>translator in germany</source>
+                <target>tłumacz przysięgły w Niemczech</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>banner_telephone</source>
+                <target>+0123 456 70 90</target>
             </trans-unit>
         </body>
     </file>

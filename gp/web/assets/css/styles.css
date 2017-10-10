@@ -5858,6 +5858,7 @@ input[type="button"].btn-block {
   line-height: 20px;
   height: initial;
 }
+
 /* line 166, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -9962,6 +9963,10 @@ h5, .h5 {
 /* line 67, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
 h6, .h6 {
   font-size: 12px;
+}
+
+h4, .owner {
+    color:whitesmoke;
 }
 
 /* line 74, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/vendor/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss */
@@ -31214,7 +31219,8 @@ input.search-form:hover {
 
 /* line 375, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+    margin-top: 150px;
+    margin-left: 50px;
 }
 
 /* line 379, ../../../src/Gosia/GosiaPageBundle/Resources/assets/styles/app/_main.scss */

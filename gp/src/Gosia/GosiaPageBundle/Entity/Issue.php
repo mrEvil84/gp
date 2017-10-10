@@ -53,7 +53,7 @@ class Issue
      * @var string
      *
      * @ORM\Column(name="email", type="string", length=255) 
-     * @Assert\Email(message = "email.not_valid", checkMX = true )
+     * @Assert\Email(message = "email.not_valid")
      */
     private $email;
    

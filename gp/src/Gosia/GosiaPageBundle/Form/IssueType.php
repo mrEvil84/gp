@@ -37,7 +37,7 @@ class IssueType extends AbstractType
         $builder->setMethod('POST');
         $builder->add('name', 'text', array('label'=>false,'required'=> true,'empty_data'  => null));
         $builder->add('surname', 'text', array('label'=>false,'required'=> true,'empty_data'  => null));
-        $builder->add('email','text', array('label'=>false,'required'=> true,'empty_data'  => null));
+        $builder->add('email','email', array('label'=>false,'required'=> true,'empty_data'  => null));
         $builder->add('street', 'text', array('label'=>false,'required'=> true,'empty_data'  => null));
         $builder->add('cityZipCode', 'text', array('label'=>false,'required'=> true,'empty_data'  => null));
         $builder->add('issueDescription', 'textarea', array('label'=>false,'required'=> true,'empty_data'  => null));
@@ -94,7 +94,6 @@ class IssueType extends AbstractType
     /**
      * @param OptionsResolverInterface $resolver
      */
-
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
 

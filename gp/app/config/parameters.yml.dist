@@ -2,7 +2,7 @@
 parameters:
     database_driver:   pdo_mysql
     database_host:     127.0.0.1
-    database_port:     ~
+    database_port:     33060
     database_name:     symfony
     database_user:     root
     database_password: ~
@@ -14,7 +14,7 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
-    locale:            en
+    locale:            pl
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
