@@ -40,7 +40,7 @@
             </trans-unit>				
 			<trans-unit id="10">
                 <source>portfolio</source>
-                <target>Portfolio</target>
+                <target>Oferta</target>
             </trans-unit>
 			<trans-unit id="11">
                 <source>prices</source>
@@ -144,7 +144,7 @@
             </trans-unit>
             <trans-unit id="36">
                 <source>translator in germany</source>
-                <target>tłumacz przysięgły w Niemczech</target>
+                <target>Tłumacz przysięgły w Niemczech</target>
             </trans-unit>
             <trans-unit id="37">
                 <source>banner_telephone</source>
