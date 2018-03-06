@@ -2,87 +2,808 @@
 
 {% block content %}
 	<section id="main-slider" class="no-margin">
-		<div class="carousel slide">
-			<ol class="carousel-indicators">
-				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
-				<li data-target="#main-slider" data-slide-to="1"></li>
-				<li data-target="#main-slider" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
+        <div class="center">
+            <h2>{% trans %} Translate it! {% endtrans %}?</h2>
+            {#<img src="{{ asset('/public/images/book_bg.jpg') }}" class="img-responsive"/>#}
+            {#<p class="lead">#}
+            {#<ul class="social-share">#}
+                {#<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-xing"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-dribbble"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-skype"></i></a></li>#}
+            {#</ul>#}
+            {#</p>#}
+            {#<div class="center wow fadeInDown">#}
+                {#<h2 class="main" id="offer">Translate it!</h2>#}
+                {#<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>#}
+            {#</div>#}
+        </div>
 
-				<div class="item active" style="background-image: url({{ asset('/public/images/slider/bg1.jpg') }})">
-					<div class="container">
-						<div class="row slide-margin">
-							<div class="col-sm-6">
-								<div class="carousel-content">
+        <div class="container">
+            <div class="row team-bar">
+                <div class="first-one-arrow hidden-xs">
+                    <hr>
+                </div>
+                <div class="first-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="second-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="third-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="fourth-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+            </div> <!--skill_border-->
+        </div>
+		{#<div class="carousel slide">#}
+			{#<ol class="carousel-indicators">#}
+				{#<li data-target="#main-slider" data-slide-to="0" class="active"></li>#}
+				{#<li data-target="#main-slider" data-slide-to="1"></li>#}
+				{#<li data-target="#main-slider" data-slide-to="2"></li>#}
+			{#</ol>#}
+			{#<div class="carousel-inner">#}
 
-									<h1 class="animation animated-item-0">Małgorzata Kowerzanow</h1>
-									<h1 class="animation animated-item-1">Tłumaczenia i lektorat</h1>
-									<h2 class="animation animated-item-2">Język niemiecki | Język polski</h2>
-									<a class="btn-slide animation animated-item-3" href="#">Czytaj więcej</a>
-								</div>
-							</div>
+				{#<div class="item active" style="background-image: url({{ asset('/public/images/slider/bg1.jpg') }})">#}
+					{#<div class="container">#}
+						{#<div class="row slide-margin">#}
+							{#<div class="col-sm-6">#}
+								{#<div class="carousel-content">#}
 
-							<div class="col-sm-6 hidden-xs animation animated-item-4">
-								<div class="slider-img">
+									{#<h1 class="animation animated-item-0">Małgorzata Kowerzanow</h1>#}
+									{#<h1 class="animation animated-item-1">Tłumaczenia i lektorat</h1>#}
+									{#<h2 class="animation animated-item-2">Język niemiecki | Język polski</h2>#}
+									{#<a class="btn-slide animation animated-item-3" href="#">Czytaj więcej</a>#}
+								{#</div>#}
+							{#</div>#}
+
+							{#<div class="col-sm-6 hidden-xs animation animated-item-4">#}
+								{#<div class="slider-img">#}
 									{#<img src="{{ asset('/public/images/slider/gosia.jpg') }}" class="img-responsive">#}
-								</div>
-							</div>
+								{#</div>#}
+							{#</div>#}
 
-						</div>
-					</div>
-				</div><!--/.item-->
+						{#</div>#}
+					{#</div>#}
+				{#</div><!--/.item-->#}
 
-				<div class="item" style="background-image: url({{ asset('/public/images/slider/bg2.jpg') }})">
-					<div class="container">
-						<div class="row slide-margin">
-							<div class="col-sm-6">
-								<div class="carousel-content">
-									<h1 class="animation animated-item-1">Gosia Gosia Gosiuniusia</h1>
-									<h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-									<a class="btn-slide animation animated-item-3" href="#">Read More</a>
-								</div>
-							</div>
+				{#<div class="item" style="background-image: url({{ asset('/public/images/slider/bg2.jpg') }})">#}
+					{#<div class="container">#}
+						{#<div class="row slide-margin">#}
+							{#<div class="col-sm-6">#}
+								{#<div class="carousel-content">#}
+									{#<h1 class="animation animated-item-1"></h1>#}
+									{#<h2 class="animation animated-item-2"></h2>#}
+									{#<a class="btn-slide animation animated-item-3" href="#"></a>#}
+								{#</div>#}
+							{#</div>#}
 
-							<div class="col-sm-6 hidden-xs animation animated-item-4">
-								<div class="slider-img">
+							{#<div class="col-sm-6 hidden-xs animation animated-item-4">#}
+								{#<div class="slider-img">#}
 									{#<img src="{{ asset('/public/images/slider/img2.png') }}" class="img-responsive">#}
-								</div>
-							</div>
+								{#</div>#}
+							{#</div>#}
 
-						</div>
-					</div>
-				</div><!--/.item-->
+						{#</div>#}
+					{#</div>#}
+				{#</div><!--/.item-->#}
 
-				<div class="item" style="background-image: url({{ asset('/public/images/slider/bg3.jpg') }})">
-					<div class="container">
-						<div class="row slide-margin">
-							<div class="col-sm-6">
-								<div class="carousel-content">
-									<h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-									<h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-									<a class="btn-slide animation animated-item-3" href="#">Read More</a>
-								</div>
-							</div>
-							<div class="col-sm-6 hidden-xs animation animated-item-4">
-								<div class="slider-img">
+				{#<div class="item" style="background-image: url({{ asset('/public/images/slider/bg3.jpg') }})">#}
+					{#<div class="container">#}
+						{#<div class="row slide-margin">#}
+							{#<div class="col-sm-6">#}
+								{#<div class="carousel-content">#}
+									{#<h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>#}
+									{#<h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>#}
+									{#<a class="btn-slide animation animated-item-3" href="#">Read More</a>#}
+								{#</div>#}
+							{#</div>#}
+							{#<div class="col-sm-6 hidden-xs animation animated-item-4">#}
+								{#<div class="slider-img">#}
 									{#<img src="{{ asset('/public/images/slider/img3.png') }}images/slider/img3.png" class="img-responsive">#}
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!--/.item-->
-			</div><!--/.carousel-inner-->
-		</div><!--/.carousel-->
-		<a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-			<i class="fa fa-chevron-left"></i>
-		</a>
-		<a class="next hidden-xs" href="#main-slider" data-slide="next">
-			<i class="fa fa-chevron-right"></i>
-		</a>
+								{#</div>#}
+							{#</div>#}
+						{#</div>#}
+					{#</div>#}
+				{#</div><!--/.item-->#}
+			{#</div><!--/.carousel-inner-->#}
+		{#</div><!--/.carousel-->#}
+		{#<a class="prev hidden-xs" href="#main-slider" data-slide="prev">#}
+			{#<i class="fa fa-chevron-left"></i>#}
+		{#</a>#}
+		{#<a class="next hidden-xs" href="#main-slider" data-slide="next">#}
+			{#<i class="fa fa-chevron-right"></i>#}
+		{#</a>#}
 	</section><!--/#main-slider-->
 	
-	
-	
+	<!-- portfolio -->
+    <section id="feature" class="transparent-bg">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2 class="offer" id="offer">{% trans %}portfolio-offer-head{% endtrans %}</h2>
+                {#<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>#}
+                <div class="center-block">
+                    <p>
+                        {% trans %}portfolio-offer-for{% endtrans %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="features">
+
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown " data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-briefcase" data-toggle="collapse" data-target="#translations-p"></i>
+                            <h2>{% trans %}translations-p-head{% endtrans %}</h2>
+                        </div>
+                        <div id="translations-p" class="collapse">
+                            <h4>Tłumaczenia pisemne przysięgłe na potrzeby niemieckich urzędów i instytucji</h4>
+                            <p>
+                            <ul>
+                                <li>Dokumenty szkolne: świadectwa szkolne, dyplomy ukończenia studiów, suplementy do dyplomów</li>
+                                <li>Dokumenty potwierdzające posiadane kwalifikacje zawodowe:
+                                    m.in. zaświadczenia o posiadaniu prawa wykonywania zawodu, inne dokumenty potrzebne do uznania kwalifikacji zawodowych w Niemczech
+                                </li>
+                                <li>Dokumenty urzędowe:akt urodzenia, akt zgonu, akt zawarcia małżeństwa</li>
+                                <li>Dokumenty sądowe</li>
+                                <li>Inne dokumenty</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap" data-toggle="collapse" data-target="#translations-z">
+                            <i class="fa fa-copy" href="#pricing"></i>
+                            <h2>Tłumaczenia zwykłe</h2>
+                            {#<h3>#}
+                                {#<a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>#}
+                            {#</h3>#}
+                        </div>
+                        <div id="translations-z" class="collapse">
+                            <h4>Tłumaczenia zwykłe</h4>
+                            <p>
+                                Tłumaczenia w przypadku których nie jest wymagane uwierzytelnienie przez tłumacza przysięgłego.
+                                np. korespondencja, tłumaczenie stron www, listy motywacyjne, życiorysy
+                            </p>
+                        </div>
+
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-pencil" data-toggle="collapse" data-target="#translations-l"></i>
+                            <h2>Lektorat</h2>
+                            {#<h3>#}
+                            {#<a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>#}
+                            {#</h3>#}
+                        </div>
+                        <div id="translations-l" class="collapse">
+                            <h2>Lektorat</h2>
+                            <p>
+                                Nauka języka niemieckiego, Lekcje, Korepetycje
+                            </p>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-comments" data-toggle="collapse" data-target="#translations-u"></i>
+                            <h2>Tłumaczenia ustne</h2>
+                            {#<h3>#}
+                                {#<a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>#}
+                            {#</h3>#}
+                        </div>
+                        <div id="translations-u" class="collapse">
+                            <h4>Tłumaczenia ustne nieprzysięgłe</h4>
+                            <p>
+                                tłumaczenie rozmów biznesowych, spotkań firmowych itp.
+                            </p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-xs-12 col-sm-7">
+                        {#<h2> Dla kogo ?</h2>#}
+                        {#<p class="lead">#}
+                            {#Ofertę tłumaczeń pisemnych przysięgłych kieruję do: <br/>#}
+                            {#osób starających się o uznanie kwalifikacji zawodowych w Niemczech m.in.<br/>#}
+                            {#lekarzy, pielęgniarki, farmaceutów, fizjoterapeutów<br/>#}
+                        {#</p>#}
+                        {#<h2>Szczegóły oferty</h2>#}
+                        {#<div class="tab-wrap" id="offer-details">#}
+                            {#<div class="media">#}
+                                {#<div class="parrent pull-left">#}
+                                    {#<ul class="nav nav-tabs nav-stacked">#}
+                                        {#<li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">Tłumaczenia przysięgłe</a></li>#}
+                                        {#<li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">Tłumaczenia zwykłe</a></li>#}
+                                        {#<li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Tłumaczenia ustne</a></li>#}
+                                        {#<li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Lektorat</a></li>#}
+                                    {#</ul>#}
+                                {#</div>#}
+
+                                {#<div class="parrent media-body">#}
+                                    {#<div class="tab-content">#}
+                                        {#<div class="tab-pane active" id="tab1">#}
+                                            {#<div class="media">#}
+                                                {#<div class="pull-left">#}
+                                                    {#<img class="img-responsive" src="{{ asset('/assets/images/tab1.png') }}">#}
+                                                {#</div>#}
+                                                {#<div class="media-body">#}
+                                                    {#<h4>tłumaczenia pisemne przysięgłe na potrzeby niemieckich urzędów i instytucji</h4>#}
+                                                    {#<p>#}
+                                                    {#<ul>#}
+                                                        {#<li>Dokumenty szkolne: świadectwa szkolne, dyplomy ukończenia studiów, suplementy do dyplomów</li>#}
+                                                        {#<li>Dokumenty potwierdzające posiadane kwalifikacje zawodowe:#}
+                                                            {#m.in. zaświadczenia o posiadaniu prawa wykonywania zawodu, inne dokumenty potrzebne do uznania kwalifikacji zawodowych w Niemczech#}
+                                                        {#</li>#}
+                                                        {#<li>Dokumenty urzędowe:akt urodzenia, akt zgonu, akt zawarcia małżeństwa</li>#}
+                                                        {#<li>Dokumenty sądowe</li>#}
+                                                        {#<li>Inne dokumenty</li>#}
+                                                    {#</ul>#}
+                                                    {#</p>#}
+                                                {#</div>#}
+                                            {#</div>#}
+                                        {#</div>#}
+
+                                        {#<div class="tab-pane" id="tab2">#}
+                                            {#<div class="media">#}
+                                                {#<div class="pull-left">#}
+                                                    {#<img class="img-responsive" src="{{ asset('/assets/images/tab1.png') }}">#}
+                                                {#</div>#}
+                                                {#<div class="media-body">#}
+                                                    {#<h4>Tłumaczenia zwykłe</h4>#}
+                                                    {#<p>#}
+                                                        {#Tłumaczenia w przypadku których nie jest wymagane uwierzytelnienie przez tłumacza przysięgłego.#}
+                                                        {#np. korespondencja, tłumaczenie stron www, listy motywacyjne, życiorysy#}
+                                                    {#</p>#}
+                                                {#</div>#}
+                                            {#</div>#}
+                                        {#</div>#}
+
+                                        {#<div class="tab-pane" id="tab3">#}
+                                            {#<div class="media-body">#}
+                                                {#<h4>Tłumaczenia ustne nieprzysięgłe</h4>#}
+                                                {#<p>#}
+                                                    {#tłumaczenie rozmów biznesowych, spotkań firmowych itp.#}
+                                                {#</p>#}
+                                            {#</div>#}
+                                        {#</div>#}
+
+                                        {#<div class="tab-pane" id="tab4">#}
+                                            {#<div class="media-body">#}
+                                                {#<h4>Lektorat</h4>#}
+                                                {#<p>#}
+                                                    {#Nauka języka niemieckiego, Lekcje, Korepetycje#}
+                                                {#</p>#}
+                                            {#</div>#}
+                                        {#</div>#}
+                                    {#</div> <!--/.tab-content-->#}
+                                {#</div> <!--/.media-body-->#}
+                            {#</div> <!--/.media-->#}
+                        {#</div><!--/.tab-wrap-->#}
+                    </div>
+                </div>
+            </div>
+
+            <div class="row team-bar">
+                <div class="first-one-arrow hidden-xs">
+                    <hr>
+                </div>
+                <div class="first-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="second-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="third-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="fourth-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+            </div> <!--skill_border-->
+
+        </div><!--/.container-->
+    </section><!--/#feature-->
+    <!-- end portfolio -->
+
+    <!-- pricing -->
+    <section id="pricing" class="transparent-bg">
+        <div class="container">
+
+            <div class="center wow fadeInDown">
+                <h2 class="offer" id="offer">Cennik</h2>
+                {#<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>#}
+            </div>
+
+            <br/>
+            {% for flashMessage in app.session.flashbag.get('issue_added') %}
+                <div class="alert alert-success center-block">
+                    <strong>{{ flashMessage }}</strong>
+                    <strong><a href="{{ path('gosia_page_index') }}"></a></strong>
+                </div>
+            {% endfor %}
+
+            <div class="center">
+                {#<h2>{% trans %}leave your message{% endtrans %}</h2>#}
+                <h3><strong>{% trans %}Fill the form to get price{% endtrans %}</strong></h3>
+                <p class="lead">*****</p>
+            </div>
+
+
+            {{ form_start(issueForm, {'attr':{'class':'contact-form'}}) }}
+            <div class="row contact-wrap">
+                <div class="status alert alert-success" style="display: none"></div>
+                {{ form_errors(issueForm) }}
+
+                <div class="col-sm-5 col-sm-offset-1">
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.name,'issue name'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.name) }}
+                        {{ form_widget(issueForm.name, {'required':true, 'attr':{'class':'form-control'}}) }}
+                    </div>
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.surname,'issue surname'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.surname) }}
+                        {{ form_widget(issueForm.surname, {'required':true, 'attr':{'class':'form-control'}}) }}
+                    </div>
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.email,'issue email'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.email) }}
+                        {{ form_widget(issueForm.email, {'required':true, 'attr':{'class':'form-control'}}) }}
+                    </div>
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.street,'issue street'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.street) }}
+                        {{ form_widget(issueForm.street, {'required':true, 'attr':{'class':'form-control'}}) }}
+                    </div>
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.cityZipCode,'issue cityZipCode'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.cityZipCode) }}
+                        {{ form_widget(issueForm.cityZipCode, {'required':true, 'attr':{'class':'form-control'}}) }}
+                    </div>
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.telephone,'issue telephone'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.telephone) }}
+                        {{ form_widget(issueForm.telephone, {'required':false, 'attr':{'class':'form-control'}}) }}
+                    </div>
+                </div>
+
+
+                <div class="col-sm-5 col-sm-offset-1">
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.file,'issue fileName'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.file) }}
+                        {{ form_widget(issueForm.file, {'required':false, 'attr':{'class':'form-control'}}) }}
+                    </div>
+
+                    <div class="form-group">
+                        <label>{{ form_label(issueForm.issueDescription,'issue issueDescription'|trans({},'','')) }}</label>
+                        {{ form_errors(issueForm.issueDescription) }}
+
+                        {#<textarea name="message" id="message" required="required" class="form-control" rows="8">#}
+                        {##}
+                        {#</textarea>#}
+                        {{ form_widget(issueForm.issueDescription, {'required':true, 'attr':{'class':'form-control', 'rows': 20 }}) }}
+                    </div>
+                </div>
+
+
+                <div class="col-sm-5">
+                    <div class="form-group">
+                        {{ form_errors(issueForm.captcha) }}
+                        {{ form_widget(issueForm.captcha, {'required':true}) }}
+                    </div>
+
+                    <div class="form-group">
+                        {#<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>#}
+                        {{ form_widget(issueForm.issue_submit_button, {'label':'issue_submit_button'|trans({},'',''), 'attr':{'class':'btn btn-primary btn-lg'}}) }}
+                    </div>
+                </div>
+
+            </div><!--/.row-->
+            {{ form_end(issueForm) }}
+
+            <div class="row team-bar">
+                <div class="first-one-arrow hidden-xs">
+                    <hr>
+                </div>
+                <div class="first-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="second-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="third-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="fourth-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+            </div> <!--skill_border-->
+
+
+        </div><!--/.container-->
+    </section>
+    <!-- end of pricing -->
+    <!-- avbout me -->
+    <section id="about-me" class="transparent-bg">
+        <div class="container">
+            {#<div class="row clearfix">#}
+            {#<div class="col-md-4 col-sm-6">#}
+            {#<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">#}
+            {#<div class="media">#}
+            {#<div class="pull-left">#}
+            {#<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>#}
+            {#</div>#}
+            {#<div class="media-body">#}
+            {#<h4>Tłumacz przysięgły w Niemczech miejszkający w Polsce</h4>#}
+            {#<h5>Lektor języka niemieckiego</h5>#}
+            {#<ul class="tag clearfix">#}
+            {#<li class="btn"><a href="#">Web</a></li>#}
+            {#<li class="btn"><a href="#">Ui</a></li>#}
+            {#<li class="btn"><a href="#">Ux</a></li>#}
+            {#<li class="btn"><a href="#">Photoshop</a></li>#}
+            {#</ul>#}
+
+            {#<ul class="social_icons">#}
+            {#<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+            {#<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+            {#<li><a href="#"><i class="fa fa-google-plus"></i></a></li>#}
+            {#</ul>#}
+            {#</div>#}
+            {#</div><!--/.media -->#}
+            {#<p>#}
+            {#Jestem tłumaczką przysięgłą zaprzysiężoną w Niemczech przez Oberlandesgericht w Dreźnie,#}
+            {#kraj związkowy Saksonia.<br/>#}
+            {#Posiadam uprawnienia do wykonywania tłumaczeń pisemnych przysięgłych na potrzeby niemieckich urzędów i instytucji.<br/>#}
+
+            {#Uprawnienia te dają mi możliwość wykonywania tłumaczeń pisemnych przysięgłych w przypadku wymogu dostarczenia<br/>#}
+            {#tłumaczenia przygotowanego przez tłumacza zaprzysiężonego w Niemczech.<br/>#}
+
+            {#Ofertę tłumaczeń pisemnych przysięgłych kieruję do: <br/>#}
+            {#osób starających się o uznanie kwalifikacji zawodowych w Niemczech m.in.<br/>#}
+            {#lekarzy, pielęgniarki, farmaceutów, fizjoterapeutów<br/>#}
+
+            {#</p>#}
+            {#</div>#}
+            {#</div><!--/.col-lg-4 -->#}
+
+
+
+            <!-- about us slider -->
+            {#<div id="about-slider">#}
+            {#<div id="carousel-slider" class="carousel slide" data-ride="carousel">#}
+            {#<!-- Indicators -->#}
+            {#<ol class="carousel-indicators visible-xs">#}
+            {#<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>#}
+            {#<li data-target="#carousel-slider" data-slide-to="1"></li>#}
+            {#<li data-target="#carousel-slider" data-slide-to="2"></li>#}
+            {#</ol>#}
+
+            {#<div class="carousel-inner">#}
+            {#<div class="item active">#}
+            {#<img src="images/slider_one.jpg" class="img-responsive" alt="">#}
+            {#</div>#}
+            {#<div class="item">#}
+            {#<img src="images/slider_one.jpg" class="img-responsive" alt="">#}
+            {#</div>#}
+            {#<div class="item">#}
+            {#<img src="images/slider_one.jpg" class="img-responsive" alt="">#}
+            {#</div>#}
+            {#</div>#}
+
+            {#<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">#}
+            {#<i class="fa fa-angle-left"></i>#}
+            {#</a>#}
+
+            {#<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">#}
+            {#<i class="fa fa-angle-right"></i>#}
+            {#</a>#}
+            {#</div> <!--/#carousel-slider-->#}
+            {#</div><!--/#about-slider-->#}
+
+
+            <!-- Our Skill -->
+            {#<div class="skill-wrap clearfix">#}
+
+            {#<div class="center wow fadeInDown">#}
+            {#<h2>Co mnie wyróżnia ?</h2>#}
+            {#<ul class="feature-wrap">#}
+            {#<li>Jestem tłumaczem mieszkającym na stałe w Polsce.</li>#}
+            {#<li>Są to unikatowe w skali kraju kwalifikacje pozwalające na wykonywanie tłumaczeń przysięgłych#}
+            {#pisemnych na potrzeby niemieckich urzędów i instytucji.</li>#}
+            {#</ul>#}
+            {#<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>#}
+            {#</div>#}
+
+            {#<div class="row">#}
+            {#<div class="col-sm-3">#}
+            {#<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">#}
+            {#<div class="joomla-skill">#}
+            {#<p><em>100%</em></p>#}
+            {#<p>TEST</p>#}
+            {#</div>#}
+            {#</div>#}
+            {#</div>#}
+
+            {#<div class="col-sm-3">#}
+            {#<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">#}
+            {#<div class="html-skill">#}
+            {#<p><em>100%</em></p>#}
+            {#<p>HTML</p>#}
+            {#</div>#}
+            {#</div>#}
+            {#</div>#}
+
+            {#<div class="col-sm-3">#}
+            {#<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">#}
+            {#<div class="css-skill">#}
+            {#<p><em>80%</em></p>#}
+            {#<p>CSS</p>#}
+            {#</div>#}
+            {#</div>#}
+            {#</div>#}
+
+            {#<div class="col-sm-3">#}
+            {#<div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">#}
+            {#<div class="wp-skill">#}
+            {#<p><em>90%</em></p>#}
+            {#<p>Wordpress</p>#}
+            {#</div>#}
+            {#</div>#}
+            {#</div>#}
+            {#</div>#}
+
+            {#</div><!--/.our-skill-->#}
+
+
+            <!-- our-team -->
+
+            <div class="team">
+                <div class="center wow fadeInDown">
+                    <h2>O mnie</h2>
+                    <p class="lead">
+                        Jestem tłumaczką przysięgłą zaprzysiężoną w Niemczech przez Oberlandesgericht w Dreźnie,
+                        kraj związkowy Saksonia.<br/>
+                        Posiadam uprawnienia do wykonywania tłumaczeń pisemnych przysięgłych na potrzeby niemieckich urzędów i instytucji.<br/>
+                        <br/>
+                        Uprawnienia te dają mi możliwość wykonywania tłumaczeń pisemnych przysięgłych w przypadku wymogu dostarczenia<br/>
+                        tłumaczenia przygotowanego przez tłumacza zaprzysiężonego w Niemczech.<br/>
+                    </p>
+                    <h2>Wykształcenie i kwalifikacje</h2>
+                    <p class="lead">
+
+                    </p>
+
+                    <h2>Co mnie wyróżnia?</h2>
+                    <p class="lead">
+                        Jestem tłumaczem mieszkającym na stałe w Polsce. <br/>
+                        Są to unikatowe w skali kraju kwalifikacje pozwalające na wykonywanie tłumaczeń przysięgłych<br/>
+                        pisemnych na potrzeby niemieckich urzędów i instytucji.<br/>
+
+                        Informacje o mnie są dostępne w niemieckiej bazie danych tłumaczy przysięgłych:<br/>
+                        <strong><a href="http://www.justiz-dolmetscher.de/start.jsp">http://www.justiz-dolmetscher.de/start.jsp</a></strong>
+                    </p>
+
+                </div>
+
+                {#<div class="row clearfix">#}
+                {#<div class="col-md-4 col-sm-6">#}
+                {#<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">#}
+                {#<div class="media">#}
+                {#<div class="pull-left">#}
+                {#<a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>#}
+                {#</div>#}
+                {#<div class="media-body">#}
+                {#<h4>Jhon Doe</h4>#}
+                {#<h5>Founder and CEO</h5>#}
+                {#<ul class="tag clearfix">#}
+                {#<li class="btn"><a href="#">Web</a></li>#}
+                {#<li class="btn"><a href="#">Ui</a></li>#}
+                {#<li class="btn"><a href="#">Ux</a></li>#}
+                {#<li class="btn"><a href="#">Photoshop</a></li>#}
+                {#</ul>#}
+
+                {#<ul class="social_icons">#}
+                {#<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-google-plus"></i></a></li>#}
+                {#</ul>#}
+                {#</div>#}
+                {#</div><!--/.media -->#}
+                {#<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>#}
+                {#</div>#}
+                {#</div><!--/.col-lg-4 -->#}
+
+
+                {#<div class="col-md-4 col-sm-6 col-md-offset-2">#}
+                {#<div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">#}
+                {#<div class="media">#}
+                {#<div class="pull-left">#}
+                {#<a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>#}
+                {#</div>#}
+                {#<div class="media-body">#}
+                {#<h4>Jhon Doe</h4>#}
+                {#<h5>Founder and CEO</h5>#}
+                {#<ul class="tag clearfix">#}
+                {#<li class="btn"><a href="#">Web</a></li>#}
+                {#<li class="btn"><a href="#">Ui</a></li>#}
+                {#<li class="btn"><a href="#">Ux</a></li>#}
+                {#<li class="btn"><a href="#">Photoshop</a></li>#}
+                {#</ul>#}
+                {#<ul class="social_icons">#}
+                {#<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-google-plus"></i></a></li>#}
+                {#</ul>#}
+                {#</div>#}
+                {#</div><!--/.media -->#}
+                {#<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>#}
+                {#</div>#}
+                {#</div><!--/.col-lg-4 -->#}
+                {#</div> <!--/.row -->#}
+                <div class="row team-bar">
+                    <div class="first-one-arrow hidden-xs">
+                        <hr>
+                    </div>
+                    <div class="first-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="second-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="third-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="fourth-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                </div> <!--skill_border-->
+
+                {#<div class="row clearfix">#}
+                {#<div class="col-md-4 col-sm-6 col-md-offset-2">#}
+                {#<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">#}
+                {#<div class="media">#}
+                {#<div class="pull-left">#}
+                {#<a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>#}
+                {#</div>#}
+
+                {#<div class="media-body">#}
+                {#<h4>Jhon Doe</h4>#}
+                {#<h5>Founder and CEO</h5>#}
+                {#<ul class="tag clearfix">#}
+                {#<li class="btn"><a href="#">Web</a></li>#}
+                {#<li class="btn"><a href="#">Ui</a></li>#}
+                {#<li class="btn"><a href="#">Ux</a></li>#}
+                {#<li class="btn"><a href="#">Photoshop</a></li>#}
+                {#</ul>#}
+                {#<ul class="social_icons">#}
+                {#<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-google-plus"></i></a></li>#}
+                {#</ul>#}
+                {#</div>#}
+                {#</div><!--/.media -->#}
+                {#<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>#}
+                {#</div>#}
+                {#</div>#}
+                {#<div class="col-md-4 col-sm-6 col-md-offset-2">#}
+                {#<div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">#}
+                {#<div class="media">#}
+                {#<div class="pull-left">#}
+                {#<a href="#"><img class="media-object" src="images/man4.jpg" alt=""></a>#}
+                {#</div>#}
+                {#<div class="media-body">#}
+                {#<h4>Jhon Doe</h4>#}
+                {#<h5>Founder and CEO</h5>#}
+                {#<ul class="tag clearfix">#}
+                {#<li class="btn"><a href="#">Web</a></li>#}
+                {#<li class="btn"><a href="#">Ui</a></li>#}
+                {#<li class="btn"><a href="#">Ux</a></li>#}
+                {#<li class="btn"><a href="#">Photoshop</a></li>#}
+                {#</ul>#}
+                {#<ul class="social_icons">#}
+                {#<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+                {#<li><a href="#"><i class="fa fa-google-plus"></i></a></li>#}
+                {#</ul>#}
+                {#</div>#}
+                {#</div><!--/.media -->#}
+                {#<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>#}
+                {#</div>#}
+                {#</div>#}
+            </div>	<!--/.row-->
+        </div><!--section-->
+        </div><!--/.container-->
+    </section><!--/about-us-->
+    <!-- about me end -->
+
+    <!-- contact-info -->
+    <section id="contact-info" class="transparent-bg">
+        <div class="center">
+            <h2>{% trans %}How to rich us {% endtrans %}?</h2>
+            <p class="lead">
+            <ul class="social-share">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-xing"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+            </p>
+        </div>
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <div class="gmap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.752223358514!2d18.586684815952097!3d54.39669138021264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd74d0b47b6f1d%3A0xbafc97a6be64b617!2sPilot%C3%B3w+23E%2C+80-460+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1510269172835" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-6">
+                                <address>
+                                    <h5>Siedziba</h5>
+                                    <p> ul. Pilotów 23 e / 19<br>
+                                        Gdańsk,  80-460</p>
+                                    <p> 670-898-2847 <br>
+                                        Email:translate-it@translate-it.com.pl</p>
+                                </address>
+
+                                {#<address>#}
+                                {#<h5>Zonal Office</h5>#}
+                                {#<p>1537 Flint Street <br>#}
+                                {#Tumon, MP 96911</p>#}
+                                {#<p>Phone:670-898-2847 <br>#}
+                                {#Email Address:info@domain.com</p>#}
+                                {#</address>#}
+                            </li>
+
+
+                            {#<li class="col-sm-6">#}
+                            {#<address>#}
+                            {#<h5>Zone#2 Office</h5>#}
+                            {#<p>1537 Flint Street <br>#}
+                            {#Tumon, MP 96911</p>#}
+                            {#<p>Phone:670-898-2847 <br>#}
+                            {#Email Address:info@domain.com</p>#}
+                            {#</address>#}
+
+                            {#<address>#}
+                            {#<h5>Zone#3 Office</h5>#}
+                            {#<p>1537 Flint Street <br>#}
+                            {#Tumon, MP 96911</p>#}
+                            {#<p>Phone:670-898-2847 <br>#}
+                            {#Email Address:info@domain.com</p>#}
+                            {#</address>#}
+                            {#</li>#}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/gmap_area -->
 
 {% endblock %}

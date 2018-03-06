@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="translate-it.com.pl, profesjonalne tłumaczenia, niemiecki, polski">
+    <meta name="author" content="pikej">
+
+    <title>
+        {% block title %}
+            translate-it
+        {% endblock %}
+    </title>
+
+    <meta name="robots" content="noindex,nofollow">
+
+    <!-- core CSS -->
+    {% block stylesheets %}
+        <link href="{{ asset('/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('/assets/css/font-awesome.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('/assets/css/animate.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('/assets/css/prettyPhoto.css') }}" rel="stylesheet">
+        <link href="{{ asset('/assets/css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('/assets/css/responsive.csss') }}" rel="stylesheet">
+        <link href="{{ asset('/assets/css/styles.csss') }}" rel="stylesheet">
+    {% endblock %}
+
+    <!--[if lt IE 9]>
+    <script src="{{ asset('/assets/js/html5shiv.js') }}"></script>
+    <script src="{{ asset('/assets/js/respond.min.js') }}"></script>
+    <![endif]-->
+    {% block favicon %}
+        <link rel="shortcut icon" href="{{ asset('/assets/images/ico/favicon.ico') }}">
+    {% endblock %}
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('/assets/images/ico/apple-touch-icon-144-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('/assets/images/ico/apple-touch-icon-114-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('/assets/images/ico/apple-touch-icon-72-precomposed.png') }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('/assets/images/ico/apple-touch-icon-57-precomposed.png') }}">
+
+    {% block javascripts_links %}
+        <script src="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.15.1/handsontable.full.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        {#<script src="{{ asset('/assets/js/scripts.js') }}"></script>#}
+    {% endblock %}
+
+</head><!--/head-->
+
+<body class="homepage">
+
+    {% block body %}
+    {% endblock %}
+
+    {% block javascripts %}
+        <script src="{{ asset('/assets/js/jquery.js') }}"></script>
+        <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('/assets/js/jquery.prettyPhoto.js') }}"></script>
+        <script src="{{ asset('/assets/js/jquery.isotope.min.js') }}"></script>
+        <script src="{{ asset('/assets/js/main.js') }}"></script>
+        <script src="{{ asset('/assets/js/scripts.js') }}"></script>
+    {% endblock %}
+
+</body>
+
+</html>

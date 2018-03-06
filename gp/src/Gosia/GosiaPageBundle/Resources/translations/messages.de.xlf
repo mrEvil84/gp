@@ -51,8 +51,8 @@
                 <target>Kontakt</target>
             </trans-unit>
 			<trans-unit id="13">
-                <source>terms of use</source>
-                <target>Nutzungsbedingungen</target>
+                <source>about me</source>
+                <target>Über mich</target>
             </trans-unit>
             <trans-unit id="14">
                 <source>issue cityZipCode</source>
@@ -75,8 +75,8 @@
                 <target>Grüße, Ihre Übersetzer</target>
             </trans-unit>
             <trans-unit id="19">
-                <source>issue apear</source>
-                <target>eedback Übersetzungen</target>
+                <source>issue appear</source>
+                <target>feedback Übersetzungen</target>
             </trans-unit>
             <trans-unit id="20">
                 <source>issue date</source>
@@ -149,6 +149,37 @@
             <trans-unit id="37">
                 <source>banner_telephone</source>
                 <target>+0123 456 70 90</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>issue added</source>
+                <target>Benachrichtigung hinzugefügt.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Page not found or other error</source>
+                <target>Seite nicht gefunden oder anderer Fehler</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Fill the form to get price</source>
+                <target>Um die Übersetzung zu bewerten, füllen Sie bitte das folgende Formular aus:</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>How to rich us</source>
+                <target>Wie erreichen Sie uns</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>portfolio-offer-for</source>
+                <target>Ofertę tłumaczeń pisemnych przysięgłych kieruję do:
+                        osób starających się o uznanie kwalifikacji zawodowych w Niemczech m.in.
+                        lekarzy, pielęgniarki, farmaceutów, fizjoterapeutów
+                </target>
+            </trans-unit>
+            <trans-unit id="43">
+               <source>portfolio-offer-head</source>
+               <target>Angebot</target>
+            </trans-unit>
+            <trans-unit id="44">
+               <source>translations-p-head</source>
+               <target>Tłumaczenia przysięgłe</target>
             </trans-unit>
         </body>
     </file>

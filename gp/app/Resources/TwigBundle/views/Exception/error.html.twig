@@ -1,0 +1,14 @@
+{% extends ':default:index.html.twig' %}
+
+{% block body_feature %}
+    <section id="about-us">
+        <div class="container">
+            <div class="team">
+                <div class="center wow fadeInDown">
+                    <h2><i class="alert alert-danger">{% trans %}Page not found or other error{% endtrans %}</i></h2>
+                    <h3><a  href="{{ path('gosia_page_index') }}">{% trans %}home{% endtrans %}</a></h3>
+                </div>
+            </div>	<!--/.team-->
+        </div><!--/.container-->
+    </section><!--/about-us-->
+{% endblock %}

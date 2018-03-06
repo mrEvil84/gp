@@ -1,103 +1,71 @@
 {% extends ':default:index.html.twig' %}
 
-{% block content %}
-
-	{{ parent() }}
-
-    <div class="container">
-
-        <div class="flash-message">
-            {% for flashMessage in app.session.flashbag.get('notice') %}
-                <div class="flash-notice">
-                    {{ flashMessage }}
-                </div>
-            {% endfor %}
-        </div>
-
+{% block body_feature %}
+    <section id="contact-info">
         <div class="center">
-            <h2>{% trans %}leave your message{% endtrans %}</h2>
-            <p class="lead">*****</p>
+            <h2>{% trans %}How to rich us {% endtrans %}?</h2>
+            <p class="lead">
+                <ul class="social-share">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-xing"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                </ul>
+            </p>
         </div>
-
-
-        {{ form_start(issueForm, {'attr':{'class':'contact-form'}}) }}
-        <div class="row contact-wrap">
-            <div class="status alert alert-success" style="display: none"></div>
-            {{ form_errors(issueForm) }}
-
-                <div class="col-sm-5 col-sm-offset-1">
-
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.name,'issue name'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.name) }}
-                        {{ form_widget(issueForm.name, {'required':true, 'attr':{'class':'form-control'}}) }}
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <div class="gmap">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.752223358514!2d18.586684815952097!3d54.39669138021264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd74d0b47b6f1d%3A0xbafc97a6be64b617!2sPilot%C3%B3w+23E%2C+80-460+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1510269172835" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                     </div>
 
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.surname,'issue surname'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.surname) }}
-                        {{ form_widget(issueForm.surname, {'required':true, 'attr':{'class':'form-control'}}) }}
-                    </div>
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-6">
+                                <address>
+                                    <h5>Siedziba</h5>
+                                    <p> ul. Pilotów 23 e / 19<br>
+                                        Gdańsk,  80-460</p>
+                                    <p> 670-898-2847 <br>
+                                        Email:translate-it@translate-it.com.pl</p>
+                                </address>
 
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.email,'issue email'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.email) }}
-                        {{ form_widget(issueForm.email, {'required':true, 'attr':{'class':'form-control'}}) }}
-                    </div>
-
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.street,'issue street'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.street) }}
-                        {{ form_widget(issueForm.street, {'required':true, 'attr':{'class':'form-control'}}) }}
-                    </div>
-
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.cityZipCode,'issue cityZipCode'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.cityZipCode) }}
-                        {{ form_widget(issueForm.cityZipCode, {'required':true, 'attr':{'class':'form-control'}}) }}
-                    </div>
-
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.telephone,'issue telephone'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.telephone) }}
-                        {{ form_widget(issueForm.telephone, {'required':false, 'attr':{'class':'form-control'}}) }}
-                    </div>
-                </div>
+                                {#<address>#}
+                                    {#<h5>Zonal Office</h5>#}
+                                    {#<p>1537 Flint Street <br>#}
+                                        {#Tumon, MP 96911</p>#}
+                                    {#<p>Phone:670-898-2847 <br>#}
+                                        {#Email Address:info@domain.com</p>#}
+                                {#</address>#}
+                            </li>
 
 
-                <div class="col-sm-5 col-sm-offset-1">
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.file,'issue fileName'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.file) }}
-                        {{ form_widget(issueForm.file, {'required':false, 'attr':{'class':'form-control'}}) }}
-                    </div>
+                            {#<li class="col-sm-6">#}
+                                {#<address>#}
+                                    {#<h5>Zone#2 Office</h5>#}
+                                    {#<p>1537 Flint Street <br>#}
+                                        {#Tumon, MP 96911</p>#}
+                                    {#<p>Phone:670-898-2847 <br>#}
+                                        {#Email Address:info@domain.com</p>#}
+                                {#</address>#}
 
-                    <div class="form-group">
-                        <label>{{ form_label(issueForm.issueDescription,'issue issueDescription'|trans({},'','')) }}</label>
-                        {{ form_errors(issueForm.issueDescription) }}
-
-                        {#<textarea name="message" id="message" required="required" class="form-control" rows="8">#}
-                            {##}
-                        {#</textarea>#}
-                        {{ form_widget(issueForm.issueDescription, {'required':true, 'attr':{'class':'form-control', 'rows': 20 }}) }}
+                                {#<address>#}
+                                    {#<h5>Zone#3 Office</h5>#}
+                                    {#<p>1537 Flint Street <br>#}
+                                        {#Tumon, MP 96911</p>#}
+                                    {#<p>Phone:670-898-2847 <br>#}
+                                        {#Email Address:info@domain.com</p>#}
+                                {#</address>#}
+                            {#</li>#}
+                        </ul>
                     </div>
                 </div>
-
-
-                <div class="col-sm-5">
-                    <div class="form-group">
-                        {{ form_errors(issueForm.captcha) }}
-                        {{ form_widget(issueForm.captcha, {'required':true}) }}
-                    </div>
-
-                    <div class="form-group">
-                        {#<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>#}
-                        {{ form_widget(issueForm.issue_submit_button, {'label':'issue_submit_button'|trans({},'',''), 'attr':{'class':'btn btn-primary btn-lg'}}) }}
-                    </div>
-                </div>
-
-        </div><!--/.row-->
-        {{ form_end(issueForm) }}
-    </div><!--/.container-->
-
+            </div>
+        </div>
+    </section>  <!--/gmap_area -->
 {% endblock %}

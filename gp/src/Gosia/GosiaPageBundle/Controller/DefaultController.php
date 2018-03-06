@@ -17,13 +17,38 @@ use Gosia\GosiaPageBundle\Entity\IssueStatus;
 class DefaultController extends Controller
 {
     /**
+     *
      * @Route("/", name="gosia_page_index")
      * @Template()
+     * @param Request $request
+     * @return array
      */
-    public function indexAction()
+    public function indexAction(Request $request)
     {
+        $issueService = $this->container->get('gosiapage.issue_service');
+
+        $issueEntity = new Issue();
+        $issueForm = $this->createForm(
+            new IssueType(),
+            $issueEntity,
+            [
+                'action' => $this->generateUrl('gosia_page_index'),
+                'method' => 'POST',
+            ]
+        );
+
+        $issueForm->handleRequest($request);
+        if ($issueForm->isValid()) {
+            $issueService->createIssue($issueForm->getData());
+            $this->addFlash('issue_added', $this->container->get('translator')->trans('issue added'));
+
+        } else {
+            return [
+                'issueForm' => $issueForm->createView(),
+            ];
+        }
         return [
-            'foo' => 'bar',
+            'issueForm' => $issueForm->createView(),
         ];
     }
 
@@ -41,13 +66,40 @@ class DefaultController extends Controller
     /**
      * @Route("/prices", name="gosia_page_prices")
      * @Template()
+     * @param Request $request
+     * @return array
      */
-    public function pricesAction()
+    public function pricesAction(Request $request)
     {
+        $issueService = $this->container->get('gosiapage.issue_service');
+
+        $issueEntity = new Issue();
+        $issueForm = $this->createForm(
+            new IssueType(),
+            $issueEntity,
+            [
+                'action' => $this->generateUrl('gosia_page_prices'),
+                'method' => 'POST',
+            ]
+        );
+
+        $issueForm->handleRequest($request);
+        if ($issueForm->isValid()) {
+            $issueService->createIssue($issueForm->getData());
+            $this->addFlash('issue_added', $this->container->get('translator')->trans('issue added'));
+
+        } else {
+            return [
+                'issueForm' => $issueForm->createView(),
+            ];
+        }
         return [
-            'foo' => 'bar'
+            'issueForm' => $issueForm->createView(),
         ];
     }
+
+
+
 
     /**
      * @Route("/contact", name="gosia_page_contact")
@@ -69,99 +121,11 @@ class DefaultController extends Controller
 
         $issueForm->handleRequest($request);
         if ($issueForm->isValid()) {
-            //var_dump($issueForm->getData());
-            //die;
         } else {
-
-            //var_dump($issueForm->getErrors());
-
             return [
                 'issueForm' => $issueForm->createView(),
             ];
         }
-
-
-//        $issueService->setIssueForm($issueForm);
-//        $issueService->setIssueEntity($issueEntity);
-//        $processIssueFormResult = $issueService->processIssueForm();
-//
-//        if ($processIssueFormResult === true) {
-//            $this->addFlash('notice', $this->get('translator')->trans('Issue was added'));
-//
-//            return $this->redirect($this->generateUrl('gosia_page_index'));
-//        }
-//
-//
-//        return [
-//            'issueForm' => $processIssueFormResult->createView(),
-//        ];
-//
-        // old approach
-
-
-//    	$issueForm->handleRequest($request);
-//    	if($issueForm->isValid()) {
-//
-//    		$issueEntity->upload();
-//
-//    		$em = $this->getDoctrine()->getManager();
-//    		$issueEntity->setStatus(IssueStatus::STATUS_NEW);
-//    		$em->persist($issueEntity);
-//    		$em->flush();
-//
-//    		$message = \Swift_Message::newInstance()
-//    		->setSubject('Zgłoszenie tłumaczenia')
-//    		->setFrom('antoni.pestka@gmail.com')
-//    		->setTo('piotr.kowerzanow@gmail.com')
-//    		->setBody(
-//    				$this->renderView(
-//    						'GosiaPageBundle:Emails:issue.html.twig',
-//    						[
-//    								'name' => $issueEntity->getName(),
-//    								'surname' => $issueEntity->getSurname(),
-//    								'email' => $issueEntity->getEmail(),
-//    								'street' => $issueEntity->getStreet(),
-//    								'cityZipCode' => $issueEntity->getCityZipCode(),
-//    								'issueDescription' => $issueEntity->getIssueDescription(),
-//    								'telephone' => $issueEntity->getTelephone(),
-//    								'issueDate' => new \DateTime(),
-//    						]
-//    				),
-//    				'text/html',
-//    				'utf-8'
-//    		);
-//
-//    		if($issueEntity->getFileName() != null){
-//    			$message->attach(\Swift_Attachment::fromPath($issueEntity->getFilePath().'/'.$issueEntity->getFileName()));
-//    		}
-//
-//    		$confirmationMessage = \Swift_Message::newInstance()
-//    		->setSubject($this->get('translator')->trans('issue apear'))
-//    		->setFrom('antoni.pestka@gmail.com')
-//    		->setTo($issueEntity->getEmail())
-//    		->setBody(
-//    				$this->renderView(
-//    						'GosiaPageBundle:Emails:confirmation.html.twig',
-//    						[
-//    								'issueDate' => new \DateTime(),
-//    						]
-//    				),
-//    				'text/html',
-//    				'utf-8'
-//    		);
-//
-//    		$this->get('mailer')->send($message);
-//    		$this->get('mailer')->send($confirmationMessage);
-//
-//
-//    		$this->addFlash('notice', $this->get('translator')->trans('Issue was added'));
-//    		return $this->redirect($this->generateUrl('gosia_page_index'));
-//
-//    	}
-//
-//    	return [
-//    			'issueForm' => $issueForm->createView(),
-//    	];
     }
 
 
@@ -170,6 +134,17 @@ class DefaultController extends Controller
      * @Template()
      */
     public function termsOfUseAction()
+    {
+        return [
+            'foo' => 'bar'
+        ];
+    }
+
+    /**
+     * @Route("/aboutMe", name="gosia_page_about_me")
+     * @Template()
+     */
+    public function aboutMeAction()
     {
         return [
             'foo' => 'bar'

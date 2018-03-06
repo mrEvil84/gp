@@ -1,41 +1,63 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: piotr.kowerzanow
- * Date: 2015-10-12
- * Time: 00:06
- */
-
 namespace Gosia\GosiaPageBundle\Services;
 
+use Gosia\GosiaPageBundle\Entity\Issue;
 use Gosia\GosiaPageBundle\Services\Base\ServiceBase;
-
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\DependencyInjection\Container;
 use Symfony\Component\HttpFoundation\RequestStack;
-
 use Gosia\GosiaPageBundle\Entity\IssueStatus;
-
 use Symfony\Component\Form\Form as Form;
 
-
+/**
+ * Class IssueService
+ * @package Gosia\GosiaPageBundle\Services
+ */
 class IssueService extends ServiceBase
 {
+    /**
+     * @var Form
+     */
     private $issueForm;
 
+    /**
+     * @var Issue
+     */
     private $issueEntity;
 
+    /**
+     * @var Container
+     */
     private $serviceContainer;
+
+    /**
+     * @var MessageService
+     */
+    private $messageService;
+
+    /**
+     * @var \Swift_Mailer
+     */
+    private $mailerService;
 
     /**
      * @param EntityManagerInterface $entityManager
      * @param Container $container
      * @param RequestStack $requestStack
+     * @param MessageService $messageService
+     * @param \Swift_Mailer $mailer
      */
-    public function __construct(EntityManagerInterface $entityManager, Container $container, RequestStack $requestStack)
+    public function __construct(
+        EntityManagerInterface $entityManager,
+        Container $container,
+        RequestStack $requestStack,
+        MessageService $messageService,
+        \Swift_Mailer $mailer
+    )
     {
         parent::__construct($entityManager, $container, $requestStack);
-        $this->repository = $this->entityManager->getRepository('GosiaPageBundle:Issue');
+        $this->messageService = $messageService;
+        $this->mailerService = $mailer;
     }
 
     public function setServiceContainer($serviceContainer)
@@ -59,93 +81,27 @@ class IssueService extends ServiceBase
         $this->issueEntity = $issueEntity;
     }
 
-
     /**
-     * @return bool
+     * @param Issue $issue
      */
-    public function processIssueForm()
+    public function createIssue(Issue $issue)
     {
-        $this->issueForm->handleRequest($this->request);
-
-        if($this->issueForm->isValid()) {
-
-            $this->issueEntity->upload();
-            $this->issueEntity->setStatus(IssueStatus::STATUS_NEW);
-            $this->entityManager->persist($this->issueEntity);
-            $this->entityManager->flush();
-
-            $applicationMessage = $this->prepareApplicationMessage();
-            $confirmationMessage = $this->prepareConfirmationMessage();
-
-            $mailerService = $this->serviceContainer->get('mailer');
-            $mailerService->send($applicationMessage);
-            $mailerService->send($confirmationMessage);
-            //$type = 'success';
-            //$message = $this->serviceContainer->get("translator")->trans('Issue was added');
-            //$session =  $this->serviceContainer->get('request')->getSession()->setFlash($type, $message);
-            return true;
-        }
-
-        return $this->issueForm;
+        $this->saveIssueToDb($issue);
+        $applicationMessage = $this->messageService->getApplicationMessage($issue);
+        $confirmationMessage = $this->messageService->getConfirmationMessage($issue);
+        $this->messageService->send($confirmationMessage);
+        $this->messageService->send($applicationMessage);
     }
 
-
     /**
-     * @return \Swift_Mime_MimePart
+     * @param Issue $issue
      */
-    private function prepareConfirmationMessage()
+    private function saveIssueToDb(Issue $issue)
     {
-        $confirmationMessage = \Swift_Message::newInstance()
-            ->setSubject($this->serviceContainer->get('translator')->trans('issue appear'))
-            ->setFrom('antoni.pestka@gmail.com')
-            ->setTo($this->issueEntity->getEmail())
-            ->setBody(
-                $this->serviceContainer->get('templating')->renderResponse(
-                    'GosiaPageBundle:Emails:confirmation.html.twig',
-                    [
-                        'issueDate' => new \DateTime(),
-                    ]
-                ),
-                'text/html',
-                'utf-8'
-            );
-
-        return $confirmationMessage;
-    }
-
-
-    /**
-     * @return \Swift_Mime_MimePart
-     */
-    private function prepareApplicationMessage()
-    {
-        $message = \Swift_Message::newInstance()
-            ->setSubject('Zgłoszenie tłumaczenia')
-            ->setFrom('antoni.pestka@gmail.com')
-            ->setTo('piotr.kowerzanow@gmail.com')
-            ->setBody(
-                $this->serviceContainer->get('templating')->renderResponse(
-                    'GosiaPageBundle:Emails:issue.html.twig',
-                    [
-                        'name' => $this->issueEntity->getName(),
-                        'surname' => $this->issueEntity->getSurname(),
-                        'email' => $this->issueEntity->getEmail(),
-                        'street' => $this->issueEntity->getStreet(),
-                        'cityZipCode' => $this->issueEntity->getCityZipCode(),
-                        'issueDescription' => $this->issueEntity->getIssueDescription(),
-                        'telephone' => $this->issueEntity->getTelephone(),
-                        'issueDate' => new \DateTime(),
-                    ]
-                ),
-                'text/html',
-                'utf-8'
-            );
-
-        if($this->issueEntity->getFileName() !== null){
-            $message->attach(\Swift_Attachment::fromPath($this->issueEntity->getFilePath().'/'.$this->issueEntity->getFileName()));
-        }
-
-        return $message;
+        $issue->upload();
+        $issue->setStatus(IssueStatus::STATUS_NEW);
+        $this->entityManager->persist($issue);
+        $this->entityManager->flush();
     }
 
 }

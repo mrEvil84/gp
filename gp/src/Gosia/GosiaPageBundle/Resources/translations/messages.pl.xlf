@@ -51,8 +51,8 @@
                 <target>Kontakt</target>
             </trans-unit>
 			<trans-unit id="13">
-                <source>terms of use</source>
-                <target>Warunki korzystania</target>
+                <source>about me</source>
+                <target>O mnie</target>
             </trans-unit>	
             <trans-unit id="14">
                 <source>issue cityZipCode</source>
@@ -75,7 +75,7 @@
                 <target>Pozdrawiam, Twój Tłumacz</target>
             </trans-unit>
             <trans-unit id="19">
-                <source>issue apear</source>
+                <source>issue appear</source>
                 <target>Zgłoszenie tłumaczenia</target>
             </trans-unit>
             <trans-unit id="20">
@@ -149,6 +149,37 @@
             <trans-unit id="37">
                 <source>banner_telephone</source>
                 <target>+0123 456 70 90</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>issue added</source>
+                <target>Zgłoszenie dodano.</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>Page not found or other error</source>
+                <target>Nie znaleziono strony lub inny błąd</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>Fill the form to get price</source>
+                <target>W celu wyceny tłumaczenia proszę o wypełnienie poniższego formularza:</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>How to rich us</source>
+                <target>Jak do nas dotrzeć</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>portfolio-offer-for</source>
+                <target>Ofertę tłumaczeń pisemnych przysięgłych kieruję do:
+                        osób starających się o uznanie kwalifikacji zawodowych w Niemczech m.in.
+                        lekarzy, pielęgniarki, farmaceutów, fizjoterapeutów
+                </target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>portfolio-offer-head</source>
+                <target>Oferta</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>translations-p-head</source>
+                <target>Tłumaczenia przysięgłe</target>
             </trans-unit>
         </body>
     </file>

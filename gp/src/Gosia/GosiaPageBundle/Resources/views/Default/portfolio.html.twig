@@ -1,126 +1,168 @@
 {% extends ':default:index.html.twig' %}
 
-{% block content %}
-	<div class="container">
-		<div class="center">
-			<h2>Oferta</h2>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-		</div>
+{% block body_feature %}
+	<section id="feature" class="transparent-bg">
+		<div class="container">
 
 
-		{#<ul class="portfolio-filter text-center">#}
-			{#<li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>#}
-			{#<li><a class="btn btn-default" href="#" data-filter=".bootstrap">Creative</a></li>#}
-			{#<li><a class="btn btn-default" href="#" data-filter=".html">Photography</a></li>#}
-			{#<li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>#}
-		{#</ul><!--/#portfolio-filter-->#}
-
-		<div class="row">
-			<div class="portfolio-items">
-				<div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
-					<div class="recent-work-wrap">
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item1.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							<div class="recent-work-inner">
-								<h3><a href="#">Tłumaczenia</a></h3>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-								<a class="preview" href="{{ asset('/public/images/portfolio/full/item1.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-							</div>
-						{#</div>#}
-					</div>
-				</div><!--/.portfolio-item-->
-
-				<div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
-					<div class="recent-work-wrap">
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item2.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							<div class="recent-work-inner">
-								<h3><a href="#">Business theme</a></h3>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-								<a class="preview" href="{{ asset('/public/images/portfolio/full/item2.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-							</div>
-						{#</div>#}
-					</div>
-				</div><!--/.portfolio-item-->
-
-				<div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-					<div class="recent-work-wrap">
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item3.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							<div class="recent-work-inner">
-								<h3><a href="#">Business theme</a></h3>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-								<a class="preview" href="{{ asset('/public/images/portfolio/full/item3.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-							</div>
-						{#</div>#}
-					</div>
-				</div><!--/.portfolio-item-->
-
-				<div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
-					<div class="recent-work-wrap">
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item4.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							<div class="recent-work-inner">
-								<h3><a href="#">Business theme</a></h3>
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-								<a class="preview" href="{{ asset('/public/images/portfolio/full/item4.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-							</div>
-						{#</div>#}
-					</div>
-				</div><!--/.portfolio-item-->
-
-				{#<div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">#}
-					{#<div class="recent-work-wrap">#}
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item5.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							{#<div class="recent-work-inner">#}
-								{#<h3><a href="#">Business theme</a></h3>#}
-								{#<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>#}
-								{#<a class="preview" href="{{ asset('/public/images/portfolio/full/item5.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>#}
-							{#</div>#}
-						{#</div>#}
-					{#</div>#}
-				{#</div><!--/.portfolio-item-->#}
-
-				{#<div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">#}
-					{#<div class="recent-work-wrap">#}
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item6.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							{#<div class="recent-work-inner">#}
-								{#<h3><a href="#">Business theme</a></h3>#}
-								{#<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>#}
-								{#<a class="preview" href="{{ asset('/public/images/portfolio/full/item6.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>#}
-							{#</div>#}
-						{#</div>#}
-					{#</div>#}
-				{#</div><!--/.portfolio-item-->#}
-
-				{#<div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">#}
-					{#<div class="recent-work-wrap">#}
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item7.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							{#<div class="recent-work-inner">#}
-								{#<h3><a href="#">Business theme</a></h3>#}
-								{#<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>#}
-								{#<a class="preview" href="{{ asset('/public/images/portfolio/full/item7.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>#}
-							{#</div>#}
-						{#</div>#}
-					{#</div>#}
-				{#</div><!--/.portfolio-item-->#}
-
-				{#<div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">#}
-					{#<div class="recent-work-wrap">#}
-						{#<img class="img-responsive" src="{{ asset('/public/images/portfolio/recent/item8.png') }}" alt="">#}
-						{#<div class="overlay">#}
-							{#<div class="recent-work-inner">#}
-								{#<h3><a href="#">Business theme</a></h3>#}
-								{#<p>There are many variations of passages of Lorem Ipsum available, but the majority</p>#}
-								{#<a class="preview" href="{{ asset('/public/images/portfolio/full/item8.png') }}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>#}
-							{#</div>#}
-						{#</div>#}
-					{#</div>#}
-				{#</div><!--/.portfolio-item-->#}
+			<div class="center wow fadeInDown">
+				<h2>Oferta</h2>
+				{#<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>#}
 			</div>
-		</div>
-	</div>
+			<div class="row">
+				<div class="features">
+					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+						<div class="feature-wrap">
+							<i class="fa fa-briefcase"></i>
+							<h2>Tłumaczenia przysięgłe</h2>
+							<h3>
+                                <a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>
+                            </h3>
+						</div>
+					</div><!--/.col-md-4-->
+
+					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+						<div class="feature-wrap">
+							<i class="fa fa-copy" href="#pricing"></i>
+							<h2>Tłumaczenia zwykłe</h2>
+							<h3>
+								<a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>
+                            </h3>
+						</div>
+					</div><!--/.col-md-4-->
+
+					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+						<div class="feature-wrap">
+							<i class="fa fa-comments"></i>
+							<h2>Tłumaczenia ustne</h2>
+							<h3>
+								<a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>
+							</h3>
+						</div>
+					</div><!--/.col-md-4-->
+
+					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+						<div class="feature-wrap">
+							<i class="fa fa-pencil"></i>
+							<h2>Lektorat</h2>
+							<h3>
+								<a class="" href="#offer-details" data-toggle="tab-wrap" data-filter="*">Więcej...</a>
+							</h3>
+						</div>
+					</div><!--/.col-md-4-->
+				</div><!--/.services-->
+			</div><!--/.row-->
+
+			<div class="row">
+				<div class="features">
+				<div class="col-xs-12 col-sm-7">
+					<h2>Szczegóły oferty</h2>
+					<div class="tab-wrap" id="offer-details">
+						<div class="media">
+							<div class="parrent pull-left">
+								<ul class="nav nav-tabs nav-stacked">
+									<li class="active"><a href="#tab1" data-toggle="tab" class="analistic-01">Tłumaczenia przysięgłe</a></li>
+									<li class=""><a href="#tab2" data-toggle="tab" class="analistic-02">Tłumaczenia zwykłe</a></li>
+									<li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Tłumaczenia ustne</a></li>
+									<li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Lektorat</a></li>
+								</ul>
+							</div>
+
+							<div class="parrent media-body">
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab1">
+										<div class="media">
+											<div class="pull-left">
+												{#<img class="img-responsive" src="{{ asset('/assets/images/tab1.png') }}">#}
+											</div>
+											<div class="media-body">
+												<h4>tłumaczenia pisemne przysięgłe na potrzeby niemieckich urzędów i instytucji</h4>
+												<p>
+                                                    <ul>
+                                                    <li>Dokumenty szkolne: świadectwa szkolne, dyplomy ukończenia studiów, suplementy do dyplomów</li>
+                                                    <li>Dokumenty potwierdzające posiadane kwalifikacje zawodowe:
+                                                    m.in. zaświadczenia o posiadaniu prawa wykonywania zawodu, inne dokumenty potrzebne do uznania kwalifikacji zawodowych w Niemczech
+                                                    </li>
+                                                    <li>Dokumenty urzędowe:akt urodzenia, akt zgonu, akt zawarcia małżeństwa</li>
+                                                    <li>Dokumenty sądowe</li>
+                                                    <li>Inne dokumenty</li>
+                                                    </ul>
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tab-pane" id="tab2">
+										<div class="media">
+											<div class="pull-left">
+												{#<img class="img-responsive" src="{{ asset('/assets/images/tab1.png') }}">#}
+											</div>
+											<div class="media-body">
+												<h4>Tłumaczenia zwykłe</h4>
+												<p>
+												Tłumaczenia w przypadku których nie jest wymagane uwierzytelnienie przez tłumacza przysięgłego.
+												np. korespondencja, tłumaczenie stron www, listy motywacyjne, życiorysy
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tab-pane" id="tab3">
+										<div class="media-body">
+											<h4>Tłumaczenia ustne nieprzysięgłe</h4>
+											<p>
+												tłumaczenie rozmów biznesowych, spotkań firmowych itp.
+											</p>
+										</div>
+									</div>
+
+									<div class="tab-pane" id="tab4">
+										<div class="media-body">
+											<h4>Lektorat</h4>
+											<p>
+												Nauka języka niemieckiego, Lekcje, Korepetycje
+											</p>
+										</div>
+									</div>
+								</div> <!--/.tab-content-->
+							</div> <!--/.media-body-->
+						</div> <!--/.media-->
+					</div><!--/.tab-wrap-->
+				</div>
+				</div>
+
+			</div>
+
+			{#<div class="row">#}
+				{#<div class="get-started center wow fadeInDown" id="translate-promise" data-spy="translate-promise" data-target="#translate-promise">#}
+					{#<h2>Tłumaczenia przysięgłe</h2>#}
+					{#<h3>tłumaczenia pisemne przysięgłe na potrzeby niemieckich urzędów i instytucji</h3>#}
+					{#<table>#}
+						{#<tr>#}
+							{#Dokumenty szkolne: świadectwa szkolne, dyplomy ukończenia studiów, suplementy do dyplomów#}
+						{#</tr>#}
+						{#<tr>#}
+							{#Dokumenty potwierdzające posiadane kwalifikacje zawodowe: #}{# tu tooltip#}
+							{#m.in. zaświadczenia o posiadaniu prawa wykonywania zawodu, inne dokumenty potrzebne do uznania kwalifikacji zawodowych w Niemczech#}
+						{#</tr>#}
+						{#<tr>#}
+							{#Dokumenty urzędowe:akt urodzenia, akt zgonu, akt zawarcia małżeństwa#}
+						{#</tr>#}
+						{#<tr>#}
+							{#Dokumenty sądowe#}
+						{#</tr>#}
+						{#<tr>#}
+							{#Inne dokumenty#}
+						{#</tr>#}
+
+					{#</table>#}
+
+					{#<div class="request">#}
+						{#<h4><a href="#">Request a free Quote</a></h4>#}
+					{#</div>#}
+				{#</div>#}
+			{#</div>#}
+
+		</div><!--/.container-->
+	</section><!--/#feature-->
 {% endblock %}

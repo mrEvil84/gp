@@ -1,27 +1,38 @@
 {% extends ':default:index.html.twig' %}
 
-{% block content %}
-    <div class="login_content_wrapper">
-        <div class="login_wrapper">
-            <img src="{{ asset('bundles/gosiapage/images/logo.png') }}" class="logo" alt="Logo Gosia Page">
-            <h2><b>{% trans %}Gosia Page Backend{% endtrans %}</b></h2>
-            <form action="{{ path('gosia_page_backend_login_check') }}" method="post">
-                <div class="input_wrapper icon user">
-                    <input type="text" id="username" name="_username" value="{{ last_username }}" placeholder="username"/>
-                </div>
-                <div class="input_wrapper icon pass">
-                    <input type="password" id="password" name="_password" placeholder="password"/>
-                </div>
-                <input type="hidden" name="_csrf_token" value="{#{ csrf_token('authenticate') }#}" />
-                <input type="hidden" name="_target_path" value="/backend/" />
-                <button type="submit">{% trans %}Login{% endtrans %}</button>
-            </form>
-            <div class="error_wrapper">
-                {% if error %}
-                    <p>{{ error.messageKey|trans(error.messageData) }}</p>
-                {% endif %}
-            </div>
-        </div>
-    </div>
 
-{% endblock %}
+
+    {% block body_feature %}
+        <section id="content">
+            <div class="container">
+                <div class="login_content_wrapper">
+                    <div class="login_wrapper">
+                        {#<img src="{{ asset('bundles/gosiapage/images/logo.png') }}" class="logo" alt="Logo Gosia Page">#}
+                        <h2><b>{% trans %}Translate-it! Backend{% endtrans %}</b></h2>
+
+                        <form action="{{ path('gosia_page_backend_login_check') }}" method="post">
+                            <div class="input_wrapper icon user">
+                                <input class="form-control" type="text" id="username" name="_username" value="{{ last_username }}" placeholder="username"/>
+                            </div>
+                            <div class="input_wrapper icon pass">
+                                <input class="form-control" type="password" id="password" name="_password" placeholder="password"/>
+                            </div>
+                            <input type="hidden" name="_csrf_token" value="{#{ csrf_token('authenticate') }#}" />
+                            <input type="hidden" name="_target_path" value="/backend/" />
+                            <button class="btn btn-primary btn-lg" type="submit">{% trans %}Login{% endtrans %}</button>
+                        </form>
+
+                        <div class="error_wrapper">
+                            {% if error %}
+                                <p>{{ error.messageKey|trans(error.messageData) }}</p>
+                            {% endif %}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    {% endblock %}
+

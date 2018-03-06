@@ -2,6 +2,7 @@ parameters:
     app.locale_listener.class: Gosia\GosiaPageBundle\EventListener\LocaleListener
     kernel.listener.exception_listener.class: Gosia\GosiaPageBundle\EventListener\ExceptionListener
     gosiapage.issue_service_class: Gosia\GosiaPageBundle\Services\IssueService
+    gosiapage.message_service.class: Gosia\GosiaPageBundle\Services\MessageService
 
 
 services:
@@ -16,8 +17,15 @@ services:
                   entityManager: "@doctrine.orm.entity_manager"
                   container: "@service_container"
                   request: "@request_stack"
+                  messageService: "@gosiapage.message_service"
+                  mailer: "@mailer"
           calls:
             - [setServiceContainer, ["@service_container"]]
+  gosiapage.message_service:
+          class: %gosiapage.message_service.class%
+          arguments:
+            - '@service_container'
+
   #kernel.listener.exception_listener:
   #    class: %kernel.listener.exception_listener.class%
   #    calls:

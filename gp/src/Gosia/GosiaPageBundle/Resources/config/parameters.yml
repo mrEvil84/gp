@@ -1,2 +1,13 @@
 parameters:
-    pagination_page_limit: 20
+    pagination_page_limit: 5
+    application_to_email_subject: 'Zgłoszenie tłumaczenia'
+    confirmation_message_from_email: 'antoni.pestka@gmail.com'
+    application_from_email: 'antoni.pestka@gmail.com'
+    application_to_email: 'piotr.kowerzanow@gmail.com'
+    application_sender_username: 'antoni.pestka@gmail.com'
+    application_sender_password: 'fkmyclnmqcrzzuyh'
+    application_sender_host: 'smtp.gmail.com'
+    application_sender_port: 465
+    application_sender_secutity_type: 'ssl'
+
+

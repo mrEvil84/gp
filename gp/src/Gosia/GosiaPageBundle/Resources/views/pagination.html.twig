@@ -1,29 +1,22 @@
-<div class="pagination">
-    <a href="{{ path(route) }}">&laquo;</a>
-
+<ul class="pagination pagination-lg">
     {% if currentPage != 1 %}
-
-        <a href="{{  url(route) ~ '?' ~ getParamName ~ '=' ~ (currentPage - 1) ~'&keyword=' ~ keyword}}">&lsaquo;</a>
-
+        <li><a href="{{  url(route) ~ '?' ~ getParamName ~ '=' ~ (currentPage - 1) ~'&keyword=' ~ keyword}}"><i class="fa fa-long-arrow-left"></i></a></li>
     {% endif %}
 
     {% if totalPages == 0 %}
-        <a class="disabled" href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ 1 ~'&keyword=' ~ keyword}}">1</a>
+        <li><a href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ 1 ~'&keyword=' ~ keyword}}">1</a></li>
     {% else %}
+
         {% for i in 1..totalPages %}
-
-            <a{% if  i == currentPage %} class="disabled"{% endif %} href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ i ~'&keyword=' ~ keyword}}">{{ i }}</a>
-
+            {% if i==issueCurrentPage %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ i ~'&keyword=' ~ keyword}}">{{ i }}</a></li>
         {% endfor %}
+
     {% endif %}
 
     {% if totalPages > 0 %}
         {% if currentPage != totalPages %}
-            <a href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ (currentPage + 1) ~'&keyword=' ~ keyword}}">&rsaquo;</a>
+            <li><a href="{{ url(route) ~ '?' ~ getParamName ~ '=' ~ (currentPage + 1) ~'&keyword=' ~ keyword}}"><i class="fa fa-long-arrow-right"></i></a></li>
         {% endif %}
     {% endif %}
-
-    {% if totalPages > 0 %}
-        <a href="{{  url(route) ~ '?' ~ getParamName ~ '=' ~ totalPages ~'&keyword=' ~ keyword}}">&raquo;</a>
-    {% endif %}
-</div>
+</ul>

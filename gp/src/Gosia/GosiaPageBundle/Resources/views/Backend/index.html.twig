@@ -1,64 +1,77 @@
-{% extends ':default:index.html.twig' %} {% block content %}
-<a class="" href="{{ path('gosia_page_logout') }}"> {% trans %}logout{%endtrans %} </a>
-<h1>Zgłoszenia w systemie</h1>
+{% extends ':default:index.html.twig' %}
 
-    <div class="flash-message">
-        {% for flashMessage in app.session.flashbag.get('notice') %}
-            <div class="flash-notice">
-                {{ flashMessage }}
+{% block body_feature %}
+    <section id="about-us">
+        <div class="container">
+            <button class="button">
+                <a class="button" href="{{ path('gosia_page_logout') }}">{% trans %}logout{%endtrans %} </a>
+            </button>
+
+            <h1>Zgłoszenia w systemie</h1>
+
+            <div class="flash-message">
+                {% for flashMessage in app.session.flashbag.get('notice') %}
+                    <div class="flash-notice">
+                        {{ flashMessage }}
+                    </div>
+                {% endfor %}
             </div>
-        {% endfor %}
-    </div>
 
-           <div class="usage_search_container row">
-                {{ form_start(searchForm, {'attr': {'class': 'foo'}}) }}
-                {{ form_errors(searchForm.keyword) }}
-                {{ form_widget(searchForm) }}
-                {{ form_end(searchForm) }}
-           </div>
+            <table class="table">
+                <div class="search">
+                    {{ form_start(searchForm, {'attr': {'class': 'foo'}}) }}
+                    {{ form_errors(searchForm.keyword) }}
+                    {{ form_widget(searchForm) }}
+                    {{ form_end(searchForm) }}
+                </div>
+            </table>
 
-<table>
-	<tr>
-		<td>Edycja</td>
-		<td>Id</td>
-		<td>Status</td>
-		<td>Data wystawienia</td>
-		<td>Imię</td>
-		<td>Nazwisko</td>
-		<td>Ulica</td>
-		<td>Miasto, kod pocztowy</td>
-		<td>Telefon</td>
-		<td>Wiadomość</td>
-		<td>Plik</td>
 
-	</tr>
-	{% for issue in issues %}
-	<tr>
-		<td><a href="{{ path('gosia_page_backend_edit', {'issueId' : issue.getId}) }}">Edytuj</a></td>
-		<td>{{ issue.getId }}</td>
-		<td> {{ include('GosiaPageBundle:Backend:status.html.twig', { 'status': issue.getStatus }) }}</td>
-		<td>{{ issue.getPostedAt|date('Y-m-d H:i:s') }}</td>
-		<td>{{ issue.getName }}</td>
-		<td>{{ issue.getSurname }}</td>
-		<td>{{ issue.getStreet }}</td>
-		<td>{{ issue.getCityZipCode }}</td>
-		<td>{{ issue.getTelephone }}</td>
-		<td>{{ issue.getIssueDescription }}</td>
-		{% if issue.getFileName == null %}
-			<td>
-				Brak pliku
-			</td>
-		{% else %}
-			<td>
-				<a href="{{ path('gosia_page_download_file', {'issueId' : issue.getId}) }}">{{ issue.getOriginalFileName }}</a>
-			</td>		
-		{% endif %}
-	</tr>
-	{% endfor %}
-</table>
+            <table class="table">
+                <tr class="row">
+                    <td>Edycja</td>
+                    <td>Id</td>
+                    <td>Status</td>
+                    <td>Data wystawienia</td>
+                    <td>Imię</td>
+                    <td>Nazwisko</td>
+                    <td>Ulica</td>
+                    <td>Miasto, kod pocztowy</td>
+                    <td>Telefon</td>
+                    <td>Wiadomość</td>
+                    <td>Plik</td>
 
-{% if issues|length > 0 %} 
-	{{ include('@GosiaPage/pagination.html.twig',{'route':'gosia_page_backend_index','currentPage':issueCurrentPage,'totalPages':issueTotalPages,'getParamName':'issuePage', 'keyword': keyword}) }} 
-{% endif %} 
+                </tr>
+                {% for issue in issues %}
+                    <tr class="row">
+                        <td><button class="button"><a href="{{ path('gosia_page_backend_edit', {'issueId' : issue.getId}) }}">Edytuj</a></button></td>
+                        <td>{{ issue.getId }}</td>
+                        <td> {{ include('GosiaPageBundle:Backend:status.html.twig', { 'status': issue.getStatus }) }}</td>
+                        <td>{{ issue.getPostedAt|date('Y-m-d H:i:s') }}</td>
+                        <td>{{ issue.getName }}</td>
+                        <td>{{ issue.getSurname }}</td>
+                        <td>{{ issue.getStreet }}</td>
+                        <td>{{ issue.getCityZipCode }}</td>
+                        <td>{{ issue.getTelephone }}</td>
+                        <td>{{ issue.getIssueDescription }}</td>
+                        {% if issue.getFileName == null %}
+                            <td>
+                                Brak pliku
+                            </td>
+                        {% else %}
+                            <td>
+                                <a href="{{ path('gosia_page_download_file', {'issueId' : issue.getId}) }}">{{ issue.getOriginalFileName }}</a>
+                            </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
 
+            {% if issues|length > 0 %}
+                {{ include('@GosiaPage/pagination.html.twig',{'route':'gosia_page_backend_index','currentPage':issueCurrentPage,'totalPages':issueTotalPages,'getParamName':'issuePage', 'keyword': keyword}) }}
+            {% endif %}
+        </div>
+    </section>
 {% endblock %}
+
+

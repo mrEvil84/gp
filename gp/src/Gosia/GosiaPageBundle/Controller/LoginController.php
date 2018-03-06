@@ -10,7 +10,6 @@ use Symfony\Component\HttpFoundation\Request;
 
 class LoginController extends Controller
 {
-
 	/**
 	 * @Route("/login", name="gosia_page_login")
 	 * @Template()
